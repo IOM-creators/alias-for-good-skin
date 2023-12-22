@@ -93,12 +93,9 @@
             "width_lg": "col-lg-6",
             "width_md": "col-md-6",
             "title": "Feel the difference of double cleansing",
-            "size_title": "4rem",
             "color_title": "#000000",
             "subtitle": "Double cleansing in a single step",
-            "size_sub": "1.8rem",
             "text": "<ul><li>Made with skin loving ingredients<\/li><li>Dissolves makeup, sunscreen and impurities<\/li><li>Gentle formulation<\/li><li>Washes off easily<\/li><li>Suitable for all skin types<\/li><\/ul>",
-            "size_text": "1.8rem",
             "color_sub": "#000000",
             "text-align": "left",
             "content-align": "flex-start",
@@ -149,14 +146,11 @@
             "width_lg": "col-lg-12",
             "width_md": "col-md-12",
             "title": "what our customers have to say",
-            "size_title": "4rem",
             "color_title": "#000000",
             "sub": "\"Don't just take our word for it.<br>Hear from our satisfied customers about how our products have transformed their skin.<br>Discover the confidence that comes with having healthy, glowing skin.",
-            "size_sub": "1.8rem",
             "color_sub": "#222222",
             "show_button": false,
             "button_label": "See On Map",
-            "size_button": "1.6rem",
             "color_button": "#000000",
             "bg_title_link": "",
             "button_link": "",
@@ -231,11 +225,9 @@
       ],
       "settings": {
         "title": "\"Real Results from Real People\"",
-        "size_title": "2.4rem",
         "color_title": "#222222",
         "title_alignment": "text-left",
         "avatar": true,
-        "size_name": "13px",
         "color_name": "#222222",
         "color_text": "#222222",
         "show_dots": true,
@@ -330,12 +322,9 @@
             "width_lg": "col-lg-6",
             "width_md": "col-md-6",
             "title": "Say hello to beautiful skin!",
-            "size_title": "4rem",
             "color_title": "#000000",
             "subtitle": "(and goodbye to dirty clogged pores)",
-            "size_sub": "1.8rem",
             "text": "<p>With our Glow Honey Gel To Oil Cleanser, you will be getting that perfect cleanse every single time. Your skin will look brighter, healthier and feel more hydrated.<\/p>",
-            "size_text": "1.8rem",
             "color_sub": "#000000",
             "text-align": "left",
             "content-align": "flex-start",
@@ -380,13 +369,13 @@
       "type": "apps",
       "blocks": {
         "a43059bc-8e4c-4477-b7dc-b02a934f2174": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1800
           }
         },
         "acc5974e-fd00-44fe-8e5b-88d904baa8b1": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {
           }
@@ -401,7 +390,6 @@
     },
     "6ee62601-f31c-4d39-82ef-0e0fa6098c24": {
       "type": "nov-slideshow",
-      "disabled": true,
       "blocks": {
         "template--18510998569254__6ee62601-f31c-4d39-82ef-0e0fa6098c24-1680818411eea091d0-0": {
           "type": "image",
@@ -465,6 +453,7 @@
       "block_order": [
         "template--18510998569254__6ee62601-f31c-4d39-82ef-0e0fa6098c24-1680818411eea091d0-0"
       ],
+      "disabled": true,
       "custom_css": [
         ".caption-1 {margin-bottom: 0; line-height: 1.5 !important; font-size: 550% !important; font-family: \"NW\"; line-height: 1.8;}",
         ".caption-2 {font-weight: 500; margin-bottom: 20px;}"

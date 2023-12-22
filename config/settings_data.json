@@ -841,6 +841,10 @@
           "announcement_bg": "#fffef4",
           "stickymenu": true,
           "main_linklist": "main-menu",
+          "nav_item_name": "Shop",
+          "nav_item_collections": [
+            "frontpage"
+          ],
           "size_menu": "1.8rem",
           "color_menu": "#000000",
           "novmenu_enable": false,

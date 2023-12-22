@@ -1,3 +1,4 @@
+{{'new-header.css' |  asset_url |  stylesheet_tag}}
 {%- assign logo_tabbar = section.settings.logo_tabbar -%}
 <div data-section-id="{{ section.id }}" data-section-type="header-section">
   <header
@@ -90,14 +91,16 @@
     <div class="header-center d-none d-md-block">
       <div class="row align-items-center justify-content-between sdsd">
 
-        <div class="col-xl-6 d-flex align-items-center cbbc">
+        {% comment %}
+          <div class="col-xl-6 d-flex align-items-center cbbc">
 
-       <div class="vertical_dropdown d-xl-none">
+          <div class="vertical_dropdown d-xl-none">
             <i class="zmdi zmdi-sort-amount-desc"></i>
             <div class="csse">
               {% if section.settings.social %}{% include 'nov-social' %}{% endif %}
             </div>
           </div>
+        {% endcomment %}
           
         </div>
         
@@ -119,11 +122,11 @@
           </h1>
         </div>
         
-        <div class="col-xl-6 d-flex align-items-center vdx">
+        <div class="col-xl-6 d-flex align-items-center vdx site-nav-wrapper">
 
           <div class="contentsticky_menu d-flex justify-content-center">
             <nav id="AccessibleNav" class="ver_menu">
-              {% include 'site-nav' %}
+              {% include 'site-nav', nav_item_name: section.settings.nav_item_name, nav_item_collections: section.settings.nav_item_collections %}
             </nav>
           </div>
         </div>
@@ -146,6 +149,10 @@
               </a>
             </div>
           {% endif %}
+          <div class="custom-acccount">
+            <a href="https://aliasgoodskin.com/account/register"><svg xmlns="http://www.w3.org/2000/svg" id="Interface_B_out" height="100" viewBox="0 0 100 100" width="100" data-name="Interface B out"><path d="m50 48.67c12.23 0 22.18-9.95 22.18-22.18s-9.95-22.18-22.18-22.18-22.18 9.95-22.18 22.18 9.95 22.18 22.18 22.18z"></path><path d="m18.91 94.89h62.19c1.91 0 3.72-.83 4.97-2.29 1.22-1.43 1.76-3.31 1.47-5.15-2.92-18.57-18.7-32.05-37.53-32.05s-34.61 13.48-37.53 32.05c-.29 1.84.24 3.72 1.47 5.15 1.24 1.46 3.05 2.29 4.97 2.29z"></path></svg>
+            </a>
+          </div>
           {% if settings.mini_cart_type == 'canvas' %}
             <div class="cart_canvas">
               <div
@@ -156,10 +163,15 @@
                 <div class="header-cart d-flex align-items-center">
                   <div class="site-header__cart">
                     <span class="icon-cart"></span>
+                    <span class="icon-cart__text">Your Bag (<span id="CartCount">{{ cart.item_count }}</span>)</span>
                   </div>
-                  <span id="_desktop_cart_count" class="site-header__cart-count">
-                    <span id="CartCount">{{ cart.item_count }}</span>
-                  </span>
+
+                  {% comment %}
+                    <span id="_desktop_cart_count" class="site-header__cart-count">
+                      <span id="CartCount">{{ cart.item_count }}</span>
+                    </span>
+                  {% endcomment %}
+
                 </div>
               </div>
             </div>
@@ -178,10 +190,28 @@
               </div>
             </div>
           {% endif %}
-          <div class="custom-acccount">
-            <a href="https://aliasgoodskin.com/account/register"><svg xmlns="http://www.w3.org/2000/svg" id="Interface_B_out" height="100" viewBox="0 0 100 100" width="100" data-name="Interface B out"><path d="m50 48.67c12.23 0 22.18-9.95 22.18-22.18s-9.95-22.18-22.18-22.18-22.18 9.95-22.18 22.18 9.95 22.18 22.18 22.18z"></path><path d="m18.91 94.89h62.19c1.91 0 3.72-.83 4.97-2.29 1.22-1.43 1.76-3.31 1.47-5.15-2.92-18.57-18.7-32.05-37.53-32.05s-34.61 13.48-37.53 32.05c-.29 1.84.24 3.72 1.47 5.15 1.24 1.46 3.05 2.29 4.97 2.29z"></path></svg>
-            </a>
+          <div class="custom-menu-drawer">
+            <button data-trigger-drawer-menu class="trigger-drawer-menu">
+              <svg class="icon-menu" viewBox="0 0 100 80" width="35" height="20" style="padding-left:20px; padding-top:3px;" fill="black">
+                  <rect width="100" height="20"></rect>
+                  <rect y="30" width="100" height="20"></rect>
+                  <rect y="60" width="100" height="20"></rect>
+              </svg>
+              <svg class="icon-close" width="15" height="13" viewBox="0 0 15 13" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M1 0l13 13M14 0L1 13"></path></g></svg>
+            </button>
+            <div class="custom-menu-drawer__wrapper">
+              <ul>
+                {% for link in linklists[section.settings.drawer_left_linklist].links %}
+                  <li>
+                    <a href="{{link.url}}">
+                      {{link.title}}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
+          
           
           {% comment %}
           <div class="site-header_myaccount">
@@ -224,6 +254,14 @@
     {% include 'site-nav' %}
   </nav>
 </div>
+
+{% javascript %}
+    const triggerMenu = document.querySelector("[data-trigger-drawer-menu]");
+    triggerMenu &&
+      triggerMenu.addEventListener("click", () => {
+        triggerMenu.classList.toggle("active");
+      });
+{% endjavascript %}
 {% schema %}
 {
   "name": "Header",
@@ -287,6 +325,27 @@
       "id": "main_linklist",
       "label": "Menu",
       "default": "main-menu"
+    },
+    {
+      "type": "link_list",
+      "id": "drawer_left_linklist",
+      "label": "Menu for right drawer",
+      "default": "main-menu"
+    },
+    {
+      "type": "header",
+      "content": "Nav item with products"
+    },
+    {
+      "type": "text",
+      "id": "nav_item_name",
+      "label": "Nav item name",
+      "default": "Shop"
+    },
+    {
+      "type": "collection_list",
+      "id": "nav_item_collections",
+      "label": "Choose collection"
     },
     {
       "type": "text",
