@@ -1,0 +1,499 @@
+{
+  "sections": {
+    "6a4aacbc-2782-426f-951b-03df95bcdaa5": {
+      "type": "custom-liquid",
+      "settings": {
+        "code": "<style>\n.product-template__container {\n    padding-top: 90px;\n}\n.buttonw {\n    min-width: 60%;\n    height: 40px !important;\n    text-transform: uppercase;\n    color: white;\n}\n.product-form__item--submit .product-form__cart-submit {\n    background: #fff58c;\n    border: 2px solid #000000;\n}\n.product-form__item--submit .product-form__cart-submit #AddToCartText {\n    color: black;\n    font-size: 16px;\n    font-weight: 700;\n    letter-spacing: 1.3px;\n}\n\n\nh1.headingPage.d-flex.justify-content-center {\n    display: none !important;\n}\n.section_img_text .item_text {\n    margin-bottom: 0;\n}\n\n.button_label {\n    padding: 0 14px;\n    width: 50%;\n    border: 2px solid #000000;\n    height: 37px;\n    max-width: 55%;\n    margin-top: 20px;\n    margin-left: 5%;\n    \/* background: #f5e355; *\/\n    color: white;\n}\n.item_text.mb-md-50.col-xl-6.col-lg-6.col-md-6 {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.section_img_text {\n    margin-bottom: 0;\n}\n  @media (max-width: 768px) {\n.jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {\n    width: 100% !important;\n    margin-left: 12px;\n}\n.jdgm-carousel--vertical-theme .jdgm-carousel-item__product-image-wrapper {\n    width: 30% !important;\n    margin: auto !important;\n}\n.jdgm-carousel--vertical-theme .jdgm-carousel-item {\n    display: flex !important;\n    height: 270px !important;\n    flex-direction: column !important;\n}\n.jdgm-carousel-wrapper .jdgm-carousel-title-and-link, .jdgm-carousel-wrapper .jdgm-carousel-title, .jdgm-carousel-wrapper .jdgm-all-reviews-rating-wrapper {\n    text-align: center !important;\n}\n.product-thumb_left #productThumbs {\n    width: 100% !important;\n    min-width: 100% !important;\n}\n.product-template__container {\n    padding-top: 40px;\n}\n.section_img_text .title {\n    text-align: center !important;\n}\n.button_label {\n    max-width: 60%;\n}\n.block_title.text-center {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n.subtitle {\n    text-align: center !important;\n}\n.section_img_text .col-lg-6 .respone_image {\n    margin: auto auto 20px;\n}\n#shopify-section-template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43 .distance {\n    padding-bottom: 40px;\n}\n.section-testimonials .content-info {\n    padding-top: 65px;\n    text-align: center;\n}\n.section-testimonials .title-block {\n    margin-bottom: 5px;\n    text-align: center;\n    font-size: 450% !important;\n}\n.icon-row {\n    margin: auto;\n    margin-top: 30px;\n}\n.product-template__container .block_information {\n    padding-top: 0;\n    margin-top: 25px !important;\n}\n  }\n<\/style>",
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "nov-product-template",
+      "blocks": {
+        "d855b3c9-3c80-4ae0-ab59-0ebbcc841786": {
+          "type": "block_text_2",
+          "settings": {
+            "custom_title2": "HOW TO USE",
+            "custom_content2": "<p>To get the best results from our product, we recommend the following usage and care instructions:<\/p><ul><li>Apply a small amount of product to damp skin.<\/li><li>Gently massage the product onto your skin using circular motions.<\/li><li>Rinse thoroughly with lukewarm water.<\/li><li>Pat your skin dry with a clean towel.<\/li><li>Store the product in a cool, dry place.<\/li><li>Avoid getting the product in your eyes. If contact occurs, rinse thoroughly with water.<\/li><\/ul>"
+          }
+        },
+        "ea1946ea-7c05-45e8-8f84-0c3e6426dfc1": {
+          "type": "block_text_2",
+          "settings": {
+            "custom_title2": "INGREDIENTS",
+            "custom_content2": "<p>With our thoughtfully chosen main ingredients and a minimalistic approach to skincare, we promise to deliver effective results for your skin.<\/p><p><strong>Main Ingredients:<\/strong><\/p><ol><li>Honey: Known for its moisturizing and soothing properties, honey helps to nourish and hydrate the skin, leaving it soft and supple.<\/li><li>Peony Root Extract: Packed with antioxidants, peony root extract helps to protect the skin from free radicals and promote a more youthful appearance.<\/li><li>Meadowfoam Seed Oil: Rich in fatty acids, meadowfoam seed oil helps to lock in moisture and restore the skin's natural barrier, keeping it hydrated and plump.<\/li><li>Sodium PCA: A natural humectant, sodium PCA attracts and retains moisture in the skin, helping to keep it hydrated and balanced.<\/li><\/ol><p><strong>Other Ingredients:<\/strong><\/p><ul><li>Water<\/li><li>Éutylene Glycol<\/li><li>Dipropylene Glycol<\/li><li>PPG-9 Diglyceryl Ether<\/li><li>PEG-8 Giyceryl Isostearate<\/li><li>PEG7 Giycery cocpate<\/li><li>C14-75 Dialkyi Carbonate<\/li><li>Diglycerin<\/li><li>Tocophierol<\/li><li>Acryiates\/C10-30 Alkyh Acrylate Crosspolymner<\/li><li>Paconia Albiora Roce Extract<\/li><li>Lirnanthes Alba (Meadowfoam) Seed Oil<\/li><li>Saiv omineig (sage) Leat Extraco<\/li><li>Phellodendren Arnutense Bzrk Etract<\/li><li>Glycerin<\/li><li>Betaine<\/li><li>Dipotassiur Giycyrrhiaite<\/li><li>AscotbylTetraisopalmitate<\/li><li>Carbomer<\/li><li>Decyl Glus9side<\/li><li>eEG-20 Glyceryi Trlsostearate<\/li><li>o yg-aternfimn-51<\/li><li>Hydroxyiated Lecithin<\/li><li>Kanthan Gum<\/li><li>Caramel<\/li><li>Fragrance<\/li><li>Sodium Hydroxide<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "d855b3c9-3c80-4ae0-ab59-0ebbcc841786",
+        "ea1946ea-7c05-45e8-8f84-0c3e6426dfc1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_notes": false,
+        "subtitle": "Clean skin has never been this easy",
+        "subtitle2": "your perfect double-cleanse",
+        "subtitle3": "120ml",
+        "show_quantity_selector": true,
+        "product_swatch_enable": true,
+        "show_variant_labels": true,
+        "show_share": false,
+        "show_variant_color": true,
+        "show_vendor": false,
+        "show_sku": false,
+        "show_categories": false,
+        "show_tags": false,
+        "show_available": false,
+        "show_client": true,
+        "customtext": "It made such a difference to my skin. Highly recommended!",
+        "customtext2": "- Cindy L., Glow Honey Cleanser customer",
+        "show_des": true,
+        "customtext3": "<p><strong>Glow Honey Gel to Oil Cleanser<\/strong><\/p><p><strong><br\/><\/strong>A gentle formulation that deeply cleanses your skin in one step. It effectively removes make-up, sunscreen, dirt, and other<br\/>skin impurities. It's enriched with hydrating and soothing ingredients for a beautiful, healthy glow.<\/p>",
+        "enable_zoom": false,
+        "show_description": false,
+        "show_review": false,
+        "show_offer": true,
+        "scns": "<p><a href=\"\/products\/bestseller-bundle-cleanser-puff-free-gift\" title=\"Bestseller Bundle: Cleanser + Puff + Free Gift\">Click here to buy our bestseller bundle and save 10%!<\/a><\/p>",
+        "show_payments": true,
+        "title_payments": "",
+        "size_title": "10px",
+        "color_title_payments": "#222222",
+        "payments": "shopify:\/\/shop_images\/Vectors_660_x_220px_ac38fa5a-2d7c-4162-86a1-edbffa2b4183.png",
+        "time": "",
+        "size_time": "12px",
+        "color_time": "#494949",
+        "truck": "",
+        "size_truck": "12px",
+        "color_truck": "#494949",
+        "background_color": ""
+      }
+    },
+    "5ae99524-651a-4561-b5e5-9e25880227dd": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18510998569254__5ae99524-651a-4561-b5e5-9e25880227dd-16808055647bde532d-1": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/picture_5.jpg",
+            "class_image": ""
+          }
+        },
+        "template--18510998569254__5ae99524-651a-4561-b5e5-9e25880227dd-16808055647bde532d-0": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "Feel the difference of double cleansing",
+            "size_title": "4rem",
+            "color_title": "#000000",
+            "subtitle": "Double cleansing in a single step",
+            "size_sub": "1.8rem",
+            "text": "<ul><li>Made with skin loving ingredients<\/li><li>Dissolves makeup, sunscreen and impurities<\/li><li>Gentle formulation<\/li><li>Washes off easily<\/li><li>Suitable for all skin types<\/li><\/ul>",
+            "size_text": "1.8rem",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": true,
+            "button_label": "Read FAQs",
+            "size_button": "12px",
+            "color_button": "#000000",
+            "bg_title_link": "rgba(0,0,0,0)",
+            "button_link": "shopify:\/\/pages\/faqs",
+            "show-icons": false,
+            "icon_1_heading": "",
+            "icon_1_description": "",
+            "icon_2_heading": "",
+            "icon_2_description": "",
+            "icon_3_heading": "",
+            "icon_3_description": "",
+            "icon_4_heading": "",
+            "icon_4_description": "",
+            "class_text": "mb-md-50"
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__5ae99524-651a-4561-b5e5-9e25880227dd-16808055647bde532d-1",
+        "template--18510998569254__5ae99524-651a-4561-b5e5-9e25880227dd-16808055647bde532d-0"
+      ],
+      "custom_css": [
+        ".title {max-width: 90%; margin: auto; text-align: left; line-height: 1; text-transform: capitalize; font-size: 4.5rem !important;}",
+        ".title {font-weight: 300; margin-bottom: 20px !important;}",
+        ".subtitle {max-width: 90%; text-align: left; margin: auto; text-transform: capitalize; font-family: nw; font-size: 230% !important;}",
+        "ul {text-align: left; max-width: 86%; margin: auto;}"
+      ],
+      "settings": {
+        "background_color": "#fffef4",
+        "has_fullwidth": true,
+        "class": "",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "dc2527e4-3aac-4430-959b-d72c4a9c2c54": {
+      "type": "custom-content",
+      "blocks": {
+        "template--18510998569254__dc2527e4-3aac-4430-959b-d72c4a9c2c54-168081011076876187-0": {
+          "type": "text",
+          "settings": {
+            "width": "col-xl-12",
+            "width_lg": "col-lg-12",
+            "width_md": "col-md-12",
+            "title": "what our customers have to say",
+            "size_title": "4rem",
+            "color_title": "#000000",
+            "sub": "\"Don't just take our word for it.<br>Hear from our satisfied customers about how our products have transformed their skin.<br>Discover the confidence that comes with having healthy, glowing skin.",
+            "size_sub": "1.8rem",
+            "color_sub": "#222222",
+            "show_button": false,
+            "button_label": "See On Map",
+            "size_button": "1.6rem",
+            "color_button": "#000000",
+            "bg_title_link": "",
+            "button_link": "",
+            "show_social": false,
+            "alignment": "text-center",
+            "class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__dc2527e4-3aac-4430-959b-d72c4a9c2c54-168081011076876187-0"
+      ],
+      "custom_css": [
+        ".custom__item {border-top: none;}",
+        ".title {text-transform: capitalize;}"
+      ],
+      "settings": {
+        "class": "",
+        "has_fullwidth": false,
+        "background_color": "#ffffff",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "47abf0c2-85d2-4084-8c9a-44cf27b3dd43": {
+      "type": "nov-testimonials",
+      "blocks": {
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-0": {
+          "type": "item",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/a-1.jpg",
+            "star": 4,
+            "author": "Sarah",
+            "info_other": "From USA",
+            "des": "\"I am in love with the Glow Honey Gel to Oil Cleanser! It has become my go-to for a quick, easy, and effective cleansing experience.\""
+          }
+        },
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-1": {
+          "type": "item",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/img-14.jpg",
+            "star": 5,
+            "author": "- Rachel",
+            "info_other": "From Singapore",
+            "des": "\"The Cloud No. 9 Cleansing Puff has completely changed my cleansing routine. It thoroughly removes all my makeup and leaves my skin feeling clean and smooth.\""
+          }
+        },
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-2": {
+          "type": "item",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/img-15.jpg",
+            "star": 5,
+            "author": "- Emily",
+            "info_other": "Form Australia",
+            "des": "\"I've always struggled with finding products that work for my sensitive skin, but Alias for good skin has been a game-changer. Their products are gentle, yet effective, and have transformed my skin.\""
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-0",
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-1",
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-2"
+      ],
+      "custom_css": [
+        ".testimonial-item__text {font-size: 2.4rem;}",
+        ".fa {font-size: 30px; font-weight: 100 !important;}",
+        ".title-block {font-weight: 300; margin-bottom: 21px; font-family: \"NW\"; text-transform: capitalize !important; font-size: 250% !important;}",
+        ".row {justify-content: space-evenly;}",
+        ".slick-slide img {border-radius: 50%;}",
+        ".col-md-5 {flex: 0 0 25.666667%; max-width: 25.666667%;}",
+        ".img_content {display: flex; align-items: flex-end; justify-content: flex-end;}"
+      ],
+      "settings": {
+        "title": "\"Real Results from Real People\"",
+        "size_title": "2.4rem",
+        "color_title": "#222222",
+        "title_alignment": "text-left",
+        "avatar": true,
+        "size_name": "13px",
+        "color_name": "#222222",
+        "color_text": "#222222",
+        "show_dots": true,
+        "show_nav": true,
+        "spacing": "",
+        "background_color": "#ffffff",
+        "s_star": true,
+        "full_width": false,
+        "class": "",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "88a316ff-5a12-4067-a23d-ca53920a7181": {
+      "type": "nov-collection-link",
+      "blocks": {
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "text": "<b>Honey<\/b><br>Maintain skin moisture",
+            "link": ""
+          }
+        },
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "text": "<b>Peony Root Extract<\/b><br>  Boost skin clarity",
+            "link": ""
+          }
+        },
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "text": "<b>Meadowfoam seed oil<\/b> <br> Balance excess sebum",
+            "link": ""
+          }
+        },
+        "db7ad66b-fc42-4f8d-8b35-3bb4f3ab427d": {
+          "type": "featured_collection",
+          "settings": {
+            "text": "<b>Sodium PCA<\/b> <br> Restore natural skin barrier",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-0",
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-1",
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-2",
+        "db7ad66b-fc42-4f8d-8b35-3bb4f3ab427d"
+      ],
+      "custom_css": [
+        ".title_block {font-family: \"NW\"; font-size: 440%; line-height: 1; margin-top: 25px;}"
+      ],
+      "settings": {
+        "title": "The Special Formula",
+        "subheading": "Ingredients",
+        "desc": "<p>Our product is made with a magical formula that combines high-quality, natural ingredients to nourish and enhance your skin's appearance. Our main ingredients include Sodium PCA, Meadowfoam Seed Oil, Peony Root Extract, and Honey, which are packed with antioxidants, anti-inflammatory, and hydrating properties that leave your skin glowing and healthy.\"<\/p>",
+        "title_alignment": "text-center",
+        "enableslider": false,
+        "grid_number_xl": 8,
+        "grid_number": 8,
+        "grid_number_lg_tablet": 6,
+        "items_tablet": 3,
+        "items_mobile": 2,
+        "class": "",
+        "has_fullwidth": false,
+        "color_link": "#666666",
+        "bg_item": "shopify:\/\/shop_images\/img-1_285x_8122170f-81bd-4046-a66d-777a22abb3c6.png",
+        "background_color": "#fffef4",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "8057b4a8-1cc2-42de-951e-9f635fa1a46a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18510998569254__8057b4a8-1cc2-42de-951e-9f635fa1a46a-16808055647bde532d-1": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/picture7.jpg",
+            "class_image": ""
+          }
+        },
+        "template--18510998569254__8057b4a8-1cc2-42de-951e-9f635fa1a46a-16808055647bde532d-0": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "Say hello to beautiful skin!",
+            "size_title": "4rem",
+            "color_title": "#000000",
+            "subtitle": "(and goodbye to dirty clogged pores)",
+            "size_sub": "1.8rem",
+            "text": "<p>With our Glow Honey Gel To Oil Cleanser, you will be getting that perfect cleanse every single time. Your skin will look brighter, healthier and feel more hydrated.<\/p>",
+            "size_text": "1.8rem",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": false,
+            "button_label": "See All Ingredients",
+            "size_button": "12px",
+            "color_button": "#222222",
+            "bg_title_link": "rgba(0,0,0,0)",
+            "button_link": "shopify:\/\/blogs\/alias-for-good-skin-blog\/ingredients-used-in-glow-honey-gel-to-oil-cleanser",
+            "show-icons": false,
+            "icon_1_heading": "Honey",
+            "icon_1_description": "<p>Retain<br\/>Moisture <\/p>",
+            "icon_2_heading": "Peonyroot Extract",
+            "icon_2_description": "<p>Clarifying Effects<\/p>",
+            "icon_3_heading": "Meadowfoam Seed Oil",
+            "icon_3_description": "<p>Regulates<br\/>Sebum Production<\/p>",
+            "icon_4_heading": "Sodium PCA",
+            "icon_4_description": "<p>Restore Skin Barrier<\/p>",
+            "class_text": "mb-md-50"
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__8057b4a8-1cc2-42de-951e-9f635fa1a46a-16808055647bde532d-1",
+        "template--18510998569254__8057b4a8-1cc2-42de-951e-9f635fa1a46a-16808055647bde532d-0"
+      ],
+      "custom_css": [
+        ".title {max-width: 90%; margin: auto; text-align: left; line-height: 1; text-transform: capitalize; font-size: 4.5rem !important;}",
+        ".title {font-weight: 300; margin-bottom: 20px !important;}",
+        ".subtitle {max-width: 90%; text-align: left; margin: auto; text-transform: capitalize; font-family: nw; font-size: 230% !important;}",
+        ".distance {background: linear-gradient( 268deg, rgb(188 232 254) 0%, rgb(114 177 222) 50%, rgb(111 175 217) 100% );}"
+      ],
+      "settings": {
+        "background_color": "#a6c3e0",
+        "has_fullwidth": true,
+        "class": "",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "16808182932433682d": {
+      "type": "apps",
+      "blocks": {
+        "a43059bc-8e4c-4477-b7dc-b02a934f2174": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1800
+          }
+        },
+        "acc5974e-fd00-44fe-8e5b-88d904baa8b1": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a43059bc-8e4c-4477-b7dc-b02a934f2174",
+        "acc5974e-fd00-44fe-8e5b-88d904baa8b1"
+      ],
+      "settings": {
+      }
+    },
+    "6ee62601-f31c-4d39-82ef-0e0fa6098c24": {
+      "type": "nov-slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--18510998569254__6ee62601-f31c-4d39-82ef-0e0fa6098c24-1680818411eea091d0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/abannerproduct4-1.jpg",
+            "caption_1": "One Cleanser to do it all",
+            "color_cap1": "#000000",
+            "fz_cap1": "4.5rem",
+            "fz_cap1lg": "4.5rem",
+            "fz_cap1t": "4.5rem",
+            "fz_cap1m": "4.5rem",
+            "fz_cap1mb": "4.5rem",
+            "cap_animate_1": "bounce",
+            "caption_2": "Cleanse.Moisturize. Restore",
+            "color_cap2": "#000000",
+            "fz_cap2": "3rem",
+            "fz_cap2lg": "3rem",
+            "fz_cap2t": "3rem",
+            "fz_cap2m": "3rem",
+            "fz_cap2mb": "3rem",
+            "cap_animate_2": "bounce",
+            "caption_3": "",
+            "color_cap3": "#000000",
+            "fz_cap3": "",
+            "fz_cap3lg": "",
+            "fz_cap3t": "",
+            "fz_cap3m": "",
+            "fz_cap3mb": "",
+            "cap_animate_3": "bounce",
+            "caption_4": "",
+            "color_cap4": "#000000",
+            "fz_cap4": "",
+            "fz_cap4lg": "",
+            "fz_cap4t": "",
+            "fz_cap4m": "",
+            "fz_cap4mb": "",
+            "cap_animate_4": "bounce",
+            "title_link": "",
+            "color_cap_link": "#ffffff",
+            "background_cap_link": "#000000",
+            "cap_link": "",
+            "cap_link_animate": "bounce",
+            "text_align": "center",
+            "width_position": "90",
+            "width_position_desktop": "90",
+            "width_position_tablet": "90",
+            "width_position_mobile": "90",
+            "left_position": "10",
+            "left_position_desktop": "10",
+            "left_position_tablet": "0",
+            "left_position_mobile": "0",
+            "top_position": "40",
+            "top_position_desktop": "30",
+            "top_position_t": "30",
+            "top_position_m": "15",
+            "top_position_xs": "10",
+            "slider_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__6ee62601-f31c-4d39-82ef-0e0fa6098c24-1680818411eea091d0-0"
+      ],
+      "custom_css": [
+        ".caption-1 {margin-bottom: 0; line-height: 1.5 !important; font-size: 550% !important; font-family: \"NW\"; line-height: 1.8;}",
+        ".caption-2 {font-weight: 500; margin-bottom: 20px;}"
+      ],
+      "settings": {
+        "height_slideshow_larges_desktop": "850px",
+        "height_slideshow_large_desktop": "800px",
+        "height_slideshow_desktop": "650px",
+        "height_slideshow_tablet": "550px",
+        "height_slideshow_mobile": "500px",
+        "height_slideshow_mobile_small": "540px",
+        "autoplay": true,
+        "arrows": false,
+        "dots": false,
+        "has_fullwidth": true,
+        "distance_top": "30px",
+        "distance_bottom": "0"
+      }
+    }
+  },
+  "order": [
+    "6a4aacbc-2782-426f-951b-03df95bcdaa5",
+    "main",
+    "5ae99524-651a-4561-b5e5-9e25880227dd",
+    "dc2527e4-3aac-4430-959b-d72c4a9c2c54",
+    "47abf0c2-85d2-4084-8c9a-44cf27b3dd43",
+    "88a316ff-5a12-4067-a23d-ca53920a7181",
+    "8057b4a8-1cc2-42de-951e-9f635fa1a46a",
+    "16808182932433682d",
+    "6ee62601-f31c-4d39-82ef-0e0fa6098c24"
+  ]
+}

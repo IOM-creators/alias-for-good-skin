@@ -1,0 +1,103 @@
+{% comment %}
+* 2013-2022 Vinovathemes
+* @author    Vinovathemes <vinovathemes@gmail.com>
+* @copyright 2013-2022 Vinovathemes SA
+{% endcomment %}
+
+<script>
+  var theme = {
+    strings: {
+      select_options: {{ 'products.product.select_options' | t | json }},
+      addToCart: {{ 'products.product.add_to_cart' | t | json }},
+      preorder: {{ 'products.product.pre_order' | t | json }},
+      soldOut: {{ 'products.product.sold_out' | t | json }},
+      unavailable: {{ 'products.product.unavailable' | t | json }},
+      showMore: {{ 'general.filters.show_more' | t | json }},
+      showLess: {{ 'general.filters.show_less' | t | json }},
+      addressError: {{ 'sections.map.address_error' | t | json }},
+      addressNoResults: {{ 'sections.map.address_no_results' | t | json }},
+      addressQueryLimit: {{ 'sections.map.address_query_limit_html' | t | json }},
+      authError: {{ 'sections.map.auth_error_html' | t | json }},
+      total: {{ 'general.popup_cart.total' | t | json }},
+      spend: {{ 'cart.general.spend' | t | json }},
+      content_threshold: {{ 'cart.general.content_threshold' | t | json }},
+      spend__html: {{ 'cart.general.spend__html' | t | json }},
+      check_out: {{ 'cart.general.checkout' | t | json }},
+      remove: {{ 'wishlist.wishlist.wishlist_remove' | t | json }},
+      remove_wishlist: {{ 'wishlist.wishlist.remove_wishlist' | t | json }},
+      add_to_wishlist: {{ 'wishlist.wishlist.add_to_wishlist' | t | json }},
+      added_to_wishlist: {{ 'wishlist.wishlist.added_to_wishlist' | t | json }},
+      view_cart: {{ 'cart.general.view_cart' | t | json }},
+      cart_empty: {{ 'cart.general.empty' | t | json }},
+      continue_shopping: {{ 'cart.general.continue_shopping' | t | json }}
+    },
+    moneyFormat: {{ shop.money_format | json }},
+    moneyFormatnojson: {{ shop.money_format | json }},
+    freeshipping_value: {{ settings.free_shipping }},
+    show_free_shipping: {{ settings.freeshipping_enable }}
+  }
+  window.file_url = '{{""|file_url}}';
+  window.asset_url = '{{"hh"|asset_url|remove: "hh"}}';
+  window.sidebar_multichoise = true;
+  document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  window.router = "";
+</script>
+  
+
+<script src="{{ 'match-media.min.js' | asset_url }}" defer></script>
+
+{% if template.name == 'collection' or template.name == 'product' %}
+  <script src="{{ 'jquery.owl.carousel.min.js' | asset_url }}" defer></script>
+{% else %}
+  <script src="{{ 'jquery.owl.carousel.min.js' | asset_url }}" defer></script>
+
+  <script src="{{ "//cdn.shopify.com/s/javascripts/currencies.js" }}" defer></script>
+  <script src="{{ 'jquery.currencies.min.js' | asset_url }}" defer></script>
+{% endif %}
+
+  
+{% if template.directory == 'customers' %}
+<script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+{% endif %}
+
+  
+<script src="{{ 'vendor.js' | asset_url }}" defer></script>
+
+<script src="{{ 'api.jquery.js' | shopify_asset_url }}" defer></script>
+<script src="{{ 'option_selection.js' | shopify_asset_url }}" defer></script>
+
+
+<script src="{{ 'history.js' | asset_url }}" defer></script>
+
+  
+<script src="{{ 'jquery.mmenu.all.min.js' | asset_url }}" defer></script>
+{% if template.name == 'cart' or template.name == 'product' %}
+  <script src="{{ 'jquery.sticky-kit.min.js' | asset_url }}" defer></script>
+{% endif %}
+<script src="{{ 'ajax-cart.js' | asset_url }}" defer></script>
+<script>
+  jQuery(function($) {
+    ajaxCart.init({
+      moneyFormat: {{ shop.money_format | json }}
+    });
+  });
+  jQuery('body').on('afterCartLoad.ajaxCart', function(evt, cart) {
+  });
+</script>
+
+{% if template.name == 'product' %}
+ {% comment %} <script src="{{ 'jquery.zoom.min.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+{% endif %}
+
+{% unless template contains 'collection' or template.name == 'product' %}
+  <script src="{{ 'jquery.lazy.min.js' | asset_url }}" defer></script>
+{% endunless %}
+  
+<script src="{{ 'lazysizes.min.js' | asset_url }}" defer></script>
+
+<script src="{{ 'jquery.magnific-popup.js' | asset_url }}" defer></script>
+<script src="{{ 'jquery.fancybox.min.js' | asset_url }}" defer></script>
+<script src="{{ 'wow.min.js' | asset_url }}" defer></script>
+  
+<script src="{{ 'theme.js' | asset_url }}" defer></script>
+<script src="{{ 'global.js' | asset_url }}" defer></script>

@@ -1,0 +1,454 @@
+<style>
+  .slide-arrow{
+    position: absolute;
+    top: 0;
+    margin-top: 0px;
+  }
+
+  .prev-arrow{
+    left: 18px;
+    width: 46px;
+    height: 100%;
+    z-index: 8;
+    background-image: url({{ 'previous.png' | asset_url }});
+    background-position: center center,center bottom;
+    background-color: transparent;
+    border: 0;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 40px 40px,cover;
+    top: 0;
+    padding: 0;
+  }
+
+  .next-arrow{
+    right: 18px;
+    width: 46px;
+    height: 100%;
+    z-index: 8;
+    background-image: url({{ 'next.png' | asset_url }});
+    background-position: center center,center bottom;
+    background-color: transparent;
+    border: 0;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 40px 40px,cover;
+    top: 0;
+    padding: 0;
+  }
+
+      /* style 2  */
+
+          /* // Add spacing between images */
+        .slick-slide {
+          margin: 0 5px;
+        }
+
+    /* popup style */
+
+    /* The Overlay (background) */
+  .overlay456w {
+      /* Height & width depends on how you want to reveal the overlay (see JS below) */
+      height: 100%;
+      width: 0;
+      position: fixed; /* Stay in place */
+      z-index: 9; /* Sit on top */
+      left: 0;
+      top: 0;
+      background-color: rgb(0,0,0); /* Black fallback color */
+      background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+      overflow-x: hidden; /* Disable horizontal scroll */
+      transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    }
+
+    /* Position the content inside the overlay */
+    .overlay-content {
+      position: absolute;
+      top: 50%; /* 25% from the top */
+      left: 50%;
+      width: 100%; /* 100% width */
+      height: 100%;
+      transform: translate(-50%, -50%);
+      margin-top: 0px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+      display: none;
+    }
+    div#CustomPopupVideoPlayer.active,
+    .overlay-content.active{
+      width: 100%;
+      display: block;
+    }
+    /* The navigation links inside the overlay */
+    .overlay456w a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block; /* Display block instead of inline */
+      transition: 0.3s; /* Transition effects on hover (color) */
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .overlay456w a:hover, .overlay456w a:focus {
+      color: #f1f1f1;
+    }
+
+    /* Position the close button (top right corner) */
+    .overlay456w .closebtn {
+  /*     position: absolute; */
+      top: 25px;
+      right: 45px;
+      font-size: 60px;
+      display: none;
+      position: fixed; /* Stay in place */
+      z-index: 11; /* Sit on top */
+    }
+
+    /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+    @media screen and (max-height: 450px) {
+      .overlay456w a {font-size: 20px}
+      .overlay456w .closebtn {
+        font-size: 40px;
+        top: 5px;
+        right: 15px;
+      }
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .overlay456w .closebtn {
+        font-size: 40px;
+        top: 5px;
+        right: 15px;
+      }
+  }
+
+  /* style 3 */
+
+    .slider-container {
+      /*margin: 0 100px 80px 100px;*/
+      height: 500px;
+    }
+
+
+     .captiono {
+        padding: 10px;
+        position: absolute;
+        top: 100%;
+        transform: translate(0, -100%);
+        color: white;
+        font-style: bold;
+        overflow-wrap: break-word;
+       font-size: 17px;
+      }
+
+      .overlay-center-video {
+        display: block;
+        margin: auto;
+      }
+
+      .video-slide {
+        position: relative;
+        height: fit-content;
+        width: fit-content;
+      }
+
+      .video-slide-content {
+        border-radius: 10px;
+        overflow: hidden;
+        height: 450px;
+        display: block;
+        margin: auto;
+      }
+
+    .video-slider-section {
+      margin: 60px auto;
+      padding: 0;
+    }
+</style>
+
+{% if section.blocks.size > 0 %}
+  <!-- The overlay -->
+  <div id="CustomPopupVideoPlayer" class="overlay456w">
+    <!-- Button to close the overlay navigation -->
+    <a id="CustomPopupPlayerClosebtn" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    {% for block in section.blocks %}
+        {%- if block.settings.link != blank -%}
+        <div id="popup-video-{{ forloop.index }}" class="overlay-content">
+          <video
+            class="overlay-center-video"
+            id="popmain-video-{{ forloop.index }}"
+            tabindex="0"
+            height="100%"
+            controls="true" loop="true"  playsinline
+            onclick="playpausepopupvideo('popmain-video-{{ forloop.index }}')"
+            
+          >
+            <source src="{{ block.settings.link }}" type="video/mp4">
+          </video>
+        </div>
+    
+        {%- endif -%}
+      {% endfor %}
+  </div>
+          
+
+  <div class="video-slider-section container_ct mobile-hide">
+    <div class="slider-container">
+      {% for block in section.blocks %}
+        {%- if block.settings.link != blank -%}
+
+          <div class="video-slide">
+            <video
+              class="video-slide-content"
+              id="video-{{ forloop.index }}"
+              tabindex="0"
+              playsinline=""
+              height="auto"
+              onclick="mobile_open_video_popup('video-{{ forloop.index }}')"
+              onmouseover="play_video_onmouseover('video-{{ forloop.index }}')"
+              muted
+              loop
+            >
+              
+              <data-src 
+                src="{{ block.settings.link }}"
+                type="video/mp4"
+                >
+              </data-src>
+            </video>
+            <div class="captiono">{{ block.settings.caption }}</div>
+          </div>
+        {%- endif -%}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="video-slider-section container_ct mobile-show">
+    <div class="slider-container">
+      {% for block in section.blocks %}
+        {%- if block.settings.link != blank -%}
+
+          <div class="image-wrapper ">
+            <img 
+              id="mobvideo-{{ forloop.index }}"
+              data-src="{{ block.settings.link }}"
+              src="{{ block.settings.mobile_thumbnail | img_url: 'master'}}" 
+              onclick="mobile_open_video_popup('video-{{ forloop.index }}')">
+          </div>
+          
+        {%- endif -%}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% comment %} Video lazy load scripty {% endcomment %}
+<script type="text/javascript">
+  function isElementInViewport (el)
+  {
+  	var rect = el.getBoundingClientRect();
+
+  	return (
+  		rect.top >= 0 &&
+  		rect.left >= 0 &&
+  		rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+  		rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  	);
+  }
+
+  const handler = () =>
+  {
+  	const custom_content = document.getElementById('shopify-section-382ae805-8587-4388-b010-08e42d8b1961');
+    const visible = isElementInViewport(custom_content); // Check if the Custom content header is in the viewport or not.
+    if (visible)
+    {
+      for(let i=1; i <= {{ section.blocks.size }}; i++)
+      {
+        const video = document.getElementById('video-'+i);
+        const dataSrc = video.querySelector('data-src');
+        if (dataSrc) // Check if data-src exists or not. If yes, than we have never loaded this video.
+        {
+            // Creating souce element and adding respective attributes.
+            const source = document.createElement('source');
+            source.src = dataSrc.getAttribute('src');
+            source.type = dataSrc.getAttribute('type');
+
+            video.appendChild(source); // Add new source element to video.
+            video.removeChild(dataSrc); // Remove data-src from video.
+        }
+      }
+    }
+  }
+
+  addEventListener('load', handler, false);
+  addEventListener('scroll', handler, false);
+  addEventListener('resize', handler, false);
+</script>
+
+<script type="text/javascript">
+  /*
+  function playpausevideo(videoid){
+      const video = document.getElementById(videoid);
+      if(video.paused){
+          video.play()
+      }
+      else{
+          video.pause()
+      }
+  }*/
+
+  function playpausepopupvideo(popvideo){
+      console.log(popvideo);
+      const video = document.getElementById(popvideo);
+      if(video.paused){
+          video.play()
+      }
+      else{
+          video.pause()
+      }
+  }
+/*
+  function open_video_popup(videoid){
+      document.getElementById(videoid).pause();
+      const video = document.getElementById("pop-up-video");
+      video.children[0].src = document.getElementById(videoid).children[0].src;
+      video.load();
+
+      document.getElementById("CustomPopupVideoPlayer").style.width = "100%";
+      document.getElementById("CustomPopupPlayerClosebtn").style.display = "block";
+      video.play();
+  }
+*/
+  function mobile_open_video_popup(videoid){
+      //document.getElementById(videoid).pause();
+      console.log(videoid);
+      
+      const video = document.getElementById('popmain-'+videoid);
+        
+      jQuery('.overlay-content').removeClass('active');
+      jQuery('#popup-'+videoid).addClass('active');
+
+      document.getElementById("CustomPopupVideoPlayer").style.width = "100%";
+      document.getElementById("CustomPopupPlayerClosebtn").style.display = "block";
+
+      jQuery('.overlay-content.active video').trigger('play');
+      video.play();
+  }
+  
+  function play_video_onmouseover(videoid){
+      try {
+          for (let index = 0; index < 10; index++) {
+              var num = index + 1;
+              var id = "video-" + num;
+              document.getElementById(id).pause();
+          }
+      } catch (error) {
+          console.log("Exception error: " + error);
+      }
+
+      const video = document.getElementById(videoid);
+      video.play()
+  }
+
+
+  /* Open when someone clicks on the span element */
+  function openNav() {
+      document.getElementById("CustomPopupVideoPlayer").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav() {
+      //document.getElementById("pop-up-video").pause();
+      document.getElementById("CustomPopupVideoPlayer").style.width = "0%";
+      document.getElementById("CustomPopupPlayerClosebtn").style.display = "none";
+      jQuery('.overlay-content.active video').trigger('pause');
+  }
+</script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function ($) {
+    $(".slider-container").slick({
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+      nextArrow: '<button class="slide-arrow next-arrow"></button>',
+      centerMode: true,
+      centerPadding: '10px',
+      responsive: [
+        {
+          breakpoint: 1280,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+          },
+        },
+        {
+          breakpoint: 990,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            centerMode: true,
+            centerPadding: '50px',
+          },
+        },
+        {
+          breakpoint: 730,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '20px',
+          },
+        },
+      ],
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "custom video slider",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 10,
+  "settings": [],
+  "presets": [
+  {
+    "name": "custom-video-slider",
+    "category": "Custom"
+  }
+  ],
+    "blocks": [
+  {
+    "type": "logo_image",
+    "name": "Video",
+    "settings": [
+      {
+        "type": "url",
+        "id": "link",
+        "label": "Video Link"
+      },
+      {
+        "type": "text",
+        "id": "caption",
+        "label": "Caption",
+        "info": "Optional"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_thumbnail",
+        "label": "Mobile Thumbnail"
+      }
+    ]
+  }
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

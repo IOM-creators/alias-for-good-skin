@@ -1,0 +1,2211 @@
+{
+  "current": {
+    "theme_color_default": "#000000",
+    "theme_color_primary": "#222222",
+    "theme_color_success": "#494949",
+    "theme_color_hover": "#1990c6",
+    "color_input": "#1990c6",
+    "color_default": "#000000",
+    "heading_text": "#222222",
+    "second_heading_text": "#444444",
+    "sub_heading_text": "#666666",
+    "color_title_product": "#000000",
+    "color_text": "#909090",
+    "color_body_text": "#000000",
+    "color_borders": "#fffef4",
+    "color_button": "#222222",
+    "color_button_hover": "#222222",
+    "color_button_text": "#fffef4",
+    "type_base_family": "lato_n4",
+    "title_base_family": "montserrat_n4",
+    "subtitle_base_size": "1.8rem",
+    "type_base_size": "1.6rem",
+    "show_social": false,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "alias.goodskin",
+    "social_dribbble_link": "hello@aliasgoodskin.com",
+    "social_google_link": "",
+    "social_linkedin_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "type_sidebar_blog": "sidebar_grid",
+    "type_sidebar_article": "article_without",
+    "type_sidebar": "full_width",
+    "type_sidebar_product": "thumb_left",
+    "show_newsletter_popup": false,
+    "title_newsletter": "Join Our Newsletter",
+    "desc_newsletter": "Be the first to know about new product launches, promotions, and insider information to keep your skin looking healthy and glowing. Don't miss out, join our community today!",
+    "button_newsletter": "",
+    "notify_newsletter": "Don’t show this popup again",
+    "bg_newsletter": "shopify:\/\/shop_images\/abannerproduct2-2.jpg",
+    "enable_rtl": false,
+    "show_multiple_currencies": false,
+    "title_currency": "Currency:",
+    "supported_currencies": "USD, USD | EUR, EUR | GBP, GBP",
+    "key_trend_1": "Fan’s Favourite Bundle:",
+    "link_1": "shopify:\/\/products\/fan-s-favourite-bundle-2-x-cleanser-puff-cosmetic-pouch",
+    "key_trend_2": "Bestseller Bundle",
+    "link_2": "shopify:\/\/products\/bestseller-bundle-cleanser-puff-free-gift",
+    "key_trend_3": "",
+    "link_3": "",
+    "key_trend_4": "",
+    "link_4": "",
+    "breadcrumbs_enable": false,
+    "background_color": "#fffef4",
+    "background_image": "shopify:\/\/shop_images\/abreadcrumbs1-3.jpg",
+    "overlay_opacity": false,
+    "image_overlay_opacity": 4,
+    "color_text_head": "#000000",
+    "color_text_head_hover": "#f69679",
+    "title_alignment": "justify-content-center",
+    "distance_top": "343px",
+    "distance_bottom": "146px",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "show_rating": true,
+    "quickview_enable": true,
+    "wishlist_enable": false,
+    "payment_button_enable": false,
+    "img_size": "750x750",
+    "img_size_large": "900x900",
+    "show_variant_product": false,
+    "variant_color_image": false,
+    "freeshipping_enable": false,
+    "free_shipping": 0,
+    "show_size_chart": false,
+    "show_related": false,
+    "autoplay": true,
+    "nav": true,
+    "dots": false,
+    "col_desktop": 5,
+    "spacing": "60",
+    "cart_notes_enable": true,
+    "mini_cart_type": "canvas",
+    "logo_tabbar": "shopify:\/\/shop_images\/alogo2.png",
+    "collec_1_name": "Shop Glow Honey Cleanser",
+    "collec_1": "shopify:\/\/products\/glow-honey-gel-to-oil-cleanser",
+    "collec_2_name": "Shop Best Seller Bundle",
+    "collec_2": "shopify:\/\/products\/bestseller-bundle-cleanser-puff-free-gift",
+    "collec_3_name": "",
+    "collec_3": "",
+    "collec_4_name": "",
+    "collec_4": "",
+    "collec_5_name": "",
+    "collec_5": "",
+    "favicon": "shopify:\/\/shop_images\/Alias_Logo_blue_A_no_bg.svg",
+    "checkout_header_image": "shopify:\/\/shop_images\/white-bg.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Alias_good_skin_logo_no_bg.svg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fffef4",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fffef4",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#222222",
+    "checkout_button_color": "#fff58c",
+    "checkout_error_color": "#ff0000",
+    "img_nocart": "shopify:\/\/shop_images\/no-cart_200x_a221cc42-776e-4b89-9fba-c18945ec4dda.png",
+    "size_women": "shopify:\/\/shop_images\/women.png",
+    "size_men": "shopify:\/\/shop_images\/men.png",
+    "crop_product": false,
+    "color_menu": "#222222",
+    "type_header_family": "Google_Poppins_400_sans",
+    "type_header_base_size": "2.6rem",
+    "type_bold_product_titles": false,
+    "vendor_enable": false,
+    "cart_vendor_enable": false,
+    "ajax_cart_method": "pop_up",
+    "h_bg_color": "#ffffff",
+    "h_top": "#000000",
+    "h_social": "#ffffff",
+    "h_annou_color": "#ffffff",
+    "h_link_annou_color": "#ff0000",
+    "h_currency": "#ffffff",
+    "h_currency_content": "#222222",
+    "h_btn_menu": "#000000",
+    "h_btn_menutext": "#ffffff",
+    "h_btn_search": "#f4f4f4",
+    "h_btn_searchtext": "#222222",
+    "h_btn_search_border": "#eaeaea",
+    "h_btn_searchsm": "#000000",
+    "h_btn_searchtextsm": "#ffffff",
+    "h_label": "#909090",
+    "h_wishlist": "#222222",
+    "h_bg_sticky": "#ffffff",
+    "sub_heading_menu": "#222222",
+    "tooltip_enable": "true",
+    "color_body_bg": "#ffffff",
+    "mobile_mainmenu_type": "canvas",
+    "color_sale_text": "#000000",
+    "heading_hover": "#fd6666",
+    "color_small_button": "#878787",
+    "color_small_button_text": "#ffffff",
+    "color_text_field": "#fff",
+    "color_text_field_text": "#000000",
+    "color_icon_font": "#383838",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3d4246",
+    "menu_link": "#444444",
+    "show_multiple_language": false,
+    "title_language": "Language:",
+    "color_bg_product": "#f5f5f5",
+    "social_twitter_image": "shopify:\/\/shop_images\/tw_40x_bdf1b78a-35a0-4799-916c-f1d53e9e92b8.png",
+    "social_facebook_image": "shopify:\/\/shop_images\/facebook.png",
+    "social_dribbble_image": "shopify:\/\/shop_images\/dribbble_40x_b118f5e7-4fc5-4827-9b2a-eeabd2a86eb1.png",
+    "social_pinterest_image": "",
+    "social_instagram_image": "shopify:\/\/shop_images\/instagram.png",
+    "social_tumblr_image": "",
+    "social_snapchat_image": "",
+    "social_youtube_image": "",
+    "social_vimeo_image": "",
+    "enable_iconmenumain": false,
+    "icon_menumain_1": "",
+    "icon_menumain_2": "",
+    "icon_menumain_3": "",
+    "icon_menumain_4": "",
+    "icon_menumain_5": "",
+    "icon_menumain_6": "",
+    "icon_menumain_7": "",
+    "icon_menumain_8": "",
+    "icon_menumain_9": "",
+    "icon_menumain_10": "",
+    "sections": {
+      "nov-sidebar": {
+        "type": "nov-sidebar",
+        "blocks": {
+          "1523617300550": {
+            "type": "block_filter",
+            "settings": {
+              "block_class": "",
+              "filter_type": true,
+              "filter_vendor": true,
+              "filter_tags": true,
+              "filter_size": true,
+              "filter_size_value": "50ml, 100ml, 150ml, 200ml, 250ml",
+              "filter_color": true,
+              "filter_color_value": "Lightslategray, Linen, Plum, Hotpink, Black, Lightblue, Midnightblue, Seashell, Grey, Gray, Lightgrey, Darkolivegreen, Lightcoral, Brown, Indianred",
+              "filter_price": true,
+              "filter_price_value": "$10 - $100, $101 - $200, $201 - $300, $301 - $400"
+            }
+          }
+        },
+        "block_order": [
+          "1523617300550"
+        ],
+        "settings": {
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "products_per_page": 12,
+          "show_variant_color": true
+        }
+      },
+      "nov-sidebar-article": {
+        "type": "nov-sidebar-article",
+        "blocks": {
+          "2fbb9130-51df-4ad0-8282-1e54a212cd6e": {
+            "type": "block_search",
+            "disabled": true,
+            "settings": {
+              "class": ""
+            }
+          },
+          "1522144034842": {
+            "type": "block_categories",
+            "disabled": true,
+            "settings": {
+              "sidebar_categories_title": "Categories",
+              "sidebar_categories_menu": "",
+              "class": ""
+            }
+          },
+          "1522144043288": {
+            "type": "block_recentpost",
+            "disabled": true,
+            "settings": {
+              "block_title": "Recent post",
+              "number_show": 4,
+              "show_date": true,
+              "show_comment": false,
+              "show_author": false,
+              "show_excerpt": false,
+              "show_more": false,
+              "class": ""
+            }
+          }
+        },
+        "block_order": [
+          "2fbb9130-51df-4ad0-8282-1e54a212cd6e",
+          "1522144034842",
+          "1522144043288"
+        ],
+        "settings": {
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_title": "Curated For You",
+          "blog_show_author": false,
+          "blog_show_date": false,
+          "blog_show_comment": false,
+          "page_show_list": 3,
+          "page_show_column": 3,
+          "page_show_grid": 15,
+          "page_show_nosibar": 3
+        }
+      },
+      "nov-sidebar-detail": {
+        "type": "nov-sidebar-detail",
+        "blocks": {
+          "1522994949788": {
+            "type": "block_categories",
+            "settings": {
+              "sidebar_categories_title": "Categories",
+              "sidebar_categories_class": "",
+              "sidebar_categories_menu": ""
+            }
+          },
+          "1522994844112": {
+            "type": "block_productlist",
+            "settings": {
+              "sidebar_productlist_title": "Best sellers",
+              "sidebar_productlist_class": "",
+              "sidebar_collection": "",
+              "number_show": 3
+            }
+          },
+          "1522994963120": {
+            "type": "block_producttags",
+            "settings": {
+              "block_title": "Product Tags",
+              "block_class": "",
+              "number_show": 20
+            }
+          }
+        },
+        "block_order": [
+          "1522994949788",
+          "1522994844112",
+          "1522994963120"
+        ],
+        "settings": {
+        }
+      },
+      "nov-product-template": {
+        "type": "nov-product-template",
+        "blocks": {
+          "1600059348586": {
+            "type": "block_text",
+            "settings": {
+              "custom_title": "Ingredients",
+              "custom_content": "<div class=\"scrollable-wrapper\"><table>\n<thead>\n<tr>\n<th>Ingredient<\/th>\n<th>Benefit<\/th>\n<\/tr>\n<\/thead>\n<tbody>\n<tr>\n<td>Water<\/td>\n<td>Hydrates and moisturizes the skin<\/td>\n<\/tr>\n<tr>\n<td>éutylene Glycol<\/td>\n<td>Enhances the absorption of other ingredients in the product<\/td>\n<\/tr>\n<tr>\n<td>Dipropylene Glycol<\/td>\n<td>Moisturizes and conditions the skin<\/td>\n<\/tr>\n<tr>\n<td>PPG-9 Diglyceryl Ether<\/td>\n<td>Emulsifies and stabilizes the product formula<\/td>\n<\/tr>\n<tr>\n<td>PEG-8 Giyceryl Isostearate<\/td>\n<td>Provides a smooth and silky texture to the product<\/td>\n<\/tr>\n<tr>\n<td>PEG7 Giycery cocpate<\/td>\n<td>Cleanses and hydrates the skin<\/td>\n<\/tr>\n<tr>\n<td>C14-75 Dialkyi Carbonate<\/td>\n<td>Enhances the spreadability of the product on the skin<\/td>\n<\/tr>\n<tr>\n<td>Diglycerin<\/td>\n<td>Provides hydration and a smooth texture to the skin<\/td>\n<\/tr>\n<tr>\n<td>Tocophierol<\/td>\n<td>An antioxidant that helps to protect and repair the skin<\/td>\n<\/tr>\n<tr>\n<td>Acryiates\/C10-30 Alkyh Acrylate Crosspolymner<\/td>\n<td>Gives the product a gel-like consistency and stabilizes the formula<\/td>\n<\/tr>\n<tr>\n<td>Honey<\/td>\n<td>Natural humectant that attracts and retains moisture in the skin<\/td>\n<\/tr>\n<tr>\n<td>Paconia Albiora Roce Extract<\/td>\n<td>Helps to soothe and calm the skin<\/td>\n<\/tr>\n<tr>\n<td>Lirnanthes Alba (Meadowfoam) Seed Oil<\/td>\n<td>Nourishes and moisturizes the skin<\/td>\n<\/tr>\n<tr>\n<td>Sodium PCA<\/td>\n<td>A natural moisturizing factor that helps to hydrate the skin<\/td>\n<\/tr>\n<tr>\n<td>Saiv omineig (sage) Leat Extraco<\/td>\n<td>Helps to purify and clarify the skin<\/td>\n<\/tr>\n<tr>\n<td>Phellodendren Arnutense Bzrk Etract<\/td>\n<td>Helps to soothe and calm the skin<\/td>\n<\/tr>\n<tr>\n<td>Glycerin<\/td>\n<td>Attracts and retains moisture in the skin<\/td>\n<\/tr>\n<tr>\n<td>Betaine<\/td>\n<td>Moisturizes and protects the skin<\/td>\n<\/tr>\n<tr>\n<td>Dipotassiur Giycyrrhiaite<\/td>\n<td>Helps to soothe and calm the skin<\/td>\n<\/tr>\n<tr>\n<td>AscotbylTetraisopalmitate<\/td>\n<td>A stable form of vitamin C that helps to brighten and even out the skin<\/td>\n<\/tr>\n<tr>\n<td>Carbomer<\/td>\n<td>Helps to thicken and stabilize the product formula<\/td>\n<\/tr>\n<tr>\n<td>Decyl Glus9side<\/td>\n<td>A gentle surfactant that helps to cleanse the skin<\/td>\n<\/tr>\n<tr>\n<td>eEG-20 Glyceryi Trlsostearate<\/td>\n<td>Helps to emulsify and stabilize the product formula<\/td>\n<\/tr>\n<tr>\n<td>o yg-aternfimn-51<\/td>\n<td>An emulsifier that helps to stabilize the product formula<\/td>\n<\/tr>\n<tr>\n<td>Hydroxyiated Lecithin<\/td>\n<td>Helps to moisturize and improve the texture of the skin<\/td>\n<\/tr>\n<tr>\n<td>Kanthan Gum<\/td>\n<td>Provides a smooth and silky texture to the product<\/td>\n<\/tr>\n<tr>\n<td>Caramel<\/td>\n<td>Provides a natural color to the product formula<\/td>\n<\/tr>\n<tr>\n<td>Fragrance<\/td>\n<td>Provides a pleasant scent to the product<\/td>\n<\/tr>\n<tr>\n<td>Sodium Hydroxide<\/td>\n<td>Helps to balance the pH of the product formula<\/td>\n<\/tr>\n<\/tbody>\n<\/table><\/div>"
+            }
+          },
+          "1600059475832": {
+            "type": "block_text",
+            "settings": {
+              "custom_title": "Usage & Care",
+              "custom_content": "<p style=\"color: #666;\">To get the best results from our product, we recommend the following usage and care instructions:<\/p>\n  <ul style=\"color: #666;\">\n    <li>Apply a small amount of product to damp skin.<\/li>\n    <li>Gently massage the product onto your skin using circular motions.<\/li>\n    <li>Rinse thoroughly with lukewarm water.<\/li>\n    <li>Pat your skin dry with a clean towel.<\/li>\n    <li>Store the product in a cool, dry place.<\/li>\n    <li>Avoid getting the product in your eyes. If contact occurs, rinse thoroughly with water.<\/li>\n  <\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "1600059348586",
+          "1600059475832"
+        ],
+        "settings": {
+          "show_notes": false,
+          "subtitle": "\"Getting clean skin has never been this easy\"",
+          "show_quantity_selector": true,
+          "product_swatch_enable": true,
+          "show_variant_labels": true,
+          "show_share": true,
+          "show_variant_color": true,
+          "show_vendor": false,
+          "show_sku": false,
+          "show_categories": false,
+          "show_tags": false,
+          "show_available": false,
+          "enable_zoom": true,
+          "show_description": true,
+          "show_review": true,
+          "show_payments": false,
+          "title_payments": "Guaranteed safe checkout:",
+          "size_title": "12px",
+          "color_title_payments": "#222222",
+          "time": "Orders ship within 5 to 10 business days.",
+          "size_time": "14px",
+          "color_time": "#494949",
+          "truck": "<strong>Hoorey <\/strong>! This item ships free to the US",
+          "size_truck": "14px",
+          "color_truck": "#494949",
+          "background_color": "#f5f5f5"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "1523246702524": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "1523246716784": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "1523246702524",
+          "1523246716784"
+        ],
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": "4"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": false
+        }
+      },
+      "nov-page404": {
+        "type": "nov-page404",
+        "settings": {
+          "title": "Page Not found",
+          "subheading": "We’re sorry — something has gone wrong on our end.",
+          "desc": "If difficulties persist, please contact the System Administrator of this site and report the error below..",
+          "background_color": "#0154a6"
+        }
+      },
+      "nov-slideshow": {
+        "type": "nov-slideshow",
+        "blocks": {
+          "1528274241275": {
+            "type": "image",
+            "settings": {
+              "caption_1": "<i>Headlight & Tire<\/i>",
+              "color_cap1": "#ffffff",
+              "fz_cap1": "l",
+              "fz_cap1t": "",
+              "fz_cap1m": "",
+              "fz_cap1mb": "",
+              "cap_animate_1": "fadeInLeft",
+              "caption_2": "Only $300",
+              "color_cap2": "#ffffff",
+              "fz_cap2": "m",
+              "fz_cap2t": "",
+              "fz_cap2m": "",
+              "fz_cap2mb": "",
+              "cap_animate_2": "fadeInRight",
+              "caption_3": "Lorem ipsum dolor sit amet, consectetur adipiscing \nelit integer pellentesque ut velit",
+              "color_cap3": "#ffffff",
+              "fz_cap3": "s",
+              "fz_cap3t": "",
+              "fz_cap3m": "",
+              "fz_cap3mb": "",
+              "cap_animate_3": "fadeInRight",
+              "title_link": "",
+              "color_cap_link": "#fff",
+              "background_cap_link": "#000",
+              "cap_link_animate": "bounce",
+              "text_align": "left",
+              "width_position": "55",
+              "width_position_desktop": "75",
+              "width_position_tablet": "100",
+              "width_position_mobile": "100",
+              "left_position": "8",
+              "left_position_desktop": "8",
+              "left_position_tablet": "8",
+              "left_position_mobile": "8",
+              "top_position": "25.7",
+              "top_position_desktop": "20",
+              "top_position_t": "50",
+              "top_position_m": "50",
+              "slider_link": "#"
+            }
+          },
+          "1528433230156": {
+            "type": "image",
+            "settings": {
+              "caption_1": "<i>Brake Systems<\/i>",
+              "color_cap1": "#ffffff",
+              "fz_cap1": "l",
+              "fz_cap1t": "",
+              "fz_cap1m": "",
+              "fz_cap1mb": "",
+              "cap_animate_1": "fadeInDown",
+              "caption_2": "Best Choice",
+              "color_cap2": "#ffffff",
+              "fz_cap2": "l",
+              "fz_cap2t": "",
+              "fz_cap2m": "",
+              "fz_cap2mb": "",
+              "cap_animate_2": "fadeInLeft",
+              "caption_3": "Lorem ipsum dolor sit amet, consectetur adipiscing \nelit integer pellentesque ut velit",
+              "color_cap3": "#ffffff",
+              "fz_cap3": "s",
+              "fz_cap3t": "",
+              "fz_cap3m": "",
+              "fz_cap3mb": "",
+              "cap_animate_3": "fadeInUp",
+              "title_link": "",
+              "color_cap_link": "#fff",
+              "background_cap_link": "#000",
+              "cap_link_animate": "bounce",
+              "text_align": "left",
+              "width_position": "55",
+              "width_position_desktop": "75",
+              "width_position_tablet": "100",
+              "width_position_mobile": "100",
+              "left_position": "10",
+              "left_position_desktop": "10",
+              "left_position_tablet": "10",
+              "left_position_mobile": "10",
+              "top_position": "25.7",
+              "top_position_desktop": "20",
+              "top_position_t": "50",
+              "top_position_m": "50",
+              "slider_link": "#"
+            }
+          },
+          "1528433236151": {
+            "type": "image",
+            "settings": {
+              "caption_1": "<i>Headlights<\/i>",
+              "color_cap1": "#ff1e1e",
+              "fz_cap1": "xl",
+              "fz_cap1t": "",
+              "fz_cap1m": "",
+              "fz_cap1mb": "",
+              "cap_animate_1": "fadeInLeft",
+              "caption_2": "Best Choice",
+              "color_cap2": "#ffffff",
+              "fz_cap2": "l",
+              "fz_cap2t": "",
+              "fz_cap2m": "",
+              "fz_cap2mb": "",
+              "cap_animate_2": "fadeInDown",
+              "caption_3": "Lorem ipsum dolor sit amet, consectetur adipiscing \nelit integer pellentesque ut velit",
+              "color_cap3": "#ffffff",
+              "fz_cap3": "s",
+              "fz_cap3t": "",
+              "fz_cap3m": "",
+              "fz_cap3mb": "",
+              "cap_animate_3": "zoomIn",
+              "title_link": "",
+              "color_cap_link": "#fff",
+              "background_cap_link": "#000",
+              "cap_link_animate": "bounce",
+              "text_align": "left",
+              "width_position": "55",
+              "width_position_desktop": "75",
+              "width_position_tablet": "100",
+              "width_position_mobile": "100",
+              "left_position": "10",
+              "left_position_desktop": "10",
+              "left_position_tablet": "10",
+              "left_position_mobile": "10",
+              "top_position": "25.7",
+              "top_position_desktop": "20",
+              "top_position_t": "50",
+              "top_position_m": "50",
+              "slider_link": "#"
+            }
+          }
+        },
+        "block_order": [
+          "1528274241275",
+          "1528433230156",
+          "1528433236151"
+        ],
+        "settings": {
+          "autoplay": false,
+          "arrows": false,
+          "dots": true,
+          "has_fullwidth": true,
+          "distance_top": "0",
+          "distance_bottom": "40px"
+        }
+      },
+      "nov-gallery-image": {
+        "type": "nov-gallery-image",
+        "blocks": {
+          "1529143775247": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "cta_label": "",
+              "link": "",
+              "class": ""
+            }
+          }
+        },
+        "block_order": [
+          "1529143775247"
+        ],
+        "settings": {
+          "title": "Vinova Products Slider",
+          "title_alignment": "text-left",
+          "spacing": "0",
+          "has_fullwidth": true,
+          "background_color": "",
+          "class_section": "",
+          "distance_top": "30px",
+          "distance_bottom": "30px"
+        }
+      },
+      "nov-blog": {
+        "type": "nov-blog",
+        "settings": {
+          "title": "Latest posts",
+          "subheading": "",
+          "title_alignment": "text-left",
+          "blog": "news",
+          "type_option": "slider",
+          "grid_number": 1,
+          "grid_number_lg_tablet": 1,
+          "items_tablet": 2,
+          "items_mobile": 2,
+          "number_row": "1",
+          "limit": 8,
+          "show_image": true,
+          "show_dots": true,
+          "show_nav": false,
+          "blog_show_comments": false,
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "blog_show_excerpt": false,
+          "show_view_all": false,
+          "class": "",
+          "has_fullwidth": true,
+          "background_color": "",
+          "background_image": "",
+          "distance_top": "0",
+          "distance_bottom": "80px"
+        }
+      },
+      "nov-testimonials": {
+        "type": "nov-testimonials",
+        "settings": {
+          "title": "",
+          "title_alignment": "text-left",
+          "show_dots": true,
+          "background_color": "#f1efe8",
+          "background_image": "",
+          "full_width": true,
+          "class": "",
+          "distance_top": "30px",
+          "distance_bottom": "30px"
+        }
+      },
+      "nov-manufacture": {
+        "type": "nov-manufacture",
+        "blocks": {
+          "1528360735012": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "1528361007518": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "1528361022544": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "1528361033903": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "1528361042661": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "1528361050747": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1528360735012",
+          "1528361007518",
+          "1528361022544",
+          "1528361033903",
+          "1528361042661",
+          "1528361050747"
+        ],
+        "settings": {
+          "class": "",
+          "show_number": "6",
+          "number_tablet": "4",
+          "number_mobile": "2",
+          "limit": 8,
+          "spacing": "10",
+          "background_color": "",
+          "background_image": "",
+          "has_fullwidth": true,
+          "distance_top": "30px",
+          "distance_bottom": "30px"
+        }
+      },
+      "nov-newsletter": {
+        "type": "nov-newsletter",
+        "settings": {
+          "section_title": "Newsletter",
+          "color_title": "",
+          "subheading": "Sign up for newsletter to receive special offers",
+          "color_subheading": "",
+          "background_color": "",
+          "background_image": "",
+          "full_width": false,
+          "distance_top": "30px",
+          "distance_bottom": "30px"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "custom_css": [
+
+        ],
+        "settings": {
+          "blog_show_image_feature": true,
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "nov-page-contact": {
+        "type": "nov-page-contact",
+        "settings": {
+          "iframe_map": "",
+          "contact_email": "shopify:\/\/shop_images\/icon-contact-3_100x_59dd5fb7-3e73-4d8f-b2c9-0a205d565074.png",
+          "email": "hello@aliasgoodskin.com",
+          "contact_address": "shopify:\/\/shop_images\/icon-contact-2_100x_505e3925-33d3-497e-bc7e-1dbabf7e64e9.png",
+          "addr": "P.O. Box 131 Singapore 913017",
+          "contact_hotline": "shopify:\/\/shop_images\/icon-contact-1_100x_3c666570-737a-464d-bbd7-03a1f4619354.png",
+          "hotline": "Coming Soon!",
+          "title_contact_message": "Contact Us",
+          "sub_contact_message": "We are always happy to hear from our customers. Whether you have a question about our products, need help with an order, or just want to say hello, our team is here to assist you.  Feel free to reach out to us <br><br>Our customer service team is available from Monday to Friday, 9:00am - 5:00pm EST. We strive to respond to all inquiries within 24 hours.<br><br>You can also connect with us on social media for updates on our latest products and promotions."
+        }
+      },
+      "nov-header": {
+        "type": "nov-header",
+        "blocks": {
+          "22027ec9-aee5-48a3-aed3-ae3cb3dc4bd0": {
+            "type": "text",
+            "settings": {
+              "novmenu_item": "Body",
+              "submenu_width": "100%",
+              "collection_enable": true,
+              "novmenu_collection_col_lg": "col-xl-3",
+              "novmenu_collection_col": "col-lg-12",
+              "name_collec_1": "Best Sellers",
+              "size_title_1": "14px",
+              "color_title_1": "#1a1a1a",
+              "link_1": "#",
+              "name_collec_2": "New Arrival",
+              "size_title_2": "14px",
+              "color_title_2": "#1a1a1a",
+              "link_2": "#",
+              "name_collec_3": "Trending now",
+              "size_title_3": "14px",
+              "color_title_3": "#1a1a1a",
+              "link_3": "#",
+              "name_collec_4": "On Sale <span>(Up To 70 %)<\/span>",
+              "size_title_4": "14px",
+              "color_title_4": "#1a1a1a",
+              "link_4": "#",
+              "name_collec_5": "",
+              "size_title_5": "14px",
+              "color_title_5": "#1a1a1a",
+              "link_5": "",
+              "novmenu_menu_enable": true,
+              "novmenu_menu_col_lg": "col-xl-9",
+              "novmenu_menu_col": "col-lg-12",
+              "novmenu_menu_menucol_lg": "col-xl-4",
+              "novmenu_menu_menucol": "col-lg-12",
+              "banner_enable": false,
+              "novmenu_banner_col_lg": "col-xl-4",
+              "novmenu_banner_col": "col-lg-4",
+              "novmenu_banner_enable": false,
+              "image_size": "255x300",
+              "novmenu_banner_link": "",
+              "product_enable": false,
+              "novmenu_product_col_lg": "col-xl-4",
+              "novmenu_product_col": "col-lg-4",
+              "title_product": "Featured Product",
+              "size_title": "14px",
+              "color_title": "#1a1a1a",
+              "product_1": "",
+              "product_2": "",
+              "product_3": "",
+              "autoplay": true,
+              "show_dots": true,
+              "class": "menu_x"
+            }
+          },
+          "dc744f15-67a1-4318-a0f6-addd03cd6ab3": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "announcement_text": "<h5>Sign up & get your free cleanser guide now!<\/h5>",
+              "announcement_text_color": "#515050"
+            }
+          },
+          "a7db2f69-ea9c-4e5d-8420-8fc3cbe0247d": {
+            "type": "announcement",
+            "settings": {
+              "announcement_text": "<h5>Free shipping on all orders - limited time only!<\/h5>",
+              "announcement_text_color": "#494949"
+            }
+          },
+          "8e19c611-8cc3-4964-b4f7-55f5f621ebbe": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "announcement_text": "<h5>Free local shipping above S$68<\/h5>",
+              "announcement_text_color": "#494949"
+            }
+          },
+          "ad7c7569-0beb-4467-b270-e72e6e0f6bfc": {
+            "type": "announcement",
+            "settings": {
+              "announcement_text": "<h5>Get your free cleanser with our Bestseller Duo<\/h5>",
+              "announcement_text_color": "#515050"
+            }
+          },
+          "1736c4c3-eaed-43ea-8239-69aaeaca589f": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "announcement_text": "<h5>Free international shipping above S$180<\/h5>",
+              "announcement_text_color": "#494949"
+            }
+          }
+        },
+        "block_order": [
+          "22027ec9-aee5-48a3-aed3-ae3cb3dc4bd0",
+          "dc744f15-67a1-4318-a0f6-addd03cd6ab3",
+          "a7db2f69-ea9c-4e5d-8420-8fc3cbe0247d",
+          "8e19c611-8cc3-4964-b4f7-55f5f621ebbe",
+          "ad7c7569-0beb-4467-b270-e72e6e0f6bfc",
+          "1736c4c3-eaed-43ea-8239-69aaeaca589f"
+        ],
+        "custom_css": [
+          ".list-inline-item a i {color: #000;}",
+          ".zmdi-sort-amount-desc {font-size: 45px !important;}",
+          ".vertical_dropdown i {font-size: 24px; margin-left: 10px;}"
+        ],
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Alias_good_skin_logo_no_bg.svg",
+          "width_lg": 105,
+          "logo_mobile": "shopify:\/\/shop_images\/Alias_good_skin_logo_no_bg.svg",
+          "width_lg_mb": 90,
+          "social": false,
+          "announcement_bg": "#fffef4",
+          "stickymenu": true,
+          "main_linklist": "main-menu",
+          "size_menu": "1.8rem",
+          "color_menu": "#000000",
+          "novmenu_enable": false,
+          "background_color": "#ffffff",
+          "background_color_mobile": "#ffffff",
+          "color_mobile": "#000000",
+          "background_color_sticky": "#f7f7f7",
+          "background_color_inner": "#ffffff"
+        }
+      },
+      "nov-footer": {
+        "type": "nov-footer",
+        "blocks": {
+          "60142640-4a89-4928-bd2f-0900dc2c1e57": {
+            "type": "block_contact",
+            "settings": {
+              "width_xl_desktop": "col-xl-4",
+              "width_lg_desktop": "col-lg-4",
+              "width_md_tablet": "col-md-12",
+              "width_sm_mobile": "col-sm-12",
+              "block_title": "",
+              "color_title": "#222222",
+              "logo_footer": "shopify:\/\/shop_images\/Alias_good_skin_logo_no_bg.svg",
+              "contact_phone": "",
+              "color_phone": "#222222",
+              "contact_email": "",
+              "color_email": "#222222",
+              "contact_address": "Alias Beauty Pte Ltd. <br>  P.O. Box 131 Singapore 913017",
+              "color_address": "#222222",
+              "contact_hours": "",
+              "color_hours": "#222222",
+              "block_class": "mb-md-60"
+            }
+          },
+          "a212aea3-b44e-42fc-9899-22e993fc92f9": {
+            "type": "block_menu",
+            "settings": {
+              "width_xl_desktop": "col-xl-1",
+              "width_lg_desktop": "col-lg-2",
+              "width_md_tablet": "col-md-12",
+              "width_sm_mobile": "col-sm-12",
+              "block_title": "",
+              "color_title": "#ffffff",
+              "menu_handle": "",
+              "color_menu": "#ffffff",
+              "block_class": ""
+            }
+          },
+          "3ea721f0-020d-4c11-b929-ef1ce5c19ff3": {
+            "type": "block_menu",
+            "settings": {
+              "width_xl_desktop": "col-xl-3",
+              "width_lg_desktop": "col-lg-3",
+              "width_md_tablet": "col-md-6",
+              "width_sm_mobile": "col-sm-6",
+              "block_title": "HELP",
+              "color_title": "#222222",
+              "menu_handle": "information",
+              "color_menu": "#222222",
+              "block_class": ""
+            }
+          },
+          "146745b7-0a81-4eed-a0cd-f0d3be20a867": {
+            "type": "block_menu",
+            "settings": {
+              "width_xl_desktop": "col-xl-3",
+              "width_lg_desktop": "col-lg-3",
+              "width_md_tablet": "col-md-6",
+              "width_sm_mobile": "col-sm-6",
+              "block_title": "COMPANY",
+              "color_title": "#222222",
+              "menu_handle": "footer",
+              "color_menu": "#222222",
+              "block_class": "mb-md-60 mb-xs-0"
+            }
+          }
+        },
+        "block_order": [
+          "60142640-4a89-4928-bd2f-0900dc2c1e57",
+          "a212aea3-b44e-42fc-9899-22e993fc92f9",
+          "3ea721f0-020d-4c11-b929-ef1ce5c19ff3",
+          "146745b7-0a81-4eed-a0cd-f0d3be20a867"
+        ],
+        "custom_css": [
+          ".nov-footer {margin-top: 0;}"
+        ],
+        "settings": {
+          "background_color": "#fffef4",
+          "copyright": "&nbsp; ©2023 Alias for good skin",
+          "color_copyright": "#222222",
+          "payment": "shopify:\/\/shop_images\/Alias_good_skin_logo_no_bg.svg",
+          "menu_copyright": "",
+          "color_menu": "#222222"
+        }
+      },
+      "nov-sidebar-dropdown": {
+        "type": "nov-sidebar-dropdown",
+        "blocks": {
+          "1572337623840": {
+            "type": "block_filter",
+            "settings": {
+              "block_title": "",
+              "block_class": "",
+              "filter_tags": false,
+              "filter_size": true,
+              "filter_size_value": "M, L, X, XL",
+              "filter_color": true,
+              "filter_color_value": "Black, Blue, White, Red, Yellow",
+              "filter_price": true,
+              "price_min": "0",
+              "price_max": "1000"
+            }
+          }
+        },
+        "block_order": [
+          "1572337623840"
+        ],
+        "settings": {
+        }
+      },
+      "nov-policy": {
+        "type": "nov-policy",
+        "blocks": {
+          "1577775924282": {
+            "type": "item_policy",
+            "settings": {
+              "policy_icon": "",
+              "title_policy": "Free Delivery From over order $ 250"
+            }
+          },
+          "1577775930456": {
+            "type": "item_policy",
+            "settings": {
+              "policy_icon": "",
+              "title_policy": "Money back GUARANTEED"
+            }
+          },
+          "1577775933242": {
+            "type": "item_policy",
+            "settings": {
+              "policy_icon": "",
+              "title_policy": "cash on delivery From $ 50"
+            }
+          }
+        },
+        "block_order": [
+          "1577775924282",
+          "1577775930456",
+          "1577775933242"
+        ],
+        "settings": {
+          "width": "col-lg-4",
+          "width_tablet": "col-md-4",
+          "width_xs_mobile": "col-xs-12",
+          "background_color": "",
+          "background_image": "",
+          "has_fullwidth": true,
+          "distance_top": "18px",
+          "distance_bottom": "16px"
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo_max_width": "300",
+          "header": "Coming Soon"
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "newsletter_enable": false,
+          "newsletter_form_heading": "Be the first to know when we launch.",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Notify me"
+        }
+      },
+      "password-footer": {
+        "type": "password-footer",
+        "settings": {
+          "show_share_buttons": true,
+          "social_message": "Spread the word"
+        }
+      },
+      "nov-page-faqs": {
+        "type": "nov-page-faqs",
+        "blocks": {
+          "1600049089505": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What is your exchange policy?",
+              "item_content": "We hope you like our products as much as we do. If not, please leave us a message at hello@aliasgoodskin.com and we will reach out to you for a refund in store credits."
+            }
+          },
+          "1600049113929": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What are the delivery options and when can I receive my order(s)?",
+              "item_content": "We hope you are looking forward to your order!"
+            }
+          },
+          "1600049126585": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Where do you ship to?",
+              "item_content": "We are working hard with our logistics partner to build our network locations internationally.\n\nIf you are outside of Singapore, please send us an email at hello@aliasgoodskin.com"
+            }
+          },
+          "1600049137018": {
+            "type": "faq",
+            "settings": {
+              "item_title": "How long does it take to process my order?",
+              "item_content": "You should receive an order confirmation after checking out successfully. \n\nWe take 1-2 business days to process your order (local). Once your order is ready for shipping, you will receive an email with your shipment tracking number. If you do not receive your shipment tracking number within 2 business days, please contact us at hello@aliasgoodskin.com"
+            }
+          },
+          "1600049150025": {
+            "type": "faq",
+            "settings": {
+              "item_title": "I made a mistake in my shipping address.",
+              "item_content": "Please contact us immediately at hello@aliasgoodskin.com and we will help you sort it out."
+            }
+          },
+          "1600049160417": {
+            "type": "faq",
+            "settings": {
+              "item_title": "I have not received my order.",
+              "item_content": "If you have a shipment tracking number, please allow up to 7 business days for delivery to be made. If you do not receive your order after that, please contact us at hello@aliasgoodskin.com.\n\nIf you do not have a shipment tracking number, please contact us at hello@aliasgoodskin.com to confirm your order has been processed."
+            }
+          },
+          "1600049170281": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What forms of payment do you accept?",
+              "item_content": "We accept Visa, Mastercard, PayNow (Singapore only).\n\nUnfortunately we do not currently accept cash orders or cheques."
+            }
+          },
+          "1600049181962": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Are your products cruelty-free?",
+              "item_content": "Yes, of course! We respect animal rights and do not condone any form of animal cruelty."
+            }
+          },
+          "07978cae-140d-4dec-8f90-af0bd2792f70": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Are your products safe for use for all ages?",
+              "item_content": "Yes, our products are safe for all ages."
+            }
+          },
+          "048d510b-2e34-4110-af00-57b7673582cd": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Are your products completely natural\/organic?",
+              "item_content": "We emphasise the use of high-quality ingredients and it is as much important for our formulation to be safe, stable and effective for your skin.\n\nNot all natural ingredients are safe. Rest assured that our ingredients are tested to be skin-gentle, so you can use our products with peace of mind."
+            }
+          },
+          "547e0bb7-7b87-4162-95bd-a6a3bb1f84a4": {
+            "type": "faq",
+            "settings": {
+              "item_title": "If I have oily\/combination skin, can I use an oil cleanser?",
+              "item_content": "Yes, in fact oil cleanser can be beneficial for oily\/combination skin and with regular use, it can regulate sebum production, which means less oily skin!"
+            }
+          },
+          "b349e46b-6bdb-4c44-863e-8c5a8652fcf5": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Do I need a second cleanse after using the Glow Honey Gel to Oil cleanser?",
+              "item_content": "With the gel-based formula, all residue is completely washed off in a single cleanse. Your skin will feel clean and refreshed in a single wash, no need for a second cleanse."
+            }
+          },
+          "dab47c63-cff6-4c1f-8341-876805ce747e": {
+            "type": "faq",
+            "settings": {
+              "item_title": "If I'm wearing waterproof\/long-wearing make-up, can the Glow Honey Gel to Oil cleanser really remove everything?",
+              "item_content": "We have tested various brands of make-up, including long-wearing foundation, mascara, eyeliner and bold colored lipsticks. Our Glow Honey Gel to Oil cleanser can easily remove each of them, but we would recommend using more product (about 1.5 teaspoon) for better emulsification.\n\nWe also noticed for eye make-up, you can more gently remove them by using the Cloud No.9 Cleansing Puff together with the Glow Honey Gel to Oil cleanser."
+            }
+          },
+          "2c939563-c303-444b-9f3b-2297424303b3": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Where is the Glow Honey Gel to Oil cleanser made?",
+              "item_content": "It's made in Japan, co-formulated with our R&D partner."
+            }
+          },
+          "00e5cfc2-f0e8-4c3a-bb80-b625c1f332bc": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What are the ingredients used?",
+              "item_content": "The Glow Honey Gel to Oil Cleanser features the following ingredients: Honey, Peony Root Extract, Meadowfoam Seed Oil and Sodium PCA."
+            }
+          },
+          "e4deb51a-fd9a-46af-a05a-575185434179": {
+            "type": "faq",
+            "settings": {
+              "item_title": "How do I wash the cleansing puffs?",
+              "item_content": "You can either hand wash them or put them in the washing machine. Please do not put them with white clothing.\n\nAfter each wash, remember to dry them completely to minimise odours."
+            }
+          },
+          "734638b6-9420-4d91-948d-0608935a1c17": {
+            "type": "faq",
+            "settings": {
+              "item_title": "How often should I wash each cleansing puff?",
+              "item_content": "We recommend washing them after 2-3 uses."
+            }
+          },
+          "88802c9a-a89f-4f6a-9cd7-0dd479270286": {
+            "type": "faq",
+            "settings": {
+              "item_title": "How many times can I wash each cleansing puff?",
+              "item_content": "Each puff is can be washed up to 150 times.\n\nA pack of cleansing puff can last you almost a year! This also makes our Cloud No.9 Cleansing Puff a more eco-friendly and sustainable option to make-up wipes, plus save you money too."
+            }
+          },
+          "7ac72500-0836-4211-b0c5-6fd52ef7af7f": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Do you have any discounts or promo codes that I can use for my order?",
+              "item_content": "Yes! We will share the latest with you on our social media pages and emailers.\n\nSign up for an account to receive exclusive offers: \n\nFollow us on Instagram and stay up-to-date with latest offers @alias.goodskin"
+            }
+          }
+        },
+        "block_order": [
+          "1600049089505",
+          "1600049113929",
+          "1600049126585",
+          "1600049137018",
+          "1600049150025",
+          "1600049160417",
+          "1600049170281",
+          "1600049181962",
+          "07978cae-140d-4dec-8f90-af0bd2792f70",
+          "048d510b-2e34-4110-af00-57b7673582cd",
+          "547e0bb7-7b87-4162-95bd-a6a3bb1f84a4",
+          "b349e46b-6bdb-4c44-863e-8c5a8652fcf5",
+          "dab47c63-cff6-4c1f-8341-876805ce747e",
+          "2c939563-c303-444b-9f3b-2297424303b3",
+          "00e5cfc2-f0e8-4c3a-bb80-b625c1f332bc",
+          "e4deb51a-fd9a-46af-a05a-575185434179",
+          "734638b6-9420-4d91-948d-0608935a1c17",
+          "88802c9a-a89f-4f6a-9cd7-0dd479270286",
+          "7ac72500-0836-4211-b0c5-6fd52ef7af7f"
+        ],
+        "settings": {
+          "title": "Frequently asked question",
+          "subheading": ""
+        }
+      },
+      "nov-page-about-us": {
+        "type": "nov-page-about-us",
+        "blocks": {
+          "1600141333789": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text_content": "<p>Welcome to our website, where we offer the best products and services in the industry. Our mission is to provide you with exceptional quality and customer service that exceeds your expectations.<br\/><br\/>At our company, we take pride in offering a wide range of products that cater to your needs. From skincare products to beauty tools, we have everything you need to look and feel your best. We source our products from trusted suppliers, and we make sure that every product is of the highest quality.<br\/><br\/>Our team is made up of experts in the industry, who are dedicated to providing you with the best service possible. We take the time to understand your needs and preferences, and we are always happy to answer any questions you may have.<br\/><br\/>We are committed to building long-term relationships with our customers. That's why we offer a range of services that are designed to make your shopping experience as easy and convenient as possible. From fast and reliable shipping to hassle-free returns, we do everything we can to ensure that you are completely satisfied with your purchase.<br\/><br\/>We believe that everyone deserves to feel confident and beautiful. That's why we offer affordable products that are designed to help you look and feel your best. We are passionate about what we do, and we are committed to making a difference in the lives of our customers.<br\/><br\/>Thank you for choosing us for your beauty needs. We look forward to serving you and helping you achieve your beauty goals.<br\/><br\/><\/p>",
+              "class": "mt-35"
+            }
+          },
+          "1600139586443": {
+            "type": "quote",
+            "disabled": true,
+            "settings": {
+              "text_content": "<p>I am quote block text, consectetur adipiscing elit. Ut ac ligula et mi semper viverra nec a tellus. Curabitur sed diam quis elit tempus venenatis sit amet a tellus. Sed id lectus laoreet, elementum metus at, sagittis sem. Sed ante velit, eleifend sit amet eros lacinia, lobortis vehicula dui. Vivamus fringilla mauris mauris. Aliquam lectus ligula porta a rhoncus sit amet consequat vel nibh. <\/p>",
+              "class": "mt-25 mb-25"
+            }
+          }
+        },
+        "block_order": [
+          "1600141333789",
+          "1600139586443"
+        ],
+        "settings": {
+          "title": "Discover Our Story",
+          "subheading": "Learn about our commitment to quality and customer satisfaction"
+        }
+      },
+      "16181993638d9f1738": {
+        "type": "nov-slideshow",
+        "blocks": {
+          "82caa6a2-5fd8-4985-858f-5378ded57d0c": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ALIAS_0002_022_SS_auto_x2_3dd48ed0-42c5-441d-a4f6-10ee6c21649d.png",
+              "image-display": "cover",
+              "image-position": "center",
+              "caption_1": "Clean. Fresh. Hydrated.",
+              "color_cap1": "#000000",
+              "fz_cap1": "3.4rem",
+              "fz_cap1lg": "3.4rem",
+              "fz_cap1t": "2.5rem",
+              "fz_cap1m": "2.5rem",
+              "fz_cap1mb": "2rem",
+              "cap_animate_1": "flipInX",
+              "caption_2": "Leave your skin with a beautiful afterglow.",
+              "color_cap2": "#222222",
+              "fz_cap2": "4.5rem",
+              "fz_cap2lg": "4.5rem",
+              "fz_cap2t": "3.6rem",
+              "fz_cap2m": "3.6rem",
+              "fz_cap2mb": "3.6rem",
+              "cap_animate_2": "fadeInLeft",
+              "caption_3": "The perfect balance of oil to cleansing molecules, packed with skin-loving ingredients that nourish your skin with each wash",
+              "color_cap3": "#494949",
+              "fz_cap3": "2rem",
+              "fz_cap3lg": "1.8rem",
+              "fz_cap3t": "2rem",
+              "fz_cap3m": "2rem",
+              "fz_cap3mb": "1.5rem",
+              "cap_animate_3": "fadeInLeft",
+              "caption_4": "",
+              "color_cap4": "#000000",
+              "fz_cap4": "",
+              "fz_cap4lg": "",
+              "fz_cap4t": "",
+              "fz_cap4m": "",
+              "fz_cap4mb": "",
+              "cap_animate_4": "bounce",
+              "title_link": "LEARN MORE",
+              "color_cap_link": "#fffef4",
+              "background_cap_link": "#222222",
+              "cap_link": "https:\/\/aliasgoodskin.com\/collections\/frontpage\/products\/glow-honey-gel-to-oil-cleanser",
+              "cap_link_animate": "fadeInLeft",
+              "text_align": "left",
+              "width_position": "50",
+              "width_position_desktop": "50",
+              "width_position_tablet": "80",
+              "width_position_mobile": "80",
+              "left_position": "7",
+              "left_position_desktop": "5",
+              "left_position_tablet": "5",
+              "left_position_mobile": "3",
+              "top_position": "40",
+              "top_position_desktop": "40",
+              "top_position_t": "20",
+              "top_position_m": "18",
+              "top_position_xs": "13",
+              "slider_link": ""
+            }
+          },
+          "db3efd6e-3511-4265-920d-5c0ce9c5e680": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Main_Banner_template_1_b6ace4f7-0509-483c-964d-ec20465c1413.png",
+              "image-display": "cover",
+              "image-position": "center",
+              "caption_1": "",
+              "color_cap1": "#000000",
+              "fz_cap1": "3.4rem",
+              "fz_cap1lg": "3.4rem",
+              "fz_cap1t": "2.5rem",
+              "fz_cap1m": "2.5rem",
+              "fz_cap1mb": "2rem",
+              "cap_animate_1": "flipInX",
+              "caption_2": "Achieve fresh, soft, hydrated skin",
+              "color_cap2": "#222222",
+              "fz_cap2": "4.5rem",
+              "fz_cap2lg": "4.5rem",
+              "fz_cap2t": "3.6rem",
+              "fz_cap2m": "3.6rem",
+              "fz_cap2mb": "3.6rem",
+              "cap_animate_2": "fadeInLeft",
+              "caption_3": "Gentle triple-action formula to cleanse,<br> protect and nourish your skin.",
+              "color_cap3": "#494949",
+              "fz_cap3": "2rem",
+              "fz_cap3lg": "1.8rem",
+              "fz_cap3t": "2rem",
+              "fz_cap3m": "2rem",
+              "fz_cap3mb": "1.5rem",
+              "cap_animate_3": "fadeInLeft",
+              "caption_4": "",
+              "color_cap4": "#000000",
+              "fz_cap4": "",
+              "fz_cap4lg": "",
+              "fz_cap4t": "",
+              "fz_cap4m": "",
+              "fz_cap4mb": "",
+              "cap_animate_4": "bounce",
+              "title_link": "LEARN MORE",
+              "color_cap_link": "#fffef4",
+              "background_cap_link": "#222222",
+              "cap_link": "https:\/\/aliasgoodskin.com\/collections\/frontpage\/products\/glow-honey-gel-to-oil-cleanser",
+              "cap_link_animate": "fadeInLeft",
+              "text_align": "left",
+              "width_position": "50",
+              "width_position_desktop": "45",
+              "width_position_tablet": "80",
+              "width_position_mobile": "80",
+              "left_position": "7",
+              "left_position_desktop": "5",
+              "left_position_tablet": "5",
+              "left_position_mobile": "3",
+              "top_position": "40",
+              "top_position_desktop": "40",
+              "top_position_t": "20",
+              "top_position_m": "18",
+              "top_position_xs": "13",
+              "slider_link": ""
+            }
+          },
+          "16181993638d9f1738-1": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Main_Banner_No_BG.png",
+              "image-display": "cover",
+              "image-position": "right",
+              "caption_1": "Clean. Fresh. Hydrated.",
+              "color_cap1": "#000000",
+              "fz_cap1": "4.5rem",
+              "fz_cap1lg": "4.5rem",
+              "fz_cap1t": "3.6rem",
+              "fz_cap1m": "3.6rem",
+              "fz_cap1mb": "2.5rem",
+              "cap_animate_1": "flipInX",
+              "caption_2": "Leave your skin with a beautiful afterglow.",
+              "color_cap2": "#000000",
+              "fz_cap2": "2.4rem",
+              "fz_cap2lg": "2.4rem",
+              "fz_cap2t": "1.6rem",
+              "fz_cap2m": "1.6rem",
+              "fz_cap2mb": "1.6rem",
+              "cap_animate_2": "fadeInLeft",
+              "caption_3": "The perfect balance of oil to cleansing molecules, packed with skin-loving ingredients that nourish with each wash",
+              "color_cap3": "#000000",
+              "fz_cap3": "",
+              "fz_cap3lg": "",
+              "fz_cap3t": "",
+              "fz_cap3m": "",
+              "fz_cap3mb": "",
+              "cap_animate_3": "fadeInUp",
+              "caption_4": "",
+              "color_cap4": "#000000",
+              "fz_cap4": "",
+              "fz_cap4lg": "",
+              "fz_cap4t": "",
+              "fz_cap4m": "",
+              "fz_cap4mb": "",
+              "cap_animate_4": "bounce",
+              "title_link": "LEARN MORE",
+              "color_cap_link": "#fffef4",
+              "background_cap_link": "#222222",
+              "cap_link": "#",
+              "cap_link_animate": "fadeInUp",
+              "text_align": "left",
+              "width_position": "50",
+              "width_position_desktop": "50",
+              "width_position_tablet": "80",
+              "width_position_mobile": "80",
+              "left_position": "0",
+              "left_position_desktop": "0",
+              "left_position_tablet": "0",
+              "left_position_mobile": "0",
+              "top_position": "36",
+              "top_position_desktop": "25",
+              "top_position_t": "35",
+              "top_position_m": "24",
+              "top_position_xs": "30",
+              "slider_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "82caa6a2-5fd8-4985-858f-5378ded57d0c",
+          "db3efd6e-3511-4265-920d-5c0ce9c5e680",
+          "16181993638d9f1738-1"
+        ],
+        "custom_css": [
+          ".slide-image {background-position-x: 18%; background-position-y: 20%;}"
+        ],
+        "settings": {
+          "height_slideshow_larges_desktop": "850px",
+          "height_slideshow_large_desktop": "800px",
+          "height_slideshow_desktop": "650px",
+          "height_slideshow_tablet": "550px",
+          "height_slideshow_mobile": "400px",
+          "height_slideshow_mobile_small": "401px",
+          "autoplay": true,
+          "arrows": true,
+          "dots": false,
+          "has_fullwidth": true,
+          "distance_top": "",
+          "distance_bottom": "0"
+        }
+      },
+      "4b771b14-e621-4bea-ba58-976e458d8cc0": {
+        "type": "logo-list",
+        "blocks": {
+          "bce95bb4-1a86-4b81-b8f0-67c92e7229bb": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "836a5c5c-2347-405f-93c2-7cf4d215b552": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "59ba3d77-cbc3-4ca7-8a45-5735ee427251": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "71302076-bb4a-445e-a1e6-bd34bb7ab8b6": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "e89c817b-921b-4055-92dd-7688f59eb031": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "f72e5e24-a6b3-4a9d-ba54-3bfe52233cc8": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "85f5bb3a-edf3-46c9-bbae-1869e8d1627a": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "bce95bb4-1a86-4b81-b8f0-67c92e7229bb",
+          "836a5c5c-2347-405f-93c2-7cf4d215b552",
+          "59ba3d77-cbc3-4ca7-8a45-5735ee427251",
+          "71302076-bb4a-445e-a1e6-bd34bb7ab8b6",
+          "e89c817b-921b-4055-92dd-7688f59eb031",
+          "f72e5e24-a6b3-4a9d-ba54-3bfe52233cc8",
+          "85f5bb3a-edf3-46c9-bbae-1869e8d1627a"
+        ],
+        "disabled": true,
+        "custom_css": [
+          ".logo-main {padding-top: 90px;}"
+        ],
+        "settings": {
+          "title": "As Featured In",
+          "background_color": "#fffef4",
+          "heading_size": 38,
+          "slidesToShow": 4,
+          "slidesToScroll": 1,
+          "autoplay": true,
+          "autoplaySpeed": 3000,
+          "dots": false,
+          "arrows": true
+        }
+      },
+      "0ef3e06a-b2a8-4ee7-b9df-4df2e643e282": {
+        "type": "nov-newsletter",
+        "custom_css": [
+          ".container_1320 {width: 100%; max-width: -webkit-fill-available;}"
+        ],
+        "settings": {
+          "section_title": "Stay Updated and Glowing!",
+          "color_title": "#222222",
+          "subheading": "Sign up to our newsletter to stay updated on our latest products, offers, and beauty tips. Plus receive news on our exclusive price drops for subscribers. Don't miss out on the opportunity to be an Alias for good skin insider!",
+          "color_subheading": "#494949",
+          "title_alignment": "text-center",
+          "background_color": "#fffef4",
+          "social_newsletter": true,
+          "full_width": false,
+          "distance_top": "80px",
+          "distance_bottom": "40px"
+        }
+      },
+      "896bd1b3-7b46-4e1b-bfa6-d2bb22c238f1": {
+        "type": "custom-liquid",
+        "settings": {
+          "code": "<style>\n\n@media(max-width: 767px){\n.custom__item {\n    padding-top: 40px !important;\n}\n.distance.cas {\n    padding-top: 60px !important;\n    padding-bottom: 60px !important;\n}\n.item_image {\n    margin-top: 40px;\n}\n.ddv .container_ct .block_title {\n    text-align: center !important;\n}\n.distance.pt-md-90.ddv {\n    padding-top: 40px!important;\n    text-align: center;\n    padding-bottom: 10px !important;\n}\n.cc .title_block {\n    margin-top: 30px;\n}\n.nov-section-blog .nov-slick-carousel .slick-arrow {\n    top: 95%;\n}\n\n.section-slideshow .slick-slide .slide-image {\n    height: 280px;\n}\n.header-mobile .mobile_logo {\n    margin-right: 0;\n}\n  \n.slideshow .slick-slide {\n    height: auto !important;\n}\n  .position-absolute {\n    position: unset !important;\n}\n  .slideshow .main-slider {\n    height: auto !important;\n}\n.section-slideshow .content-caption {\n    position: unset;\n    height: auto;\n}\n.content-1 {\n    width: 100% !important;\n    text-align: center;\n    padding-top: 20px;\n}\n.slideshow {\n    background: #fffef4;\n}\nfigcaption.caption {\n    background: #fffef4;\n}\n}\n<\/style>",
+          "background_color": "#fffef4",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "37af7fff-ced8-49e8-9585-f110153e6511": {
+        "type": "image-with-text",
+        "blocks": {
+          "37af7fff-ced8-49e8-9585-f110153e6511-1682757803ca878195-1": {
+            "type": "block_image",
+            "settings": {
+              "width": "col-xl-6",
+              "width_lg": "col-lg-6",
+              "width_md": "col-md-6",
+              "image": "shopify:\/\/shop_images\/Model_8a2224f5-d0fa-483b-89ee-45a29104f663.png",
+              "class_image": ""
+            }
+          },
+          "37af7fff-ced8-49e8-9585-f110153e6511-1682757803ca878195-0": {
+            "type": "block_text",
+            "settings": {
+              "width": "col-xl-6",
+              "width_lg": "col-lg-6",
+              "width_md": "col-md-6",
+              "title": "Get fresh, soft,<br>hydrated skin",
+              "color_title": "#000000",
+              "subtitle": "",
+              "text": "<p>With our Glow Honey cleanser, your skin will always be:<br\/><br\/><\/p><ul><li>perfectly cleansed<\/li><li>protected from skin irritation caused by over-washing<\/li><li>fresh, soft and hydrated<\/li><\/ul><p><br\/>The secret lies in the delicate balance of cleansing oils and cleansing molecules.<br\/><br\/>The cleansing oils effectively remove makeup, sunscreen and other impurities. The cleansing molecules ensure a clean wash, without the need for a second cleanse - minimizing skin irritation from over-washing.<br\/><br\/><\/p>",
+              "color_sub": "#000000",
+              "text-align": "left",
+              "content-align": "center",
+              "show_button": false,
+              "button_label": "SHOP NOW",
+              "size_button": "12px",
+              "color_button": "#ffffff",
+              "bg_title_link": "#000000",
+              "button_link": "https:\/\/aliasgoodskin.com\/collections\/frontpage\/products\/glow-honey-gel-to-oil-cleanser",
+              "product-select": "",
+              "product-count": "",
+              "show-icons": false,
+              "icon_1_heading": "",
+              "icon_1_description": "",
+              "icon_2_heading": "",
+              "icon_2_description": "",
+              "icon_3_heading": "",
+              "icon_3_description": "",
+              "icon_4_heading": "",
+              "icon_4_description": "",
+              "class_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "37af7fff-ced8-49e8-9585-f110153e6511-1682757803ca878195-1",
+          "37af7fff-ced8-49e8-9585-f110153e6511-1682757803ca878195-0"
+        ],
+        "custom_css": [
+
+        ],
+        "settings": {
+          "background_color": "rgba(0,0,0,0)",
+          "has_fullwidth": false,
+          "class": "mb-first no-bt-margin",
+          "distance_top": "30px",
+          "distance_bottom": "30px"
+        }
+      },
+      "382ae805-8587-4388-b010-08e42d8b1961": {
+        "type": "custom-video-slider",
+        "blocks": {
+          "20364570-6721-412d-bac0-691a5b3137b2": {
+            "type": "logo_image",
+            "settings": {
+              "link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/496c9b345e6043e7b725e91cf500b13b.mp4",
+              "caption": "",
+              "mobile_thumbnail": "shopify:\/\/shop_images\/Untitled_design_8ed10937-e09c-4293-bee1-f08375dc5a9d.png"
+            }
+          },
+          "69a418b4-1ea3-446e-b49b-c3060f988cde": {
+            "type": "logo_image",
+            "settings": {
+              "link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dd208d57ca2e493aab466d0ec413f48b.mp4",
+              "caption": "",
+              "mobile_thumbnail": "shopify:\/\/shop_images\/2.png"
+            }
+          },
+          "e5177c0d-d5f7-48e7-81ef-7922b8b7de07": {
+            "type": "logo_image",
+            "settings": {
+              "link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a63234512d6d40e19864ea6173e6dcec.mp4",
+              "caption": "",
+              "mobile_thumbnail": "shopify:\/\/shop_images\/3.png"
+            }
+          }
+        },
+        "block_order": [
+          "20364570-6721-412d-bac0-691a5b3137b2",
+          "69a418b4-1ea3-446e-b49b-c3060f988cde",
+          "e5177c0d-d5f7-48e7-81ef-7922b8b7de07"
+        ],
+        "custom_css": [
+
+        ],
+        "settings": {
+        }
+      },
+      "page-faqs-delivery": {
+        "type": "page-faqs-delivery",
+        "blocks": {
+          "81372c41-05e1-4c91-98d8-8ad714178aec": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What is your exchange policy?",
+              "item_content": "<p>We hope you like our products as much as we do. If not, please leave us a message at <a href=\"mailto:hello@aliasgoodskin.com\" target=\"_blank\" title=\"hello@aliasgoodskin.com\">hello@aliasgoodskin.com<\/a> and we will reach out to you for a refund in store credits.<\/p>",
+              "item_content2": ""
+            }
+          },
+          "242fe2fe-3815-44fe-9662-dac9b83afefd": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What are the delivery options and when can I receive my order(s)?",
+              "item_content": "<p>We hope you are looking forward to your order!<\/p>",
+              "item_content2": "<br>\n<table>\n<tr>\n<th colspan=\"3\">Delivery Options<\/th>\n<\/tr>\n<tr>\n<td>Standard (within SG only)<\/td>\n<td>SGD 2.90 for orders below $68<\/td>\n<td>5-7 business days<\/td>\n<\/tr>\n<tr>\n<td>International<br>(outside of SG)<\/td>\n<td>Send us an email at <a href=\"mailto:hello@aliasgoodskin.com\">hello@aliasgoodskin.com<\/a>\n<\/td>\n<td>Depends on destination<\/td>\n<\/tr>\n<\/table>"
+            }
+          },
+          "58489aec-de51-43f0-9fd0-af9344d700d6": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Where do you ship to?",
+              "item_content": "<p>We are working hard with our logistics partner to build our network locations internationally.<\/p><p>If you are outside of Singapore, please send us an email at <a href=\"mailto:hello@aliasgoodskin.com\" target=\"_blank\" title=\"hello@aliasgoodskin.com\">hello@aliasgoodskin.com<\/a><\/p>",
+              "item_content2": ""
+            }
+          },
+          "5ec2116d-7b76-48b7-9b8f-1e5b404a4b7c": {
+            "type": "faq",
+            "settings": {
+              "item_title": "How long does it take to process my order?",
+              "item_content": "<p>You should receive an order confirmation after checking out successfully.<\/p><p>We take 1-2 business days to process your order (local). Once your order is ready for shipping, you will receive an email with your shipment tracking number. If you do not receive your shipment tracking number within 2 business days, please contact us at <a href=\"mailto:hello@aliasgoodskin.com\" target=\"_blank\" title=\"hello@aliasgoodskin.com\">hello@aliasgoodskin.com.<\/a><\/p>",
+              "item_content2": ""
+            }
+          },
+          "a8a37b71-035c-48d3-806e-ab14f98c3fd0": {
+            "type": "faq",
+            "settings": {
+              "item_title": "I made a mistake in my shipping address.",
+              "item_content": "<p>Please contact us immediately at <a href=\"mailto:hello@aliasgoodskin.com\" target=\"_blank\" title=\"hello@aliasgoodskin.com\">hello@aliasgoodskin.com<\/a> and we will help you sort it out.<\/p>",
+              "item_content2": ""
+            }
+          },
+          "50ce5c80-e4a3-4ace-bdaa-1a63b34b185c": {
+            "type": "faq",
+            "settings": {
+              "item_title": "I have not received my order.",
+              "item_content": "<p>If you have a shipment tracking number, please allow up to 7 business days for delivery to be made. If you do not receive your order after that, please contact us at <a href=\"mailto:hello@aliasgoodskin.com\" target=\"_blank\" title=\"hello@aliasgoodskin.com\">hello@aliasgoodskin.com.<\/a><\/p><p>If you do not have a shipment tracking number, please contact us at <a href=\"mailto:hello@aliasgoodskin.com\" target=\"_blank\" title=\"hello@aliasgoodskin.com\">hello@aliasgoodskin.com<\/a> to confirm your order has been processed.<\/p>",
+              "item_content2": ""
+            }
+          }
+        },
+        "block_order": [
+          "81372c41-05e1-4c91-98d8-8ad714178aec",
+          "242fe2fe-3815-44fe-9662-dac9b83afefd",
+          "58489aec-de51-43f0-9fd0-af9344d700d6",
+          "5ec2116d-7b76-48b7-9b8f-1e5b404a4b7c",
+          "a8a37b71-035c-48d3-806e-ab14f98c3fd0",
+          "50ce5c80-e4a3-4ace-bdaa-1a63b34b185c"
+        ],
+        "settings": {
+          "title": "Delivery, Shipping & Exchanges",
+          "subheading": ""
+        }
+      },
+      "page-faqs-payment": {
+        "type": "page-faqs-payment",
+        "blocks": {
+          "8742f54a-e462-4486-b941-782e6b75ddaa": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What forms of payment do you accept?",
+              "item_content": "<p>We accept Visa, Mastercard, PayNow (SG only).<\/p><p>Unfortunately we do not accept cash orders or cheques currently.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "8742f54a-e462-4486-b941-782e6b75ddaa"
+        ],
+        "settings": {
+          "title": "Payment",
+          "subheading": ""
+        }
+      },
+      "page-faqs-about": {
+        "type": "page-faqs-about",
+        "blocks": {
+          "7f93cdfa-5c75-4915-8857-e1ba04a13f34": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Are your products cruelty-free?",
+              "item_content": "<p>Yes, of course! We respect animal rights and do not condone any form of animal cruelty.<\/p>"
+            }
+          },
+          "6866f907-4430-4d3f-8caf-131a4c8ab968": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Are your products safe for use for all ages?",
+              "item_content": "<p>Yes, our products are safe for all ages.<\/p>"
+            }
+          },
+          "5c8eeada-a708-4530-8352-0dbb89b4966c": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Are your products completely natural\/organic?",
+              "item_content": "<p>We emphasize on the use of high-quality ingredients and it is as much important for our formulation to be safe, stable and effective for your skin.<\/p><p>Unfortunately, not all natural ingredients are safe. Rest assured our ingredients are tested for being skin-gentle, so you can use our products safely.<\/p><p>Learn more about our ingredients <a href=\"\/products\/bestseller-bundle-cleanser-puff-free-gift\" title=\"Bestseller Duo\">here. <\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "7f93cdfa-5c75-4915-8857-e1ba04a13f34",
+          "6866f907-4430-4d3f-8caf-131a4c8ab968",
+          "5c8eeada-a708-4530-8352-0dbb89b4966c"
+        ],
+        "settings": {
+          "title": "About Alias for good skin products",
+          "subheading": ""
+        }
+      },
+      "page-faqs-about2": {
+        "type": "page-faqs-about2",
+        "blocks": {
+          "cc721d9c-8dee-42b1-a73b-8236a02a7cf4": {
+            "type": "faq",
+            "settings": {
+              "item_title": "If I have oily\/combination skin, can I use an oil cleanser?",
+              "item_content": "<p>Yes, in fact oil cleanser can be beneficial for oily\/combination skin and with regular use, it can regulate sebum production, which means less oily skin!<\/p>"
+            }
+          },
+          "9c7349da-7c6b-4aee-8623-6d00347b11cf": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Do I need a second cleanse after using the Glow Honey Gel to Oil cleanser?",
+              "item_content": "<p>With the gel-based formula, all residue is completely washed off in a single cleanse. Your skin will feel clean and refreshed in a single wash, no need for a second cleanse.<\/p><p>You can learn more about the benefits of oil cleansing on our <a href=\"\/blogs\/alias-for-good-skin-blog\" title=\"Alias-For Good Skin Blog\">Glowing Skin blog.<\/a><\/p>"
+            }
+          },
+          "28cebaa4-d0b8-4c8b-a02e-9920bb2ecf81": {
+            "type": "faq",
+            "settings": {
+              "item_title": "If I'm wearing waterproof\/long-wearing make-up, can the Glow Honey Gel to Oil cleanser really remove everything?",
+              "item_content": "<p>We have tested various brands of make-up, including long-wearing foundation, mascara, eyeliner and bold colored lipsticks. Our Glow Honey Gel to Oil cleanser can easily remove each of them, but we would recommend using more product (about 1.5 teaspoon) for better emulsification.<\/p><p>We also noticed for eye make-up, you can more gently remove them by using the Cloud No.9 Cleansing Puff together with the Glow Honey Gel to Oil cleanser.<\/p><p>If you regularly wear mascara\/eyeliner, you should try our <a href=\"\/products\/bestseller-bundle-cleanser-puff-free-gift\" title=\"Bestseller Duo\">Best Seller bundle.<\/a><\/p>"
+            }
+          },
+          "4ffcba17-9c89-48fa-94c1-270ea4a7b085": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Where is the Glow Honey Gel to Oil cleanser made?",
+              "item_content": "<p>It's made in Japan, co-formulated with our R&D partner.<\/p>"
+            }
+          },
+          "247c9b56-49fa-4d5f-bea0-a3100b65fee0": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What are the ingredients used?",
+              "item_content": "<p>Our hero ingredients include Honey, Peony Root Extract, Meadowfoam Seed Oil and Sodium PCA.<\/p><p>Learn more about their benefits <a href=\"\/products\/glow-honey-gel-to-oil-cleanser\" title=\"Glow Honey Gel to Oil Cleanser\">here.<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "cc721d9c-8dee-42b1-a73b-8236a02a7cf4",
+          "9c7349da-7c6b-4aee-8623-6d00347b11cf",
+          "28cebaa4-d0b8-4c8b-a02e-9920bb2ecf81",
+          "4ffcba17-9c89-48fa-94c1-270ea4a7b085",
+          "247c9b56-49fa-4d5f-bea0-a3100b65fee0"
+        ],
+        "settings": {
+          "title": "About Glow Honey Gel to Oil cleanser",
+          "subheading": ""
+        }
+      },
+      "page-faqs-about3": {
+        "type": "page-faqs-about3",
+        "blocks": {
+          "2ea89660-fb7c-4a76-982a-2445bd2d4c60": {
+            "type": "faq",
+            "settings": {
+              "item_title": "How do I wash the cleansing puffs?",
+              "item_content": "<p>You can either hand wash them or put them in the washing machine. Please do not put them with white clothing.<\/p><p>After each wash, remember to dry them completely to minimize odors.<\/p>"
+            }
+          },
+          "7ff039fb-65cc-4c98-bf5a-85e3e01cfe74": {
+            "type": "faq",
+            "settings": {
+              "item_title": "How often should I wash each cleansing puff?",
+              "item_content": "<p>We recommend washing them after 2-3 use.<\/p>"
+            }
+          },
+          "6de040c1-7fea-470b-b69b-c9491257906e": {
+            "type": "faq",
+            "settings": {
+              "item_title": "How many times can I wash each cleansing puff?",
+              "item_content": "<p>Each puff is can be washed up to 150x.<\/p><p>A pack of cleansing puff can last you almost a year! This also makes our Cloud No.9 Cleansing Puff a more eco-friendly and sustainable option to make-up wipes, plus save you more money too.<\/p><p>Get your Cloud No.9 Cleansing Puff <a href=\"\/products\/cloud-no-9-cleansing-puff\" title=\"Cloud No.9 Cleansing Puff\">here.<\/a><\/p><p>Or you can enjoy more savings with our <a href=\"\/products\/bestseller-bundle-cleanser-puff-free-gift\" title=\"Bestseller Duo\">Best seller bundle.<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "2ea89660-fb7c-4a76-982a-2445bd2d4c60",
+          "7ff039fb-65cc-4c98-bf5a-85e3e01cfe74",
+          "6de040c1-7fea-470b-b69b-c9491257906e"
+        ],
+        "settings": {
+          "title": "About Cloud No.9 Cleansing Puff",
+          "subheading": ""
+        }
+      },
+      "page-faqs-promotion": {
+        "type": "page-faqs-promotion",
+        "blocks": {
+          "8fc0888c-8fbe-450d-a191-4738cdd17b10": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Do you have any discounts or promo codes that I can use for my order?",
+              "item_content": "<p>Yes! We will share the latest with you on our social media pages and emailers.<\/p><p><a href=\"https:\/\/aliasgoodskin.com\/account\/register\" title=\"https:\/\/aliasgoodskin.com\/account\/register\">Sign up<\/a> for an account to receive exclusive offers.<\/p><p>Follow us on <a href=\"https:\/\/www.instagram.com\/alias.goodskin\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/alias.goodskin\/\">Instagram <\/a>and stay up-to-date with latest offers. @alias.goodskin<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "8fc0888c-8fbe-450d-a191-4738cdd17b10"
+        ],
+        "settings": {
+          "title": "Promotions & Discounts",
+          "subheading": ""
+        }
+      },
+      "cf0af83d-e25a-4d7e-90e5-e527dbb7714a": {
+        "type": "home-section-blog",
+        "blocks": {
+          "90d48300-92ce-4740-92b2-efc8ea45ac44": {
+            "type": "link",
+            "settings": {
+              "link_url": "shopify:\/\/blogs\/alias-for-good-skin-blog\/5-reasons-why-natural-skincare-products-are-better-for-your-skin",
+              "link_image": "shopify:\/\/shop_images\/1_99d6771f-2612-4241-9b13-af2085635e9a.png",
+              "link_text": "Double cleansing - what it is and how does it benefit your skin?",
+              "button_text": ""
+            }
+          },
+          "c28832e4-20b2-41c7-9921-8f7e881f9989": {
+            "type": "link",
+            "settings": {
+              "link_url": "shopify:\/\/blogs\/alias-for-good-skin-blog\/ingredients-used-in-glow-honey-gel-to-oil-cleanser",
+              "link_image": "shopify:\/\/shop_images\/2_ed516984-1f53-403d-b820-f8b534e3c760.png",
+              "link_text": "The truth about oil cleansers",
+              "button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "90d48300-92ce-4740-92b2-efc8ea45ac44",
+          "c28832e4-20b2-41c7-9921-8f7e881f9989"
+        ],
+        "disabled": true,
+        "settings": {
+          "sc_bg": "#fffef4",
+          "section_title": "Get curated skincare tips and advice from our experts",
+          "section_link": "shopify:\/\/blogs\/alias-for-good-skin-blog",
+          "url_title": "Visit our blog"
+        }
+      },
+      "3dbed9a0-fbdf-4825-84b2-bf4d3e528249": {
+        "type": "nov-img-text",
+        "blocks": {
+          "5ad0b20a-8c18-47c2-bbe7-b4c312ed6c24": {
+            "type": "block_left",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/aicon2.png",
+              "title": "Gentle gel formulation",
+              "class_text": ""
+            }
+          },
+          "27e2f37c-6186-42f5-8e4c-e5d8dc890443": {
+            "type": "block_left",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/001-oil.png",
+              "title": "Transforms into a smooth oil",
+              "class_text": ""
+            }
+          },
+          "d37fbf8d-1666-4407-8a90-eaf7094f377e": {
+            "type": "block_left",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/aicon1-1.png",
+              "title": "Easily removes makeup, SPF and impurities",
+              "class_text": ""
+            }
+          },
+          "67ba8ca4-55de-43a6-9571-c839da068b4a": {
+            "type": "block_right",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/aicon3.png",
+              "title": "Rinses completely clean",
+              "class_text": ""
+            }
+          },
+          "d8c0383f-2407-4026-a350-770291fe9df7": {
+            "type": "block_right",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/skincare.png",
+              "title": "Packed with skin-loving ingredients",
+              "class_text": ""
+            }
+          },
+          "1b5fdb7b-8a30-4cbd-9bb5-965754810244": {
+            "type": "block_right",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/skin-tone.png",
+              "title": "Recommended for all skin types",
+              "class_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "5ad0b20a-8c18-47c2-bbe7-b4c312ed6c24",
+          "27e2f37c-6186-42f5-8e4c-e5d8dc890443",
+          "d37fbf8d-1666-4407-8a90-eaf7094f377e",
+          "67ba8ca4-55de-43a6-9571-c839da068b4a",
+          "d8c0383f-2407-4026-a350-770291fe9df7",
+          "1b5fdb7b-8a30-4cbd-9bb5-965754810244"
+        ],
+        "custom_css": [
+          "@media (max-width: 767px) {.title_block {padding-bottom: 25px; }}"
+        ],
+        "settings": {
+          "title": "<b>Why people love it​<\/b>",
+          "t_color": "#000000",
+          "subheading": "",
+          "desc": "",
+          "title_alignment": "text-center",
+          "image": "shopify:\/\/shop_images\/2_012963b3-72eb-4c31-9bbc-b3d8654c8f3f.png",
+          "background_color": "#fffef4",
+          "has_fullwidth": false,
+          "class": "",
+          "distance_top": "70px",
+          "distance_bottom": "30px"
+        }
+      },
+      "417987dd-2077-47c4-9b25-3ffc86f242c7": {
+        "type": "nov-testimonials",
+        "blocks": {
+          "417987dd-2077-47c4-9b25-3ffc86f242c7-item-1": {
+            "type": "item",
+            "settings": {
+              "star": 5,
+              "author": "Alicia",
+              "info_other": "",
+              "des": "Adding this into my routine, my skin feels refreshed each time."
+            }
+          },
+          "417987dd-2077-47c4-9b25-3ffc86f242c7-item-2": {
+            "type": "item",
+            "settings": {
+              "star": 5,
+              "author": "Lou",
+              "info_other": "",
+              "des": "Really like how easy it is to use after a long day, it even removed my waterproof mascara without much tugging."
+            }
+          },
+          "417987dd-2077-47c4-9b25-3ffc86f242c7-item-3": {
+            "type": "item",
+            "settings": {
+              "star": 5,
+              "author": "Pei Ching",
+              "info_other": "",
+              "des": "The jelly texture is really soft & fresh on the skin. I use it twice a day!"
+            }
+          },
+          "89af6901-d0de-49d8-9ae2-91b7d96dbd7c": {
+            "type": "item",
+            "settings": {
+              "star": 5,
+              "author": "Tricia",
+              "info_other": "",
+              "des": "Removed my makeup, sunscreen effortlessly, love it!"
+            }
+          },
+          "bb18736f-a496-46d0-ab63-c0b47a549e9a": {
+            "type": "item",
+            "settings": {
+              "star": 5,
+              "author": "ML",
+              "info_other": "",
+              "des": "Gentle yet effective. Suitable for people with sensitive skin like me."
+            }
+          }
+        },
+        "block_order": [
+          "417987dd-2077-47c4-9b25-3ffc86f242c7-item-1",
+          "417987dd-2077-47c4-9b25-3ffc86f242c7-item-2",
+          "417987dd-2077-47c4-9b25-3ffc86f242c7-item-3",
+          "89af6901-d0de-49d8-9ae2-91b7d96dbd7c",
+          "bb18736f-a496-46d0-ab63-c0b47a549e9a"
+        ],
+        "custom_css": [
+          ".title-block {font-weight: 600;}"
+        ],
+        "settings": {
+          "title": "",
+          "color_title": "#222222",
+          "title_alignment": "text-center",
+          "avatar": false,
+          "color_name": "#222222",
+          "color_text": "#222222",
+          "show_dots": true,
+          "show_nav": true,
+          "num_items": "3",
+          "spacing": "",
+          "background_color": "#ffffff",
+          "s_star": true,
+          "full_width": false,
+          "class": "",
+          "distance_top": "30px",
+          "distance_bottom": "30px",
+          "testi_link": "shopify:\/\/products\/glow-honey-gel-to-oil-cleanser",
+          "testi_text": "Shop Now"
+        }
+      },
+      "33772911-fcf2-49ef-bb47-37c9d41898cc": {
+        "type": "image-with-text",
+        "blocks": {
+          "1a66dd4f-9445-4670-83f4-aded1e09ea16": {
+            "type": "block_text",
+            "settings": {
+              "width": "col-xl-6",
+              "width_lg": "col-lg-6",
+              "width_md": "col-md-6",
+              "title": "Clean skin is the first step to beautiful skin",
+              "color_title": "#000000",
+              "subtitle": "",
+              "text": "<p>Your cleanser should not be an after-thought.<br\/><br\/>With our Glow Honey Gel to Oil Cleanser, your skin will always:<br\/><br\/><\/p><ul><li>be perfectly cleansed<\/li><li>protected from skin irritation caused by over-washing<\/li><li>feel extra fresh, soft and hydrated<\/li><\/ul>",
+              "color_sub": "#000000",
+              "text-align": "left",
+              "content-align": "center",
+              "show_button": false,
+              "button_label": "SHOP NOW",
+              "size_button": "12px",
+              "color_button": "#ffffff",
+              "bg_title_link": "#000000",
+              "button_link": "https:\/\/aliasgoodskin.com\/collections\/frontpage\/products\/glow-honey-gel-to-oil-cleanser",
+              "product-select": "",
+              "product-count": "",
+              "show-icons": false,
+              "icon_1_heading": "",
+              "icon_1_description": "",
+              "icon_2_heading": "",
+              "icon_2_description": "",
+              "icon_3_heading": "",
+              "icon_3_description": "",
+              "icon_4_heading": "",
+              "icon_4_description": "",
+              "class_text": ""
+            }
+          },
+          "6b562bb5-ef4f-43d3-a2cf-c07920c159b6": {
+            "type": "block_image",
+            "settings": {
+              "width": "col-xl-6",
+              "width_lg": "col-lg-6",
+              "width_md": "col-md-6",
+              "image": "shopify:\/\/shop_images\/Model_8a2224f5-d0fa-483b-89ee-45a29104f663.png",
+              "class_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1a66dd4f-9445-4670-83f4-aded1e09ea16",
+          "6b562bb5-ef4f-43d3-a2cf-c07920c159b6"
+        ],
+        "disabled": true,
+        "settings": {
+          "background_color": "rgba(0,0,0,0)",
+          "has_fullwidth": false,
+          "class": "mb-first no-bt-margin",
+          "distance_top": "30px",
+          "distance_bottom": "30px"
+        }
+      },
+      "cd55f2bb-caa6-413a-8a01-4524eb264731": {
+        "type": "custom-content",
+        "blocks": {
+          "5c59e101-ed58-4314-b1c2-658a641ddb41": {
+            "type": "text",
+            "settings": {
+              "width": "col-xl-12",
+              "width_lg": "col-lg-12",
+              "width_md": "col-md-12",
+              "title": "Clean skin is the first step to beautiful skin",
+              "color_title": "#000000",
+              "sub": "",
+              "color_sub": "#000000",
+              "show_button": false,
+              "button_label": "See On Map",
+              "color_button": "#000000",
+              "bg_title_link": "",
+              "button_link": "",
+              "show_social": false,
+              "alignment": "text-center",
+              "class": "sacc"
+            }
+          }
+        },
+        "block_order": [
+          "5c59e101-ed58-4314-b1c2-658a641ddb41"
+        ],
+        "disabled": true,
+        "settings": {
+          "class": "",
+          "has_fullwidth": false,
+          "background_color": "",
+          "distance_top": "30px",
+          "distance_bottom": ""
+        }
+      },
+      "b9ca3afd-f55e-4b46-bdcf-72b0436f1d50": {
+        "type": "custom-content",
+        "blocks": {
+          "3ce6e487-8a45-431f-b20c-b6582a93d8fb": {
+            "type": "text",
+            "settings": {
+              "width": "col-xl-12",
+              "width_lg": "col-lg-12",
+              "width_md": "col-md-12",
+              "title": "See what our satisfied customers say",
+              "color_title": "#000000",
+              "sub": "",
+              "color_sub": "#000000",
+              "show_button": false,
+              "button_label": "See On Map",
+              "color_button": "#000000",
+              "bg_title_link": "#ffffff",
+              "button_link": "",
+              "show_social": false,
+              "alignment": "text-center",
+              "class": "sacc"
+            }
+          }
+        },
+        "block_order": [
+          "3ce6e487-8a45-431f-b20c-b6582a93d8fb"
+        ],
+        "settings": {
+          "class": "",
+          "has_fullwidth": false,
+          "background_color": "#ffffff",
+          "distance_top": "",
+          "distance_bottom": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "16181993638d9f1738",
+      "896bd1b3-7b46-4e1b-bfa6-d2bb22c238f1",
+      "3dbed9a0-fbdf-4825-84b2-bf4d3e528249",
+      "cd55f2bb-caa6-413a-8a01-4524eb264731",
+      "37af7fff-ced8-49e8-9585-f110153e6511",
+      "382ae805-8587-4388-b010-08e42d8b1961",
+      "b9ca3afd-f55e-4b46-bdcf-72b0436f1d50",
+      "417987dd-2077-47c4-9b25-3ffc86f242c7",
+      "33772911-fcf2-49ef-bb47-37c9d41898cc",
+      "cf0af83d-e25a-4d7e-90e5-e527dbb7714a",
+      "4b771b14-e621-4bea-ba58-976e458d8cc0",
+      "0ef3e06a-b2a8-4ee7-b9df-4df2e643e282"
+    ],
+    "blocks": {
+      "13768625480086291342": {
+        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "._1fragem18._1fragem8o._1fragem95._1fragem82._1fragem9m._1fragemai {padding-top: 0;}"
+    ]
+  }
+}

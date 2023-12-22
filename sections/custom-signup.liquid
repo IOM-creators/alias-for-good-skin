@@ -1,0 +1,127 @@
+<section class="signup-form">
+  <div class="container_ct page-width">
+    <div class="flex-wrap">
+      <div class="part1  mobile-hide">
+        {% if section.settings.desktop_bg != blank %}
+          <img
+          src="{{ section.settings.desktop_bg | img_url: 'original' }}"
+          alt="cleanser image"
+          id="FeaturedImage-{{ section.id }}"
+          class="signup-img"
+        >
+        {% endif %}
+        <div class="text-box">
+          
+        {% if section.settings.banner_title != blank %}<h2 class="title">{{ section.settings.banner_title }}</h2>{% endif %}
+        {% if section.settings.banner_text != blank %}<p>{{ section.settings.banner_text }}</p>{% endif %}
+        </div>
+      </div>
+      <div class="part2">
+        {% if section.settings.mobile_bg != blank %}
+          <img
+                src="{{ section.settings.mobile_bg | img_url: 'original' }}"
+                alt="cleanser image"
+                id="FeaturedImage-{{ section.id }}"
+                class="signup-img mobile-show"
+              >
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .flex-wrap{
+    display: flex;
+    margin: 35px 0;
+    align-items: flex-start;
+  }
+  .flex-wrap > div {
+    flex: 0 0 50%;
+    position: relative;
+  }
+  .part1 img {
+    width: 100%;
+  }
+  .part2 {
+    padding: 0 20px;
+    padding-top: 10%;
+  }
+  .text-box {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+  @media(max-width: 767px){
+    .flex-wrap > div{
+      flex: 0 0 100%;
+    }
+  }
+
+</style>
+<script>
+  jQuery(window).on('load', function() {
+  jQuery("div#shopify-section-template--20917021147430__forms").appendTo(".part2");
+    });
+</script>
+{% schema %}
+  {
+    "name": "Signup Form",
+    "class": "index-section signup-form",
+    "presets": [
+      {
+        "name": "Signup Form",
+        "category": "Forms"
+      }
+    ],
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "desktop_bg",
+        "label": "Desktop Background"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_bg",
+        "label": "Mobile Background"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_title",
+        "label": "Banner Title"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_text",
+        "label": "Banner Text"
+      },
+      {
+        "type": "checkbox",
+        "id": "hidebanner_mb",
+        "label": "Hide Banner Text on Mobile?"
+      },
+      {
+        "type": "textarea",
+        "id": "form_title",
+        "label": "Form Title"
+      },
+      {
+        "type": "textarea",
+        "id": "form_subtitle",
+        "label": "Form Subtitle"
+      },
+      {
+        "type": "textarea",
+        "id": "form_text",
+        "label": "Form Text"
+      }
+      
+      
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

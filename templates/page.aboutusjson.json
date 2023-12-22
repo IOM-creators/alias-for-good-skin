@@ -1,0 +1,348 @@
+{
+  "layout": "theme.liquid",
+  "sections": {
+    "8912a67a-68c6-4012-9d74-592677f82227": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19208409481510__8912a67a-68c6-4012-9d74-592677f82227-block_text-1": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "We believe skincare should be easy and uncomplicated ",
+            "size_title": "2.4rem",
+            "color_title": "#000000",
+            "subtitle": "",
+            "size_sub": "1.8rem",
+            "text": "<p>Our founder has always been a skincare enthusiast. Her first skincare investment was a good oil cleanser and she firmly believes that clean skin forms the basis of a good skincare routine. <br\/><br\/>Through her skincare journey, she learnt that many women face common barriers when it came to skincare – too many products, too many steps and too much information on social media. <br\/><br\/>Often, our skin falls victim to the latest skincare trends. Instead of healthy glowing skin, we end up with red and irritated skin. <br\/><br\/>With this, our founder started on a mission to create a simplified and effective skincare routine, embodying the philosophy of <strong>‘minimalist skincare’.<\/strong> <br\/><br\/><\/p>",
+            "size_text": "1.2rem",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": false,
+            "button_label": "Shop The Essentials",
+            "size_button": "12px",
+            "color_button": "#222222",
+            "bg_title_link": "",
+            "button_link": "",
+            "product-select": "",
+            "product-count": "",
+            "show-icons": false,
+            "icon_1_heading": "",
+            "icon_1_description": "",
+            "icon_2_heading": "",
+            "icon_2_description": "",
+            "icon_3_heading": "",
+            "icon_3_description": "",
+            "icon_4_heading": "",
+            "icon_4_description": "",
+            "class_text": "mb-text-left"
+          }
+        },
+        "template--19208409481510__8912a67a-68c6-4012-9d74-592677f82227-block_image-1": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/1_186032c6-a021-4dd3-9132-f26ded0ce05a.png",
+            "class_image": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19208409481510__8912a67a-68c6-4012-9d74-592677f82227-block_text-1",
+        "template--19208409481510__8912a67a-68c6-4012-9d74-592677f82227-block_image-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "background_color": "",
+        "has_fullwidth": false,
+        "class": "no-bt-margin",
+        "distance_top": "70px",
+        "distance_bottom": "40px"
+      }
+    },
+    "2ade43ea-6459-4680-9983-fa4017de128e": {
+      "type": "nov-img-text",
+      "settings": {
+        "title": "What does ‘minimalist skincare’ mean? ",
+        "t_color": "#000000",
+        "subheading": "",
+        "desc": "<p>At the heart of ‘minimalist skincare’, it is about doing what is important.<br\/>Contrary to the popular 10-step beauty routine, it is about choosing the right skincare routine, products and ingredients that are best for you. <br\/><br\/><\/p><p>Find out how you can benefit from a <a href=\"https:\/\/aliasgoodskin.com\/pages\/philosophy\" title=\"https:\/\/aliasgoodskin.com\/pages\/philosophy\"><strong>minimalist skincare routine<\/strong><\/a><strong>. <\/strong><\/p>",
+        "title_alignment": "text-left",
+        "background_color": "#fffef5",
+        "has_fullwidth": false,
+        "class": "no-bt-margin",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "5f732b30-c383-468e-9a59-8932765bb743": {
+      "type": "nov-img-text",
+      "settings": {
+        "title": "Alias for good skin was created for you to do more with less  ",
+        "t_color": "#000000",
+        "subheading": "",
+        "desc": "<p>Together with our R&D partners in Japan, we are committed to the development of multi-functional formulations and use of quality ingredients, so you can achieve healthy and glowing skin easily<\/p>",
+        "title_alignment": "text-left",
+        "background_color": "#ffffff",
+        "has_fullwidth": false,
+        "class": "no-bt-margin",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "61cc76cb-8d2f-417b-9de7-9299829e84c8": {
+      "type": "nov-img-text",
+      "settings": {
+        "title": "Our promise - a skincare routine you can follow with confidence ",
+        "t_color": "#000000",
+        "subheading": "",
+        "desc": "<p>We have the same skin goals as you. We also understand good skin needs both time and patience.  <br\/><br\/><\/p><p>So, let us share with you the Alias for good skin routine. We promise it is simple and effective, and you can follow the it with confidence every day. No more ‘lazy’ days or feeling guilty about doing less than others.  <br\/><br\/><\/p><p>We have already done the work for you, by developing multi-functional formulations and using quality ingredients to deliver results you can see and feel.  <\/p>",
+        "title_alignment": "text-left",
+        "background_color": "#fffef4",
+        "has_fullwidth": false,
+        "class": "no-bt-margin",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "76058d95-1fab-4303-83e3-a3977c716a19": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19208409481510__76058d95-1fab-4303-83e3-a3977c716a19-block_image-1": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/Blue_Cleanser.png",
+            "class_image": ""
+          }
+        },
+        "template--19208409481510__76058d95-1fab-4303-83e3-a3977c716a19-block_text-1": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "Clean skin is the first step to a healthy and glowing complexion ",
+            "size_title": "2.4rem",
+            "color_title": "#000000",
+            "subtitle": "",
+            "size_sub": "1.8rem",
+            "text": "<p>Our first multi-functional formula – the Glow Honey Gel to Oil cleanser was designed for the perfect single cleanse and a fresh afterglow.  <br\/><br\/><\/p><p>Rather than cleansing your skin with 2 separate products (i.e. double-cleansing), we have created the perfect balance of water-based cleansing molecules and cleansing oils that effectively removes makeup, sunscreen and impurities in a single wash. <br\/><br\/><\/p><p>You no longer need to spend the extra minutes washing your face twice to get rid of the dirt and grime.  <br\/><br\/><\/p><p>Let our Glow Honey Gel to Oil cleanser do the ‘dirty’ work for you. <strong>Get clean, fresh and hydrated skin below!<\/strong><\/p>",
+            "size_text": "1.2rem",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": true,
+            "button_label": "LEARN MORE",
+            "size_button": "12px",
+            "color_button": "#ffffff",
+            "bg_title_link": "#000000",
+            "button_link": "shopify:\/\/products\/glow-honey-gel-to-oil-cleanser",
+            "product-select": "",
+            "product-count": "",
+            "show-icons": false,
+            "icon_1_heading": "",
+            "icon_1_description": "",
+            "icon_2_heading": "",
+            "icon_2_description": "",
+            "icon_3_heading": "",
+            "icon_3_description": "",
+            "icon_4_heading": "",
+            "icon_4_description": "",
+            "class_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19208409481510__76058d95-1fab-4303-83e3-a3977c716a19-block_image-1",
+        "template--19208409481510__76058d95-1fab-4303-83e3-a3977c716a19-block_text-1"
+      ],
+      "settings": {
+        "background_color": "",
+        "has_fullwidth": false,
+        "class": "",
+        "distance_top": "50px",
+        "distance_bottom": "30px"
+      }
+    },
+    "main": {
+      "type": "nov-page-about-us",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "showpagecontent": true
+      }
+    },
+    "7a9c1e21-c4cb-4dd3-89f1-455594df94fd": {
+      "type": "logo-list-grid",
+      "blocks": {
+        "936673de-e83e-48da-9668-ed35dab82b57": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "image_title": "Title text",
+            "image_text": "Subtitle text"
+          }
+        },
+        "5b119fad-b614-491d-a1d7-971bda88c373": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "image_title": "Title text",
+            "image_text": "Subtitle text"
+          }
+        },
+        "f0adf9d3-0735-4c6d-b291-cd85491ed648": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "image_title": "Title text",
+            "image_text": "Subtitle text"
+          }
+        }
+      },
+      "block_order": [
+        "936673de-e83e-48da-9668-ed35dab82b57",
+        "5b119fad-b614-491d-a1d7-971bda88c373",
+        "f0adf9d3-0735-4c6d-b291-cd85491ed648"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2.gbc {text-transform: capitalize;}",
+        "h3.subtitle {font-size: 2rem !important; font-family: Quicksand; font-weight: 600;}"
+      ],
+      "settings": {
+        "title": "Real and long lasting solution for good skin",
+        "background_color": "#fffef4",
+        "logos_per_row_desktop": 6,
+        "logos_per_row_mobile": 2,
+        "heading_size": 32,
+        "heading_color": "#000000",
+        "subtitle_size": 36,
+        "subtitle_color": "#000000",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "subtitle_text": "A minimalist approach to skincare that delivers more results",
+        "text_size": 20,
+        "text_color": "#000000",
+        "text_paragraph": "Our product line is designed with a minimalist approach to skincare in mind. Each product is formulated to be multi-functional, delivering maximum results with minimal effort",
+        "text-align": "center"
+      }
+    },
+    "a7293516-a970-44bd-85b3-3a21ed0a6160": {
+      "type": "nov-testimonials",
+      "blocks": {
+        "template--18546875400486__a7293516-a970-44bd-85b3-3a21ed0a6160-168112595571142216-0": {
+          "type": "item",
+          "settings": {
+            "star": 5,
+            "author": "Sarah",
+            "info_other": "Form USA",
+            "des": "\"I've tried countless skincare products over the years, but nothing has come close to the results I've seen from Alias for Good Skin. Not only are the products effective, but they're also made with high-quality, natural ingredients that I feel good about putting on my skin. I've even noticed a difference in my skin's texture and tone since switching to Alias. I can't recommend these products enough!\""
+          }
+        },
+        "template--18546875400486__a7293516-a970-44bd-85b3-3a21ed0a6160-168112595571142216-1": {
+          "type": "item",
+          "settings": {
+            "star": 5,
+            "author": "- Rachel",
+            "info_other": "From Singapore",
+            "des": "\"As someone who travels frequently for work, I always struggled to keep up with a complex skincare routine. But with Alias for Good Skin, I've found a minimalist approach that works for my busy lifestyle. The multi-functional products allow me to achieve great results with just a few simple steps, and the high-quality ingredients ensure that my skin always looks and feels its best. I'm so glad I discovered Alias!\""
+          }
+        },
+        "template--18546875400486__a7293516-a970-44bd-85b3-3a21ed0a6160-168112595571142216-2": {
+          "type": "item",
+          "settings": {
+            "star": 5,
+            "author": "- Emily",
+            "info_other": "Form Australia",
+            "des": "\"I've struggled with acne-prone skin for years, trying everything from prescription medications to over-the-counter remedies. But it wasn't until I started using Alias for Good Skin that I finally found a solution that worked. The gentle yet effective formulas have transformed my skin, leaving me with a clearer, brighter complexion. I'm so grateful to have found these products and will never go back to my old skincare routine!\""
+          }
+        }
+      },
+      "block_order": [
+        "template--18546875400486__a7293516-a970-44bd-85b3-3a21ed0a6160-168112595571142216-0",
+        "template--18546875400486__a7293516-a970-44bd-85b3-3a21ed0a6160-168112595571142216-1",
+        "template--18546875400486__a7293516-a970-44bd-85b3-3a21ed0a6160-168112595571142216-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".testimonial-item__text {font-size: 2.2rem; line-height: 1.5;}",
+        ".fa {font-size: 23px; font-weight: 100 !important;}",
+        ".title-block {font-weight: 300; margin-bottom: 21px; font-family: \"NW\"; text-transform: capitalize !important; font-size: 300% !important; text-align: center;}",
+        ".row {justify-content: center !important; text-align: center;}",
+        ".slick-slide img {border-radius: 50%;}",
+        ".content-info {padding-top: 39px;}"
+      ],
+      "settings": {
+        "title": "Customer satisfaction: The heart of our business",
+        "size_title": "2.4rem",
+        "color_title": "#222222",
+        "title_alignment": "text-left",
+        "avatar": false,
+        "size_name": "13px",
+        "color_name": "#222222",
+        "color_text": "#222222",
+        "show_dots": true,
+        "show_nav": true,
+        "num_items": "1",
+        "spacing": "",
+        "background_color": "#fffef4",
+        "s_star": true,
+        "full_width": false,
+        "class": "",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "758c6714-b9df-4f8b-b5ff-d4be21f0e407": {
+      "type": "custom-liquid",
+      "settings": {
+        "code": "",
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "00e964f5-6fb3-42b3-8859-89e934292d7d": {
+      "type": "contact-section",
+      "disabled": true,
+      "custom_css": [
+        ".contact-form-section h3 {text-align: center; margin-bottom: 48px; font-weight: 100 !important; font-family: Quicksand;}"
+      ],
+      "settings": {
+        "title": "Are you looking for personalized skincare advice? We're here to help!",
+        "subtitle": "We're passionate about helping you achieve your best skin, and that includes providing top-notch customer service. Whether you prefer to call, email, or use our online chat, we're always available to answer your questions and provide support. We value your feedback and look forward to hearing from you. Together, let's achieve your skincare goals!",
+        "subtitle_size": "18",
+        "heading_size": "23",
+        "heading_color": "#000000",
+        "subtitle_color": "#333333",
+        "form_background_color": "#fffef4",
+        "input_background_color": "#f5f5f5",
+        "button_background_color": "#494949",
+        "button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "8912a67a-68c6-4012-9d74-592677f82227",
+    "2ade43ea-6459-4680-9983-fa4017de128e",
+    "5f732b30-c383-468e-9a59-8932765bb743",
+    "61cc76cb-8d2f-417b-9de7-9299829e84c8",
+    "76058d95-1fab-4303-83e3-a3977c716a19",
+    "main",
+    "7a9c1e21-c4cb-4dd3-89f1-455594df94fd",
+    "a7293516-a970-44bd-85b3-3a21ed0a6160",
+    "758c6714-b9df-4f8b-b5ff-d4be21f0e407",
+    "00e964f5-6fb3-42b3-8859-89e934292d7d"
+  ]
+}

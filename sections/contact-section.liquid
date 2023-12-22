@@ -1,0 +1,206 @@
+<!-- CONTACT FORM SECTION -->
+{% assign section_id = section.id | handleize %}
+<section id="{{ section_id }}" class="contact-form-section">
+  <div class="container">
+    {% if section.settings.title != blank %}
+      <h2 style="font-size: {{ section.settings.heading_size }}px; color: {{ section.settings.heading_color }};">
+        {{ section.settings.title }}
+      </h2>
+    {% endif %}
+    {% if section.settings.subtitle != blank %}
+      <h3 style="font-size: {{ section.settings.subtitle_size }}px; color: {{ section.settings.subtitle_color }};">
+        {{ section.settings.subtitle }}
+      </h3>
+    {% endif %}
+    <div
+      class="contact-form-wrapper"
+      style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;"
+    >
+      <form method="post" action="/contact" class="contact-form">
+        <input type="hidden" name="form_type" value="contact">
+        <input type="hidden" name="utf8" value="✓">
+        {% if shop.customer_accounts_enabled %}
+          <input type="hidden" name="contact[customer_email]" value="{{ customer.email }}">
+        {% else %}
+          <div class="form-group">
+            <label for="contact_email">{{ 'customer.register.email' | t }}</label>
+            <input
+              type="email"
+              name="contact[email]"
+              id="contact_email"
+              class="form-control"
+              {% if customer %}
+                value="{{ customer.email }}"
+              {% endif %}
+              required
+            >
+          </div>
+        {% endif %}
+        <div class="form-group">
+          <label for="contact_name">{{ 'contact.form.name' | t }}</label>
+          <input
+            type="text"
+            name="contact[name]"
+            id="contact_name"
+            class="form-control"
+            {% if customer %}
+              value="{{ customer.name }}"
+            {% endif %}
+            required
+          >
+        </div>
+        <div class="form-group">
+          <label for="contact_message">{{ 'contact.form.message' | t }}</label>
+          <textarea name="contact[body]" id="contact_message" rows="5" class="form-control" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary cns">{{ 'contact.form.submit' | t }}</button>
+      </form>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Contact Form",
+  "class": "index-section",
+  "presets": [
+    {
+      "name": "Contact Form",
+      "category": "Forms"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Get in touch"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subheading",
+      "default": "Fill out the form below to send us a message"
+    },
+    {
+      "type": "text",
+      "id": "subtitle_size",
+      "label": "Subheading size",
+      "default": "23px"
+    },
+    {
+      "type": "text",
+      "id": "heading_size",
+      "label": "heading size",
+      "default": "27px"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subheading Color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "form_background_color",
+      "label": "Form Background Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "input_background_color",
+      "label": "Input Background Color",
+      "default": "#F5F5F5"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "contact form",
+      "type": "contact_form"
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+  .contact-form-section {
+    background-color: {{ section.settings.form_background_color }};
+    padding: 60px 0;
+  }
+
+  .contact-form-section .width-sec {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .contact-form-section h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: {{ section.settings.heading_color }};
+  }
+
+  .contact-form-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: {{ section.settings.subtitle_color }};
+  }
+
+  .contact-form-section form {
+    margin-bottom: 30px;
+  }
+
+  .contact-form-section label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .contact-form-section input[type="text"], .contact-form-section input[type="email"], .contact-form-section textarea {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 0;
+    background-color: {{ section.settings.input_background_color }};
+}
+
+
+  .cns {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: {{ section.settings.button_background_color }};
+    color: {{ section.settings.button_text_color }};
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .contact-form-section h3 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+  .contact-form-section h2 {
+    font-weight: 100;
+    text-align: center;
+}
+
+{% endstyle %}

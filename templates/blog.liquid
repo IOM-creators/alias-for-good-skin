@@ -1,0 +1,12 @@
+{% include 'nov-breadcrumb' %}
+<div class="page-width nov-blog mt-150 mt-xs-70 {% if settings.type_sidebar_blog == 'sidebar_left' %}left_sidebar{% elsif settings.type_sidebar_blog == 'sidebar_right' %}right_sidebar{% elsif settings.type_sidebar_blog == 'sidebar_without' %}no_sidebar{% elsif settings.type_sidebar_blog == 'sidebar_list' %}blog_list{% elsif settings.type_sidebar_blog == 'sidebar_grid' %}blog_grid{% endif %}">
+    <div class="container_1320">
+      
+        <div class="row">
+
+        <div class="col-lg-12 col-md-12">
+          {% section 'blog-template' %}
+        </div>
+      </div>
+    </div>
+</div>

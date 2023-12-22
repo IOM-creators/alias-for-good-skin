@@ -1,0 +1,78 @@
+<div class="item-product{% for product_option in product.options_with_values %}{% if product_option.name == 'Color' %} item_variants{% endif %}{% endfor %}">
+  {% assign variantCount = product.variants | size %}
+  {%- assign img_size = settings.img_size -%}
+  <div class="thumbnail-container{% if product.images.size > 2 %} has-multiimage{% endif %}{% if section.settings.show_variant_product and variantCount > 1 %} has_variants{% endif %}">
+    <a href="{{ product.url | within: collection }}">
+      <div class="respone_image" style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100}}%">
+        {% assign img_url = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+        <noscript>
+          <img class="img-fluid product__thumbnail-second lazyload" data-src="{{ product.featured_image.src | img_url: '1024x' }}" alt="">
+        </noscript>
+        <img class="product__thumbnail lazyload"
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+          data-src="{{ img_url }}"
+          data-widths="[360, 540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048, 4472]"
+          data-aspectratio="{{ product.featured_image.aspect_ratio }}"
+          data-sizes="auto"
+          alt=""
+          data-image>
+        {% if settings.enable_product_second %}
+          {% for image in product.images %}
+            {% assign img_second = image.src | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+            {% if forloop.first != true %}
+              <img id="{{ img_id }}"
+                class="img-fluid product__thumbnail-second lazyload"
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                data-src="{{ img_second }}"
+                data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                data-aspectratio="{{ image.aspect_ratio }}"
+                data-sizes="auto"
+                alt=""
+                data-image>
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </a>
+    {% include 'group_buttons' %}
+    {% if settings.ticket_enable %}
+      {% if product.compare_at_price > product.price %}
+        <div class="badge_sale">
+          <span class="badge badge--sale-pt">-{{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | round: 4 }}%</span>
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+  <div class="product__info{% for product_option in product.options_with_values %}{% if product_option.name == 'Color' %} variants_top{% endif %}{% endfor %}">
+    <div class="block_product_info">
+      {% if template.name != 'index' %}
+        {% if settings.show_rating %}
+          <div class="product__review">
+            <div class="rating"><span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span></div>
+          </div>
+        {% endif %}
+      {% endif %}
+      <div class="product__title">
+        <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
+      </div>
+      <div class="product__price{% if settings.show_rating == false %} pb-20{% endif %} d-flex align-items-center">
+        {% include 'product-price' %}
+        <div class="not_soldout d-flex align-items-center ml-20">
+          {% if product.available %}
+          {% else %}
+            <i class="fa fa-frown-o" aria-hidden="true"></i>
+            {{ "products.product.sold_out" | t }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% if product.variants.size > 0 %}
+      {% if settings.show_variant_product %}
+        <div class="selectorVariants{% if product.variants.size > 0 %} has-border{% endif %}">
+          {% include 'nov-swatch-color' with 'Color' %}
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</div>

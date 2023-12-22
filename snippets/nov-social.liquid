@@ -1,0 +1,124 @@
+<div class="block_social">
+  <ul class="list-inline mb-0">
+    {% if settings.social_facebook_link != blank %}
+      <li class="list-inline-item">
+        <a class="facebook" href="{{ settings.social_facebook_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Facebook' }}">
+          <i class="zmdi zmdi-facebook"></i>
+        </a>
+        {% if block.settings.show_label == true %}
+          <span class="icon__fallback-text">Facebook</span>
+        {% endif %}
+      </li>
+    {% endif %}
+
+    {% if settings.social_instagram_link != blank %}
+      <li class="list-inline-item">
+        <a class="instagram" target="_blank" href="https://www.instagram.com/{{ settings.social_instagram_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Instagram' }}">
+          <i class="fa fa-instagram" aria-hidden="true"></i><span>@{{ settings.social_instagram_link | escape }}</span>
+        </a>
+        {% if block.settings.show_label == true %}
+          <span class="icon__fallback-text">Instagram</span>
+        {% endif %}
+      </li>
+    {% endif %}
+
+    {% if settings.social_twitter_link != blank %}
+      <li class="list-inline-item">
+        <a class="twitter" href="{{ settings.social_twitter_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Twitter' }}">
+          <i class="zmdi zmdi-twitter"></i>
+        </a>
+        {% if block.settings.show_label == true %}
+          <span class="icon__fallback-text">Twitter</span>
+        {% endif %}
+      </li>
+    {% endif %}
+
+    {% if settings.social_pinterest_link != blank %}
+      <li class="list-inline-item">
+        <a class="pinterest" href="{{ settings.social_pinterest_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Pinterest' }}">
+          <i class="fa fa-pinterest" aria-hidden="true"></i>
+        </a>
+        {% if block.settings.show_label == true %}
+          <span class="icon__fallback-text">Pinterest</span>
+        {% endif %}
+      </li>
+    {% endif %}
+
+    {% if settings.social_vimeo_link != blank %}
+      <li class="list-inline-item">
+        <a class="vimeo" href="{{ settings.social_vimeo_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Vimeo' }}">
+          <i class="fa fa-vimeo" aria-hidden="true"></i>
+        </a>
+        {% if block.settings.show_label == true %}
+          <span class="icon__fallback-text">Vimeo</span>
+        {% endif %}
+      </li>
+    {% endif %}
+
+    {% if settings.social_youtube_link != blank %}
+      <li class="list-inline-item">
+        <a class="youtube" href="{{ settings.social_youtube_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'YouTube' }}">
+          <i class="icon-youtube-play"></i>
+        </a>
+        {% if block.settings.show_label == true %}
+          <span class="icon__fallback-text">YouTube</span>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% comment %}use dribble for email{% endcomment %}
+    {% if settings.social_dribbble_link != blank %}
+      <li class="list-inline-item">
+        <a class="dribbble" href="mailto:{{ settings.social_dribbble_link}}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Dribbble' }}">
+          <i class="fa fa-regular fa-envelope"></i><span>{{ settings.social_dribbble_link}}</span>
+        </a>
+        {% if block.settings.show_label == true %}
+          <span class="icon__fallback-text">Dribbble</span>
+        {% endif %}
+      </li>
+    {% endif %}
+
+    {% if settings.social_tumblr_link != blank %}
+      <li class="list-inline-item">
+        <a class="tumblr" href="{{ settings.social_tumblr_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Tumblr' }}">
+          <i class="zmdi zmdi-tumblr"></i>
+        </a>
+        {% if block.settings.show_label == true %}
+          <span class="icon__fallback-text">Tumblr</span>
+        {% endif %}
+      </li>
+    {% endif %}
+
+    {% if settings.social_linkedin_link != blank %}
+      <li class="list-inline-item">
+        <a class="linkedin" href="{{ settings.social_linkedin_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Linkedin' }}">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          {% if show_label == true %}
+            <span class="icon__fallback-text">Linkedin</span>
+          {% endif %}
+        </a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_google_link != blank %}
+      <li class="list-inline-item">
+        <a class="google" href="{{ settings.social_google_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Google' }}">
+          <i class="icon-google" aria-hidden="true"></i>
+          {% if show_label == true %}
+            <span class="icon__fallback-text">Google</span>
+          {% endif %}
+        </a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_snapchat_link != blank %}
+      <li class="list-inline-item">
+        <a class="snapchat" href="{{ settings.social_snapchat_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Snapchat' }}">
+          <i class="zmdi zmdi-snapchat"></i>
+        </a>
+        {% if show_label == true %}
+          <span class="icon__fallback-text">Snapchat</span>
+        {% endif %}
+      </li>
+    {% endif %}
+  </ul>
+</div>

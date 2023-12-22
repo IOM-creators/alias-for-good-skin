@@ -1,0 +1,685 @@
+{
+  "sections": {
+    "6a4aacbc-2782-426f-951b-03df95bcdaa5": {
+      "type": "custom-liquid",
+      "settings": {
+        "code": "<style>\n.product-template__container {\n    padding-top: 90px;\n}\n.buttonw {\n    min-width: 60%;\n    height: 40px !important;\n    text-transform: uppercase;\n    color: white;\n}\n.product-form__item--submit .product-form__cart-submit {\n    background: #fff58c;\n    border: 2px solid #000000;\n}\n.product-form__item--submit .product-form__cart-submit #AddToCartText {\n    color: black;\n    font-size: 16px;\n    font-weight: 700;\n    letter-spacing: 1.3px;\n}\n\n\nh1.headingPage.d-flex.justify-content-center {\n    display: none !important;\n}\n.section_img_text .item_text {\n    margin-bottom: 0;\n}\n\n.button_label {\n    padding: 0 14px;\n    width: 50%;\n    border: 2px solid #000000;\n    height: 37px;\n    max-width: 55%;\n    margin-top: 20px;\n    margin-left: 5%;\n    \/* background: #f5e355; *\/\n    color: white;\n}\n.item_text.mb-md-50.col-xl-6.col-lg-6.col-md-6 {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.section_img_text {\n    margin-bottom: 0;\n}\n  @media (max-width: 768px) {\n.jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {\n    width: 100% !important;\n    margin-left: 12px;\n}\n.jdgm-carousel--vertical-theme .jdgm-carousel-item__product-image-wrapper {\n    width: 30% !important;\n    margin: auto !important;\n}\n.jdgm-carousel--vertical-theme .jdgm-carousel-item {\n    display: flex !important;\n    height: 270px !important;\n    flex-direction: column !important;\n}\n.jdgm-carousel-wrapper .jdgm-carousel-title-and-link, .jdgm-carousel-wrapper .jdgm-carousel-title, .jdgm-carousel-wrapper .jdgm-all-reviews-rating-wrapper {\n    text-align: center !important;\n}\n.product-thumb_left #productThumbs {\n    width: 100% !important;\n    min-width: 100% !important;\n}\n.product-template__container {\n    padding-top: 40px;\n}\n.section_img_text .title {\n    text-align: center !important;\n}\n.button_label {\n    max-width: 60%;\n}\n.block_title.text-center {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n.subtitle {\n    text-align: center !important;\n}\n.section_img_text .col-lg-6 .respone_image {\n    margin: auto auto 20px;\n}\n#shopify-section-template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43 .distance {\n    padding-bottom: 40px;\n}\n.section-testimonials .content-info {\n    padding-top: 65px;\n    text-align: center;\n}\n.section-testimonials .title-block {\n    margin-bottom: 5px;\n    text-align: center;\n    font-size: 450% !important;\n}\n.icon-row {\n    margin: auto;\n    margin-top: 30px;\n}\n.product-template__container .block_information {\n    padding-top: 0;\n    margin-top: 25px !important;\n}\n  }\n<\/style>",
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "nov-product-template",
+      "blocks": {
+        "d855b3c9-3c80-4ae0-ab59-0ebbcc841786": {
+          "type": "block_text_2",
+          "settings": {
+            "custom_title2": "HOW TO USE",
+            "custom_content2": "<p>To get the best results from our product, we recommend the following:<\/p><ul><li>Squeeze 1 teaspoon of Glow Honey Cleanser into palm. <em>Use 1.5 teaspoon for long-wearing make-up and\/or mascara.<\/em><\/li><li>Gently massage over dry skin. Feel the gel gradually dissolve into an oil, melting away makeup and removing other impurities. <em>To remove eye makeup, gently massage the area around the eyes.<\/em><\/li><li>Slightly dampen Cloud No.9 Cleansing Puff with lukewarm water and squeeze out excess water.<\/li><li>Gently massage over skin, starting from the centre, in a slight upward motion. <em>For the area around the eyes, press gently and wipe in a downward motion.<\/em><\/li><\/ul>"
+          }
+        },
+        "ea1946ea-7c05-45e8-8f84-0c3e6426dfc1": {
+          "type": "block_text_2",
+          "settings": {
+            "custom_title2": "INGREDIENTS",
+            "custom_content2": "<p>Water, Butylene Glycol, Dipropylene Glycol, PPG-9 Diglyceryl Ether, PEG-8 Glyceryl Isostearate, PEG-7 Glyceryl Cocoate, C14-15 Dialkyl Carbonate, Diglycerin, Tocopherol, Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Honey, Paeonia Albiflora Root Extract, Limnanthes Alba (Meadowfoam) Seed Oil, Sodium PCA, Salvia Officinalis (Sage) Leaf Extract, Phellodendron Amurense Bark Extract, Glycerin, Betaine, Dipotassium Glycyrrhizate, Ascorbyl Tetraisopalmitate, Carbomer, Decyl Glucoside, PEG-20 Glyceryl Triisostearate, Polyquaternium-51, Hydroxylated Lecithin, Xanthan Gum, Caramel, Fragrance, Sodium Hydroxide<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d855b3c9-3c80-4ae0-ab59-0ebbcc841786",
+        "ea1946ea-7c05-45e8-8f84-0c3e6426dfc1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_notes": false,
+        "subtitle": "",
+        "subtitle2": "FOR FACE & EYES",
+        "subtitle3": "120g",
+        "show_quantity_selector": true,
+        "product_swatch_enable": true,
+        "show_variant_labels": true,
+        "show_share": false,
+        "show_variant_color": true,
+        "show_vendor": false,
+        "show_sku": false,
+        "show_categories": false,
+        "show_tags": false,
+        "show_available": false,
+        "show_client": true,
+        "customtext": "Just use the cleanser with the puff to remove everything. So easy!",
+        "customtext2": "- Ivy Tay",
+        "show_des": true,
+        "customtext3": "<p><span style=\"text-decoration:underline\"><strong>Glow Honey Gel to Oil Cleanser<\/strong><\/span><strong> ​<\/strong><\/p><p>A purifying gel-based cleanser that transforms into a silky-smooth oil to gently remove makeup, sunscreen and other impurities.​<\/p><p>​<\/p><p>Packed with skin-nourishing ingredients, your skin feels fresh, soft and hydrated each time.​<br\/><br\/><span style=\"text-decoration:underline\"><strong>Cloud No. 9 Cleansing Puff<\/strong><\/span>​<\/p><p>Pair with our cleansing puff to gently remove stubborn makeup, especially around the delicate eye area to minimize premature ageing and wrinkles.<br\/><br\/><br\/>Get a free full-sized cleanser with every purchase of our Bestseller Cleansing Duo*<br\/><br\/>Limited stock only. Grab it <strong>now<\/strong>!<br\/><br\/><em>*freebies will be added when we deliver; offer not compatible with discount codes<\/em><\/p>",
+        "enable_zoom": false,
+        "show_description": false,
+        "show_review": false,
+        "show_offer": false,
+        "scns": "",
+        "show_payments": true,
+        "title_payments": "",
+        "size_title": "",
+        "color_title_payments": "#222222",
+        "payments": "shopify:\/\/shop_images\/Vectors_660_x_220px_ac38fa5a-2d7c-4162-86a1-edbffa2b4183.png",
+        "time": "",
+        "size_time": "12px",
+        "color_time": "#494949",
+        "truck": "",
+        "size_truck": "12px",
+        "color_truck": "#494949",
+        "background_color": ""
+      }
+    },
+    "88a316ff-5a12-4067-a23d-ca53920a7181": {
+      "type": "nov-collection-link",
+      "blocks": {
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_388e0ed2-81d5-4310-9a32-182d985d5226.png",
+            "text": "Maintain skin moisture",
+            "link": ""
+          }
+        },
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_16e28c3c-7eec-4a4e-971a-0c3bf78abf06.png",
+            "text": "Balance excess sebum",
+            "link": ""
+          }
+        },
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_5d2df722-9e0c-4fcc-bd3f-66800bf0e1f5.png",
+            "text": "Boost skin clarity",
+            "link": ""
+          }
+        },
+        "db7ad66b-fc42-4f8d-8b35-3bb4f3ab427d": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_97ae0229-51fb-4b45-b0e7-4132e23f6090.png",
+            "text": "Restore natural skin barrier",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-0",
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-1",
+        "template--18510998569254__88a316ff-5a12-4067-a23d-ca53920a7181-1682596133767e270a-2",
+        "db7ad66b-fc42-4f8d-8b35-3bb4f3ab427d"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Get fresh, soft, hydrated skin",
+        "subheading": "",
+        "desc": "<p>Formulated in Japan by experts.<br\/><br\/>A gentle cleanser that combines gel-based cleansing molecules and cleansing oils for a powerful yet gentle cleanse.<br\/><br\/>It effectively removes makeup, sunscreen, and impurities without needing a second wash, minimizing skin irritation.<br\/><br\/>Your skin feels fresh, clean, and nourished with our blend of these skin-loving ingredients:<\/p>",
+        "title_alignment": "text-center",
+        "enableslider": false,
+        "grid_number_xl": 8,
+        "grid_number": 8,
+        "grid_number_lg_tablet": 6,
+        "items_tablet": 3,
+        "items_mobile": 2,
+        "class": "",
+        "has_fullwidth": false,
+        "color_link": "#666666",
+        "bg_item": "shopify:\/\/shop_images\/img-1_285x_8122170f-81bd-4046-a66d-777a22abb3c6.png",
+        "background_color": "#ffffff",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "8057b4a8-1cc2-42de-951e-9f635fa1a46a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18510998569254__8057b4a8-1cc2-42de-951e-9f635fa1a46a-16808055647bde532d-1": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/Duo1.png",
+            "class_image": ""
+          }
+        },
+        "template--18510998569254__8057b4a8-1cc2-42de-951e-9f635fa1a46a-16808055647bde532d-0": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "Cleanse, protect and nourish your skin",
+            "color_title": "#000000",
+            "subtitle": "",
+            "text": "<ul><li><strong>Cleanse<\/strong> – gentle gel-based formula cleanses effectively like an oil<\/li><li><strong>Protect<\/strong> – a single-step cleanse prevents over-washing, which disrupts your skin’s natural barrier<\/li><li><strong>Nourish<\/strong> – extra care for your skin with our blend of skin-friendly ingredients<br\/><br\/>Your skin feels fresh, soft and hydrated always.<\/li><\/ul>",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": false,
+            "button_label": "See All Ingredients",
+            "size_button": "12px",
+            "color_button": "#222222",
+            "bg_title_link": "rgba(0,0,0,0)",
+            "button_link": "shopify:\/\/blogs\/alias-for-good-skin-blog\/ingredients-used-in-glow-honey-gel-to-oil-cleanser",
+            "product-select": "",
+            "product-count": "",
+            "show-icons": false,
+            "icon_1_heading": "Honey",
+            "icon_1_description": "<p>Retain<br\/>Moisture <\/p>",
+            "icon_2_heading": "Peonyroot Extract",
+            "icon_2_description": "<p>Clarifying Effects<\/p>",
+            "icon_3_heading": "Meadowfoam Seed Oil",
+            "icon_3_description": "<p>Regulates<br\/>Sebum Production<\/p>",
+            "icon_4_heading": "Sodium PCA",
+            "icon_4_description": "<p>Restore Skin Barrier<\/p>",
+            "class_text": "mb-md-50"
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__8057b4a8-1cc2-42de-951e-9f635fa1a46a-16808055647bde532d-1",
+        "template--18510998569254__8057b4a8-1cc2-42de-951e-9f635fa1a46a-16808055647bde532d-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "has_fullwidth": true,
+        "class": "",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "053852b5-3654-4d02-a2cc-c208cf814c02": {
+      "type": "image-with-text",
+      "blocks": {
+        "1299f11a-fe9b-4711-ad03-e34466d2424b": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/Product_Images_template-2.png",
+            "class_image": ""
+          }
+        },
+        "1a2904b6-45a8-4855-a31a-253136af1ca1": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "Triple-benefit formula",
+            "color_title": "#000000",
+            "subtitle": "",
+            "text": "<ul><li><strong>Cleanse<\/strong> – our gentle gel-based formula cleanses effectively, like an oil<\/li><li><strong>Protect<\/strong> – single-step cleanse prevents over-washing, which disrupts your skin barrier<\/li><li><strong>Nourish<\/strong> – extra care for your skin with our blend of skin-friendly ingredients<br\/><br\/>Your skin feels fresh, soft and hydrated always.<\/li><\/ul>",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": false,
+            "button_label": "See All Ingredients",
+            "size_button": "12px",
+            "color_button": "#222222",
+            "bg_title_link": "rgba(0,0,0,0)",
+            "button_link": "shopify:\/\/blogs\/alias-for-good-skin-blog\/ingredients-used-in-glow-honey-gel-to-oil-cleanser",
+            "product-select": "",
+            "product-count": "",
+            "show-icons": false,
+            "icon_1_heading": "Honey",
+            "icon_1_description": "<p>Retain<br\/>Moisture <\/p>",
+            "icon_2_heading": "Peonyroot Extract",
+            "icon_2_description": "<p>Clarifying Effects<\/p>",
+            "icon_3_heading": "Meadowfoam Seed Oil",
+            "icon_3_description": "<p>Regulates<br\/>Sebum Production<\/p>",
+            "icon_4_heading": "Sodium PCA",
+            "icon_4_description": "<p>Restore Skin Barrier<\/p>",
+            "class_text": "mb-md-50"
+          }
+        }
+      },
+      "block_order": [
+        "1299f11a-fe9b-4711-ad03-e34466d2424b",
+        "1a2904b6-45a8-4855-a31a-253136af1ca1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "background_color": "#fffef4",
+        "has_fullwidth": false,
+        "class": "mb-first",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "4b703a85-b304-4b20-a5d5-5f2a40cd0e0b": {
+      "type": "image-with-text",
+      "blocks": {
+        "eba74222-43a9-45c7-bc4f-bd4f9c41bac6": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "Extra gentle on your delicate eye area",
+            "color_title": "#000000",
+            "subtitle": "",
+            "text": "<p>The area around our eyes is much more delicate and more prone to early signs of ageing such as crow’s feet, wrinkles and sagging.<\/p><p>​<\/p><p>Be extra gentle when removing stubborn eye make-up and pair your Glow Honey Gel to Oil Cleanser with our Cloud No. 9 Cleansing Puff. It is made with ultra-soft microfibers for extra comfort around your eyes.<\/p><p>​<\/p><p>This is the perfect pairing for a gentle cleanse.<\/p>",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": false,
+            "button_label": "ADD TO BAG",
+            "size_button": "12px",
+            "color_button": "#222222",
+            "bg_title_link": "#000000",
+            "button_link": "shopify:\/\/blogs\/alias-for-good-skin-blog\/ingredients-used-in-glow-honey-gel-to-oil-cleanser",
+            "product-select": "",
+            "product-count": "",
+            "show-icons": false,
+            "icon_1_heading": "Honey",
+            "icon_1_description": "<p>Retain<br\/>Moisture <\/p>",
+            "icon_2_heading": "Peonyroot Extract",
+            "icon_2_description": "<p>Clarifying Effects<\/p>",
+            "icon_3_heading": "Meadowfoam Seed Oil",
+            "icon_3_description": "<p>Regulates<br\/>Sebum Production<\/p>",
+            "icon_4_heading": "Sodium PCA",
+            "icon_4_description": "<p>Restore Skin Barrier<\/p>",
+            "class_text": "mb-md-50"
+          }
+        },
+        "eafea2d6-0522-414a-9716-654ce1f3f203": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/Website_changes_230818.png",
+            "class_image": ""
+          }
+        }
+      },
+      "block_order": [
+        "eba74222-43a9-45c7-bc4f-bd4f9c41bac6",
+        "eafea2d6-0522-414a-9716-654ce1f3f203"
+      ],
+      "settings": {
+        "background_color": "#fffef4",
+        "has_fullwidth": false,
+        "class": "mb-first",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "47abf0c2-85d2-4084-8c9a-44cf27b3dd43": {
+      "type": "nov-testimonials",
+      "blocks": {
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-0": {
+          "type": "item",
+          "settings": {
+            "star": 5,
+            "author": "- Wei",
+            "info_other": "",
+            "des": "I was so happy that I could just use this to completely remove my makeup and cleanse thoroughly all at once!"
+          }
+        },
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-2": {
+          "type": "item",
+          "settings": {
+            "star": 5,
+            "author": "- Alisanne",
+            "info_other": "",
+            "des": "I was surprised in a GOOD way. My skin is definitely happy with this cleanser"
+          }
+        },
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-1": {
+          "type": "item",
+          "settings": {
+            "star": 5,
+            "author": "- Laura",
+            "info_other": "",
+            "des": "Doesn’t sting my eyes! I use the puff with the cleanser to remove mascara, works very well."
+          }
+        },
+        "7c0dc52d-03a5-447c-aeb6-46265536af27": {
+          "type": "item",
+          "settings": {
+            "star": 5,
+            "author": "- Erica",
+            "info_other": "",
+            "des": "I normally don’t use cleansing puff when I cleanse my face but after using Cloud No. 9 cleansing puff, I changed my mind."
+          }
+        },
+        "ec00b55a-5121-4a2e-a50d-0bfec86face0": {
+          "type": "item",
+          "settings": {
+            "star": 5,
+            "author": "- Kim",
+            "info_other": "",
+            "des": "Love the cleansing puff, it is very cute & super soft. Pairs well with the cleanser."
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-0",
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-2",
+        "template--18510998569254__47abf0c2-85d2-4084-8c9a-44cf27b3dd43-1680806520e1078c29-1",
+        "7c0dc52d-03a5-447c-aeb6-46265536af27",
+        "ec00b55a-5121-4a2e-a50d-0bfec86face0"
+      ],
+      "custom_css": [
+        ".testimonial-item__text {font-size: 2.4rem;}",
+        ".fa {font-size: 30px; font-weight: 100 !important;}",
+        ".title-block {font: montserrat !important; font-weight: 500; margin-bottom: 10px; font-size: 190% !important;}",
+        ".row {justify-content: space-evenly;}",
+        ".slick-slide img {border-radius: 50%;}",
+        ".col-md-5 {flex: 0 0 25.666667%; max-width: 25.666667%;}",
+        ".img_content {display: flex; align-items: flex-end; justify-content: flex-end;}"
+      ],
+      "settings": {
+        "title": "What people love about us",
+        "color_title": "#222222",
+        "title_alignment": "text-left",
+        "avatar": false,
+        "color_name": "#222222",
+        "color_text": "#222222",
+        "show_dots": true,
+        "show_nav": true,
+        "num_items": "3",
+        "spacing": "",
+        "background_color": "#ffffff",
+        "s_star": true,
+        "full_width": false,
+        "class": "",
+        "distance_top": "30px",
+        "distance_bottom": "30px",
+        "testi_link": "",
+        "testi_text": ""
+      }
+    },
+    "d5099c38-8944-486e-b042-4dde5dcb7eac": {
+      "type": "image-with-text",
+      "blocks": {
+        "a5fd3c89-ea1a-4a99-bb30-631ad0f0f80d": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "Time to grow and glow!",
+            "color_title": "#000000",
+            "subtitle": "",
+            "text": "<p>Receive a full-sized cleanser with every purchase of our Bestseller Cleansing Duo*<br\/><br\/>Limited stock only. Grab it now!<br\/><br\/><em>*freebies will be added when we deliver; offer not compatible with discount codes<\/em><\/p>",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": false,
+            "button_label": "ADD TO BAG",
+            "size_button": "12px",
+            "color_button": "#222222",
+            "bg_title_link": "#000000",
+            "button_link": "shopify:\/\/blogs\/alias-for-good-skin-blog\/ingredients-used-in-glow-honey-gel-to-oil-cleanser",
+            "product-select": "",
+            "product-count": "",
+            "show-icons": false,
+            "icon_1_heading": "Honey",
+            "icon_1_description": "<p>Retain<br\/>Moisture <\/p>",
+            "icon_2_heading": "Peonyroot Extract",
+            "icon_2_description": "<p>Clarifying Effects<\/p>",
+            "icon_3_heading": "Meadowfoam Seed Oil",
+            "icon_3_description": "<p>Regulates<br\/>Sebum Production<\/p>",
+            "icon_4_heading": "Sodium PCA",
+            "icon_4_description": "<p>Restore Skin Barrier<\/p>",
+            "class_text": "mb-md-50"
+          }
+        },
+        "c8b93cc9-ce66-48da-bc88-88724225273e": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/1_cc83588a-1116-4ca3-8d03-2ea299e13126.png",
+            "class_image": ""
+          }
+        }
+      },
+      "block_order": [
+        "a5fd3c89-ea1a-4a99-bb30-631ad0f0f80d",
+        "c8b93cc9-ce66-48da-bc88-88724225273e"
+      ],
+      "settings": {
+        "background_color": "#fffef4",
+        "has_fullwidth": false,
+        "class": "mb-first",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "d4f421a5-f7f6-494d-84d1-8e71b7cf35a0": {
+      "type": "image-with-text",
+      "blocks": {
+        "6608ea3e-1249-4ebf-aaba-b370484a6a76": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "It's Time to Glow & Grow",
+            "color_title": "#000000",
+            "subtitle": "",
+            "text": "<p>For a limited time only, receive a  Grow & Glow beauty pouch when you purchase our Bestseller Duo. ​<br\/><br\/>While stocks last - act now!<\/p>",
+            "color_sub": "#000000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": false,
+            "button_label": "See All Ingredients",
+            "size_button": "12px",
+            "color_button": "#222222",
+            "bg_title_link": "rgba(0,0,0,0)",
+            "button_link": "shopify:\/\/blogs\/alias-for-good-skin-blog\/ingredients-used-in-glow-honey-gel-to-oil-cleanser",
+            "product-select": "",
+            "product-count": "",
+            "show-icons": false,
+            "icon_1_heading": "Honey",
+            "icon_1_description": "<p>Retain<br\/>Moisture <\/p>",
+            "icon_2_heading": "Peonyroot Extract",
+            "icon_2_description": "<p>Clarifying Effects<\/p>",
+            "icon_3_heading": "Meadowfoam Seed Oil",
+            "icon_3_description": "<p>Regulates<br\/>Sebum Production<\/p>",
+            "icon_4_heading": "Sodium PCA",
+            "icon_4_description": "<p>Restore Skin Barrier<\/p>",
+            "class_text": "mb-md-50"
+          }
+        },
+        "2199a839-9fa5-44e6-a939-09c29aaedcfd": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "image": "shopify:\/\/shop_images\/Duo4.png",
+            "class_image": ""
+          }
+        }
+      },
+      "block_order": [
+        "6608ea3e-1249-4ebf-aaba-b370484a6a76",
+        "2199a839-9fa5-44e6-a939-09c29aaedcfd"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "has_fullwidth": true,
+        "class": "",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "dc2527e4-3aac-4430-959b-d72c4a9c2c54": {
+      "type": "custom-content",
+      "blocks": {
+        "template--18510998569254__dc2527e4-3aac-4430-959b-d72c4a9c2c54-168081011076876187-0": {
+          "type": "text",
+          "settings": {
+            "width": "col-xl-12",
+            "width_lg": "col-lg-12",
+            "width_md": "col-md-12",
+            "title": "See what our customers have to say",
+            "color_title": "#000000",
+            "sub": "",
+            "color_sub": "#222222",
+            "show_button": false,
+            "button_label": "See On Map",
+            "color_button": "#000000",
+            "bg_title_link": "",
+            "button_link": "",
+            "show_social": false,
+            "alignment": "text-center",
+            "class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__dc2527e4-3aac-4430-959b-d72c4a9c2c54-168081011076876187-0"
+      ],
+      "custom_css": [
+        ".custom__item {border-top: none;}"
+      ],
+      "settings": {
+        "class": "",
+        "has_fullwidth": false,
+        "background_color": "#ffffff",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    },
+    "16808182932433682d": {
+      "type": "apps",
+      "blocks": {
+        "acc5974e-fd00-44fe-8e5b-88d904baa8b1": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "acc5974e-fd00-44fe-8e5b-88d904baa8b1"
+      ],
+      "settings": {
+      }
+    },
+    "6ee62601-f31c-4d39-82ef-0e0fa6098c24": {
+      "type": "nov-slideshow",
+      "blocks": {
+        "template--18510998569254__6ee62601-f31c-4d39-82ef-0e0fa6098c24-1680818411eea091d0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/abannerproduct4-1.jpg",
+            "image-display": "cover",
+            "image-position": "center",
+            "caption_1": "One Cleanser to do it all",
+            "color_cap1": "#000000",
+            "fz_cap1": "4.5rem",
+            "fz_cap1lg": "4.5rem",
+            "fz_cap1t": "4.5rem",
+            "fz_cap1m": "4.5rem",
+            "fz_cap1mb": "4.5rem",
+            "cap_animate_1": "bounce",
+            "caption_2": "Cleanse.Moisturize. Restore",
+            "color_cap2": "#000000",
+            "fz_cap2": "3rem",
+            "fz_cap2lg": "3rem",
+            "fz_cap2t": "3rem",
+            "fz_cap2m": "3rem",
+            "fz_cap2mb": "3rem",
+            "cap_animate_2": "bounce",
+            "caption_3": "",
+            "color_cap3": "#000000",
+            "fz_cap3": "",
+            "fz_cap3lg": "",
+            "fz_cap3t": "",
+            "fz_cap3m": "",
+            "fz_cap3mb": "",
+            "cap_animate_3": "bounce",
+            "caption_4": "",
+            "color_cap4": "#000000",
+            "fz_cap4": "",
+            "fz_cap4lg": "",
+            "fz_cap4t": "",
+            "fz_cap4m": "",
+            "fz_cap4mb": "",
+            "cap_animate_4": "bounce",
+            "title_link": "",
+            "color_cap_link": "#ffffff",
+            "background_cap_link": "#000000",
+            "cap_link": "",
+            "cap_link_animate": "bounce",
+            "text_align": "center",
+            "width_position": "90",
+            "width_position_desktop": "90",
+            "width_position_tablet": "90",
+            "width_position_mobile": "90",
+            "left_position": "10",
+            "left_position_desktop": "10",
+            "left_position_tablet": "0",
+            "left_position_mobile": "0",
+            "top_position": "40",
+            "top_position_desktop": "30",
+            "top_position_t": "30",
+            "top_position_m": "15",
+            "top_position_xs": "10",
+            "slider_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18510998569254__6ee62601-f31c-4d39-82ef-0e0fa6098c24-1680818411eea091d0-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".caption-1 {margin-bottom: 0; line-height: 1.5 !important; font-size: 550% !important; font-family: \"NW\"; line-height: 1.8;}",
+        ".caption-2 {font-weight: 500; margin-bottom: 20px;}"
+      ],
+      "settings": {
+        "height_slideshow_larges_desktop": "850px",
+        "height_slideshow_large_desktop": "800px",
+        "height_slideshow_desktop": "650px",
+        "height_slideshow_tablet": "550px",
+        "height_slideshow_mobile": "500px",
+        "height_slideshow_mobile_small": "540px",
+        "autoplay": true,
+        "arrows": false,
+        "dots": false,
+        "has_fullwidth": true,
+        "distance_top": "30px",
+        "distance_bottom": "0"
+      }
+    }
+  },
+  "order": [
+    "6a4aacbc-2782-426f-951b-03df95bcdaa5",
+    "main",
+    "88a316ff-5a12-4067-a23d-ca53920a7181",
+    "8057b4a8-1cc2-42de-951e-9f635fa1a46a",
+    "053852b5-3654-4d02-a2cc-c208cf814c02",
+    "4b703a85-b304-4b20-a5d5-5f2a40cd0e0b",
+    "47abf0c2-85d2-4084-8c9a-44cf27b3dd43",
+    "d5099c38-8944-486e-b042-4dde5dcb7eac",
+    "d4f421a5-f7f6-494d-84d1-8e71b7cf35a0",
+    "dc2527e4-3aac-4430-959b-d72c4a9c2c54",
+    "16808182932433682d",
+    "6ee62601-f31c-4d39-82ef-0e0fa6098c24"
+  ]
+}

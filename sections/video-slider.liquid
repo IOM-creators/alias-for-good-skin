@@ -1,0 +1,133 @@
+{% schema %}
+{
+  "name": "Video Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "video_urls",
+      "label": "Video URLs",
+      "default": "https://youtube.com/shorts/hgBDriX7IqI?feature=share",
+      "info": "Enter the video URLs separated by commas."
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "info": "Adjust the top padding in pixels."
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "info": "Adjust the bottom padding in pixels."
+    }
+  ],
+   "presets": [
+    {
+      "name": "Video Slider",
+      "category": "Video",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  ]
+}
+{% endschema %}
+
+{% comment %}
+  Video Slider section
+{% endcomment %}
+
+{% assign videos = section.settings.video_urls | split: ',' %}
+{% assign padding_top = section.settings.padding_top %}
+{% assign padding_bottom = section.settings.padding_bottom %}
+
+{% if videos.size > 0 %}
+  <div class="video-slider" style="padding-top: {{ padding_top }}px; padding-bottom: {{ padding_bottom }}px;">
+    {% for video in videos %}
+      <div class="video-slide">
+        <div class="video-container">
+          <iframe src="{{ video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<style>
+  .video-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+    background-color: {{ background_color }};
+  }
+
+  .video-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .video-slider .slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: {{ height }}px;
+    position: relative;
+  }
+
+  .video-slider .slide video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .video-slider .slide .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .video-slider .slide .overlay h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .video-slider .slide .overlay p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .video-slider .slide .overlay .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .video-slider .slide .overlay .button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+</style>

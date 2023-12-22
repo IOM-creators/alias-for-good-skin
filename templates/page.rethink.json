@@ -1,0 +1,76 @@
+{
+  "layout": "theme.liquid",
+  "sections": {
+    "main": {
+      "type": "nov-page-about-us",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "showpagecontent": true
+      }
+    },
+    "9224fe04-66dc-492c-a92a-d52a45d4ca5d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21203697795366__9224fe04-66dc-492c-a92a-d52a45d4ca5d-block_text-1": {
+          "type": "block_text",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "title": "",
+            "color_title": "#000",
+            "subtitle": "",
+            "text": "",
+            "color_sub": "#000",
+            "text-align": "left",
+            "content-align": "flex-start",
+            "show_button": true,
+            "button_label": "Shop The Essentials",
+            "size_button": "12px",
+            "color_button": "#222",
+            "bg_title_link": "",
+            "button_link": "",
+            "product-select": "",
+            "product-count": "",
+            "show-icons": false,
+            "icon_1_heading": "",
+            "icon_1_description": "",
+            "icon_2_heading": "",
+            "icon_2_description": "",
+            "icon_3_heading": "",
+            "icon_3_description": "",
+            "icon_4_heading": "",
+            "icon_4_description": "",
+            "class_text": ""
+          }
+        },
+        "template--21203697795366__9224fe04-66dc-492c-a92a-d52a45d4ca5d-block_image-1": {
+          "type": "block_image",
+          "settings": {
+            "width": "col-xl-6",
+            "width_lg": "col-lg-6",
+            "width_md": "col-md-6",
+            "class_image": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21203697795366__9224fe04-66dc-492c-a92a-d52a45d4ca5d-block_text-1",
+        "template--21203697795366__9224fe04-66dc-492c-a92a-d52a45d4ca5d-block_image-1"
+      ],
+      "settings": {
+        "background_color": "",
+        "has_fullwidth": false,
+        "class": "",
+        "distance_top": "30px",
+        "distance_bottom": "30px"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9224fe04-66dc-492c-a92a-d52a45d4ca5d"
+  ]
+}
