@@ -152,3 +152,34 @@ body.template-index .site-header.active {
   font-weight: bold;
   padding: 10px 0;
 }
+
+.canvas-menu.drawer-left {
+  right: 0;
+  transform: translateX(100%);
+}
+.canvas-menu.drawer-left.active {
+  transform: translateX(0);
+  transition: 0.3;
+}
+#show-megamenu .icon-menu rect {
+  height: 10px;
+}
+
+#show-megamenu .icon-close {
+  display: none;
+}
+#show-megamenu.close .icon-menu {
+  display: none;
+}
+#show-megamenu.close {
+  z-index: 99999;
+}
+#show-megamenu.close .icon-close {
+  display: block;
+}
+.canvas-menu .canvas-header-box {
+  display: none !important;
+}
+.header-mobile .d-flex.mobile-megamenu-icon {
+  padding-right: 0;
+}

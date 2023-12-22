@@ -167,7 +167,8 @@ div#back_top {
 }
 .mobile-bag {
   position: relative;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 .mobile-bag a {
   display: flex;
