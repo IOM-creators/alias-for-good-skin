@@ -1499,6 +1499,7 @@
       },
       "0ef3e06a-b2a8-4ee7-b9df-4df2e643e282": {
         "type": "nov-newsletter",
+        "disabled": true,
         "custom_css": [
           ".container_1320 {width: 100%; max-width: -webkit-fill-available;}"
         ],
@@ -1517,6 +1518,7 @@
       },
       "896bd1b3-7b46-4e1b-bfa6-d2bb22c238f1": {
         "type": "custom-liquid",
+        "disabled": true,
         "settings": {
           "code": "<style>\n\n@media(max-width: 767px){\n.custom__item {\n    padding-top: 40px !important;\n}\n.distance.cas {\n    padding-top: 60px !important;\n    padding-bottom: 60px !important;\n}\n.item_image {\n    margin-top: 40px;\n}\n.ddv .container_ct .block_title {\n    text-align: center !important;\n}\n.distance.pt-md-90.ddv {\n    padding-top: 40px!important;\n    text-align: center;\n    padding-bottom: 10px !important;\n}\n.cc .title_block {\n    margin-top: 30px;\n}\n.nov-section-blog .nov-slick-carousel .slick-arrow {\n    top: 95%;\n}\n\n.section-slideshow .slick-slide .slide-image {\n    height: 280px;\n}\n.header-mobile .mobile_logo {\n    margin-right: 0;\n}\n  \n.slideshow .slick-slide {\n    height: auto !important;\n}\n  .position-absolute {\n    position: unset !important;\n}\n  .slideshow .main-slider {\n    height: auto !important;\n}\n.section-slideshow .content-caption {\n    position: unset;\n    height: auto;\n}\n.content-1 {\n    width: 100% !important;\n    text-align: center;\n    padding-top: 20px;\n}\n.slideshow {\n    background: #fffef4;\n}\nfigcaption.caption {\n    background: #fffef4;\n}\n}\n<\/style>",
           "background_color": "#fffef4",
@@ -1575,6 +1577,7 @@
           "37af7fff-ced8-49e8-9585-f110153e6511-1682757803ca878195-1",
           "37af7fff-ced8-49e8-9585-f110153e6511-1682757803ca878195-0"
         ],
+        "disabled": true,
         "custom_css": [
 
         ],
@@ -1619,6 +1622,7 @@
           "69a418b4-1ea3-446e-b49b-c3060f988cde",
           "e5177c0d-d5f7-48e7-81ef-7922b8b7de07"
         ],
+        "disabled": true,
         "custom_css": [
 
         ],
@@ -1943,6 +1947,7 @@
           "d8c0383f-2407-4026-a350-770291fe9df7",
           "1b5fdb7b-8a30-4cbd-9bb5-965754810244"
         ],
+        "disabled": true,
         "custom_css": [
           "@media (max-width: 767px) {.title_block {padding-bottom: 25px; }}"
         ],
@@ -2016,6 +2021,7 @@
           "89af6901-d0de-49d8-9ae2-91b7d96dbd7c",
           "bb18736f-a496-46d0-ab63-c0b47a549e9a"
         ],
+        "disabled": true,
         "custom_css": [
           ".title-block {font-weight: 600;}"
         ],
@@ -2163,6 +2169,7 @@
         "block_order": [
           "3ce6e487-8a45-431f-b20c-b6582a93d8fb"
         ],
+        "disabled": true,
         "settings": {
           "class": "",
           "has_fullwidth": false,
