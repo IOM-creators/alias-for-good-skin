@@ -22,10 +22,11 @@
     "type_base_size": "1.6rem",
     "show_social": false,
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/",
     "social_pinterest_link": "",
     "social_instagram_link": "alias.goodskin",
-    "social_dribbble_link": "hello@aliasgoodskin.com",
+    "social_dribbble_link": "",
     "social_google_link": "",
     "social_linkedin_link": "",
     "social_tumblr_link": "",
@@ -1408,6 +1409,7 @@
           "db3efd6e-3511-4265-920d-5c0ce9c5e680",
           "16181993638d9f1738-1"
         ],
+        "disabled": true,
         "custom_css": [
           ".slide-image {background-position-x: 18%; background-position-y: 20%;}"
         ],
@@ -2177,9 +2179,54 @@
           "distance_top": "",
           "distance_bottom": ""
         }
+      },
+      "footer-new": {
+        "type": "footer-new",
+        "blocks": {
+          "0e8e7d48-1bb7-4d8b-a53e-dcee990f704d": {
+            "type": "menu",
+            "settings": {
+              "menu_copyright": "footer-nav-new"
+            }
+          },
+          "d57b3c82-7136-4bbd-a931-37548aa18d5f": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_title": "LET'S KEEP IN TOUCH",
+              "newsletter_desc": "Get glowing with our latest products and exclusive events."
+            }
+          },
+          "e07fbd96-5e17-4f19-8728-50cfae2fd308": {
+            "type": "socials",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "0e8e7d48-1bb7-4d8b-a53e-dcee990f704d",
+          "d57b3c82-7136-4bbd-a931-37548aa18d5f",
+          "e07fbd96-5e17-4f19-8728-50cfae2fd308"
+        ],
+        "settings": {
+          "block_top": 40,
+          "block_bottom": 40,
+          "footer_copyright": "©2023 Alias for good skin"
+        }
+      },
+      "a158c933-8f28-4482-837d-27a939900db3": {
+        "type": "hero",
+        "settings": {
+          "block_title": "DEEP CLEANSING CEREMONY",
+          "block_desc": "Every scoop of Living Cleansing Balm is a sensorial experience — gliding onto skin to gently melt away makeup, sunscreen and oil-based impurities while restoring vital moisture.",
+          "block_link_title": "SHOP LIVING CLEANSING BALM",
+          "block_link_url": "#",
+          "image_pc": "shopify:\/\/shop_images\/pc.jpg",
+          "image_mb": "shopify:\/\/shop_images\/mb.jpg"
+        }
       }
     },
     "content_for_index": [
+      "a158c933-8f28-4482-837d-27a939900db3",
       "16181993638d9f1738",
       "896bd1b3-7b46-4e1b-bfa6-d2bb22c238f1",
       "3dbed9a0-fbdf-4825-84b2-bf4d3e528249",
