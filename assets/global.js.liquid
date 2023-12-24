@@ -418,9 +418,11 @@ novtheme.click_button_canvas_menu = function() {
     $('#show-megamenu').on("click", function() {
         if ($('.canvas-menu').hasClass('active')) {
             $('.canvas-menu').removeClass('active');
+            $('body').removeClass('canvasmenu-right');
             $(this).removeClass('close');
         } else {
             $('.canvas-menu').addClass('active');
+            $('body').addClass('canvasmenu-right');
             $(this).addClass('close');
         }
         return false;

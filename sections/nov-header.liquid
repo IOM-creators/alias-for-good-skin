@@ -1,4 +1,3 @@
-{{'new-header.css' |  asset_url |  stylesheet_tag}}
 {%- assign logo_tabbar = section.settings.logo_tabbar -%}
 <div data-section-id="{{ section.id }}" data-section-type="header-section">
   <header
@@ -71,33 +70,29 @@
           {% include 'nov-formsearch-inline' %}
           {% endcomment %}
         </div>
-        
         <div class="mobile-bag">
           <a href="#" class="nov-toggle-page" data-target="#mobile-blockcart" >
-            <span id="_mobile_cart_count" class="cart-products-count"></span><span class="icon-cart"></span>
+            <span id="_mobile_cart_count" class="cart-products-count"></span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 208.955 208.955" style="enable-background:new 0 0 208.955 208.955;" xml:space="preserve">
+          <path d="M190.85,200.227L178.135,58.626c-0.347-3.867-3.588-6.829-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971  C82.437,0,64.509,17.931,64.509,39.971v11.826H38.27c-3.882,0-7.123,2.962-7.47,6.829L18.035,200.784  c-0.188,2.098,0.514,4.177,1.935,5.731s3.43,2.439,5.535,2.439h157.926c0.006,0,0.014,0,0.02,0c4.143,0,7.5-3.358,7.5-7.5  C190.95,201.037,190.916,200.626,190.85,200.227z M79.509,39.971c0-13.769,11.2-24.971,24.967-24.971  c13.768,0,24.969,11.202,24.969,24.971v11.826H79.509V39.971z M33.709,193.955L45.127,66.797h19.382v13.412  c0,4.142,3.357,7.5,7.5,7.5c4.143,0,7.5-3.358,7.5-7.5V66.797h49.936v13.412c0,4.142,3.357,7.5,7.5,7.5c4.143,0,7.5-3.358,7.5-7.5  V66.797h19.364l11.418,127.158H33.709z"/>
+          <g>
+          </g>
+          </svg>
           </a>
         </div>
-        <div class="d-flex justify-content-end mobile-megamenu-icon">
+        <div class="d-flex justify-content-end">
           <div id="show-megamenu" class="item-mobile-top">
-              <svg class="icon-menu" viewBox="0 0 100 80" width="20" height="20" fill="black">
-                  <rect width="100" height="20"></rect>
-                  <rect y="30" width="100" height="20"></rect>
-                  <rect y="60" width="100" height="20"></rect>
-              </svg>
-              <svg class="icon-close" width="15" height="13" viewBox="0 0 15 13" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M1 0l13 13M14 0L1 13"></path></g></svg>
+            <i class="zmdi zmdi-view-headline" style="color: {{ section.settings.color_mobile }};"></i>
           </div>
         </div>
         
       </div>
     </div>
-    <div class="header-center d-none d-md-flex">
-        {% comment %}
-
+    <div class="header-center d-none d-md-block">
       <div class="row align-items-center justify-content-between sdsd">
 
-          <div class="col-xl-6 d-flex align-items-center cbbc">
+        <div class="col-xl-6 d-flex align-items-center cbbc">
 
-          <div class="vertical_dropdown d-xl-none">
+       <div class="vertical_dropdown d-xl-none">
             <i class="zmdi zmdi-sort-amount-desc"></i>
             <div class="csse">
               {% if section.settings.social %}{% include 'nov-social' %}{% endif %}
@@ -105,9 +100,8 @@
           </div>
           
         </div>
-        {% endcomment %}
         
-      <div class="contentsticky_logo col-xl-3 col-lg-4 text-xl-left text-md-center">
+ <div class="contentsticky_logo col-xl-3 col-lg-4 text-xl-left text-md-center">
 
           <h1 class="h2 site-header__logo m-0" itemscope itemtype="http://schema.org/Organization">
             {% if section.settings.logo %}
@@ -125,11 +119,11 @@
           </h1>
         </div>
         
-        <div class="col-xl-6 d-flex align-items-center vdx site-nav-wrapper">
+        <div class="col-xl-6 d-flex align-items-center vdx">
 
           <div class="contentsticky_menu d-flex justify-content-center">
             <nav id="AccessibleNav" class="ver_menu">
-              {% include 'site-nav', nav_item_name: section.settings.nav_item_name, nav_item_collections: section.settings.nav_item_collections %}
+              {% include 'site-nav' %}
             </nav>
           </div>
         </div>
@@ -152,10 +146,6 @@
               </a>
             </div>
           {% endif %}
-          <div class="custom-acccount">
-            <a href="https://aliasgoodskin.com/account/register"><svg xmlns="http://www.w3.org/2000/svg" id="Interface_B_out" height="100" viewBox="0 0 100 100" width="100" data-name="Interface B out"><path d="m50 48.67c12.23 0 22.18-9.95 22.18-22.18s-9.95-22.18-22.18-22.18-22.18 9.95-22.18 22.18 9.95 22.18 22.18 22.18z"></path><path d="m18.91 94.89h62.19c1.91 0 3.72-.83 4.97-2.29 1.22-1.43 1.76-3.31 1.47-5.15-2.92-18.57-18.7-32.05-37.53-32.05s-34.61 13.48-37.53 32.05c-.29 1.84.24 3.72 1.47 5.15 1.24 1.46 3.05 2.29 4.97 2.29z"></path></svg>
-            </a>
-          </div>
           {% if settings.mini_cart_type == 'canvas' %}
             <div class="cart_canvas">
               <div
@@ -166,15 +156,10 @@
                 <div class="header-cart d-flex align-items-center">
                   <div class="site-header__cart">
                     <span class="icon-cart"></span>
-                    <span class="icon-cart__text">Your Bag (<span id="CartCount">{{ cart.item_count }}</span>)</span>
                   </div>
-
-                  {% comment %}
-                    <span id="_desktop_cart_count" class="site-header__cart-count">
-                      <span id="CartCount">{{ cart.item_count }}</span>
-                    </span>
-                  {% endcomment %}
-
+                  <span id="_desktop_cart_count" class="site-header__cart-count">
+                    <span id="CartCount">{{ cart.item_count }}</span>
+                  </span>
                 </div>
               </div>
             </div>
@@ -193,31 +178,10 @@
               </div>
             </div>
           {% endif %}
-          {% if section.settings.drawer_left_linklist != blank %}
-          <div class="custom-menu-drawer">
-            <button data-trigger-drawer-menu class="trigger-drawer-menu">
-              <svg class="icon-menu" viewBox="0 0 100 80" width="20" height="20"  fill="black">
-                  <rect width="100" height="20"></rect>
-                  <rect y="30" width="100" height="20"></rect>
-                  <rect y="60" width="100" height="20"></rect>
-              </svg>
-              <svg class="icon-close" width="15" height="13" viewBox="0 0 15 13" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M1 0l13 13M14 0L1 13"></path></g></svg>
-            </button>
-            <div class="custom-menu-drawer__wrapper">
-              <ul>
-                {% for link in linklists[section.settings.drawer_left_linklist].links %}
-                  <li>
-                    <a href="{{link.url}}">
-                      {{link.title}}
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
+          <div class="custom-acccount">
+            <a href="https://aliasgoodskin.com/account/register"><svg xmlns="http://www.w3.org/2000/svg" id="Interface_B_out" height="100" viewBox="0 0 100 100" width="100" data-name="Interface B out"><path d="m50 48.67c12.23 0 22.18-9.95 22.18-22.18s-9.95-22.18-22.18-22.18-22.18 9.95-22.18 22.18 9.95 22.18 22.18 22.18z"></path><path d="m18.91 94.89h62.19c1.91 0 3.72-.83 4.97-2.29 1.22-1.43 1.76-3.31 1.47-5.15-2.92-18.57-18.7-32.05-37.53-32.05s-34.61 13.48-37.53 32.05c-.29 1.84.24 3.72 1.47 5.15 1.24 1.46 3.05 2.29 4.97 2.29z"></path></svg>
+            </a>
           </div>
-        {% endif %}
-
-          
           
           {% comment %}
           <div class="site-header_myaccount">
@@ -260,14 +224,6 @@
     {% include 'site-nav' %}
   </nav>
 </div>
-
-{% javascript %}
-    const triggerMenu = document.querySelector("[data-trigger-drawer-menu]");
-    triggerMenu &&
-      triggerMenu.addEventListener("click", () => {
-        triggerMenu.classList.toggle("active");
-      });
-{% endjavascript %}
 {% schema %}
 {
   "name": "Header",
@@ -331,27 +287,6 @@
       "id": "main_linklist",
       "label": "Menu",
       "default": "main-menu"
-    },
-    {
-      "type": "link_list",
-      "id": "drawer_left_linklist",
-      "label": "Menu for right drawer",
-      "default": "main-menu"
-    },
-    {
-      "type": "header",
-      "content": "Nav item with products"
-    },
-    {
-      "type": "text",
-      "id": "nav_item_name",
-      "label": "Nav item name",
-      "default": "Shop"
-    },
-    {
-      "type": "collection_list",
-      "id": "nav_item_collections",
-      "label": "Choose collection"
     },
     {
       "type": "text",
