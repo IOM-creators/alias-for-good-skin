@@ -22,11 +22,10 @@
     "type_base_size": "1.6rem",
     "show_social": false,
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/facebook.com\/shopify",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/",
+    "social_facebook_link": "",
     "social_pinterest_link": "",
     "social_instagram_link": "alias.goodskin",
-    "social_dribbble_link": "",
+    "social_dribbble_link": "hello@aliasgoodskin.com",
     "social_google_link": "",
     "social_linkedin_link": "",
     "social_tumblr_link": "",
@@ -842,6 +841,10 @@
           "announcement_bg": "#fffef4",
           "stickymenu": true,
           "main_linklist": "main-menu",
+          "nav_item_name": "Shop",
+          "nav_item_collections": [
+            "frontpage"
+          ],
           "size_menu": "1.8rem",
           "color_menu": "#000000",
           "novmenu_enable": false,
@@ -1218,6 +1221,215 @@
           "subheading": "Learn about our commitment to quality and customer satisfaction"
         }
       },
+      "16181993638d9f1738": {
+        "type": "nov-slideshow",
+        "blocks": {
+          "82caa6a2-5fd8-4985-858f-5378ded57d0c": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ALIAS_0002_022_SS_auto_x2_3dd48ed0-42c5-441d-a4f6-10ee6c21649d.png",
+              "image-display": "cover",
+              "image-position": "center",
+              "caption_1": "Clean. Fresh. Hydrated.",
+              "color_cap1": "#000000",
+              "fz_cap1": "3.4rem",
+              "fz_cap1lg": "3.4rem",
+              "fz_cap1t": "2.5rem",
+              "fz_cap1m": "2.5rem",
+              "fz_cap1mb": "2rem",
+              "cap_animate_1": "flipInX",
+              "caption_2": "Leave your skin with a beautiful afterglow.",
+              "color_cap2": "#222222",
+              "fz_cap2": "4.5rem",
+              "fz_cap2lg": "4.5rem",
+              "fz_cap2t": "3.6rem",
+              "fz_cap2m": "3.6rem",
+              "fz_cap2mb": "3.6rem",
+              "cap_animate_2": "fadeInLeft",
+              "caption_3": "The perfect balance of oil to cleansing molecules, packed with skin-loving ingredients that nourish your skin with each wash",
+              "color_cap3": "#494949",
+              "fz_cap3": "2rem",
+              "fz_cap3lg": "1.8rem",
+              "fz_cap3t": "2rem",
+              "fz_cap3m": "2rem",
+              "fz_cap3mb": "1.5rem",
+              "cap_animate_3": "fadeInLeft",
+              "caption_4": "",
+              "color_cap4": "#000000",
+              "fz_cap4": "",
+              "fz_cap4lg": "",
+              "fz_cap4t": "",
+              "fz_cap4m": "",
+              "fz_cap4mb": "",
+              "cap_animate_4": "bounce",
+              "title_link": "LEARN MORE",
+              "color_cap_link": "#fffef4",
+              "background_cap_link": "#222222",
+              "cap_link": "https:\/\/aliasgoodskin.com\/collections\/frontpage\/products\/glow-honey-gel-to-oil-cleanser",
+              "cap_link_animate": "fadeInLeft",
+              "text_align": "left",
+              "width_position": "50",
+              "width_position_desktop": "50",
+              "width_position_tablet": "80",
+              "width_position_mobile": "80",
+              "left_position": "7",
+              "left_position_desktop": "5",
+              "left_position_tablet": "5",
+              "left_position_mobile": "3",
+              "top_position": "40",
+              "top_position_desktop": "40",
+              "top_position_t": "20",
+              "top_position_m": "18",
+              "top_position_xs": "13",
+              "slider_link": ""
+            }
+          },
+          "db3efd6e-3511-4265-920d-5c0ce9c5e680": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Main_Banner_template_1_b6ace4f7-0509-483c-964d-ec20465c1413.png",
+              "image-display": "cover",
+              "image-position": "center",
+              "caption_1": "",
+              "color_cap1": "#000000",
+              "fz_cap1": "3.4rem",
+              "fz_cap1lg": "3.4rem",
+              "fz_cap1t": "2.5rem",
+              "fz_cap1m": "2.5rem",
+              "fz_cap1mb": "2rem",
+              "cap_animate_1": "flipInX",
+              "caption_2": "Achieve fresh, soft, hydrated skin",
+              "color_cap2": "#222222",
+              "fz_cap2": "4.5rem",
+              "fz_cap2lg": "4.5rem",
+              "fz_cap2t": "3.6rem",
+              "fz_cap2m": "3.6rem",
+              "fz_cap2mb": "3.6rem",
+              "cap_animate_2": "fadeInLeft",
+              "caption_3": "Gentle triple-action formula to cleanse,<br> protect and nourish your skin.",
+              "color_cap3": "#494949",
+              "fz_cap3": "2rem",
+              "fz_cap3lg": "1.8rem",
+              "fz_cap3t": "2rem",
+              "fz_cap3m": "2rem",
+              "fz_cap3mb": "1.5rem",
+              "cap_animate_3": "fadeInLeft",
+              "caption_4": "",
+              "color_cap4": "#000000",
+              "fz_cap4": "",
+              "fz_cap4lg": "",
+              "fz_cap4t": "",
+              "fz_cap4m": "",
+              "fz_cap4mb": "",
+              "cap_animate_4": "bounce",
+              "title_link": "LEARN MORE",
+              "color_cap_link": "#fffef4",
+              "background_cap_link": "#222222",
+              "cap_link": "https:\/\/aliasgoodskin.com\/collections\/frontpage\/products\/glow-honey-gel-to-oil-cleanser",
+              "cap_link_animate": "fadeInLeft",
+              "text_align": "left",
+              "width_position": "50",
+              "width_position_desktop": "45",
+              "width_position_tablet": "80",
+              "width_position_mobile": "80",
+              "left_position": "7",
+              "left_position_desktop": "5",
+              "left_position_tablet": "5",
+              "left_position_mobile": "3",
+              "top_position": "40",
+              "top_position_desktop": "40",
+              "top_position_t": "20",
+              "top_position_m": "18",
+              "top_position_xs": "13",
+              "slider_link": ""
+            }
+          },
+          "16181993638d9f1738-1": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Main_Banner_No_BG.png",
+              "image-display": "cover",
+              "image-position": "right",
+              "caption_1": "Clean. Fresh. Hydrated.",
+              "color_cap1": "#000000",
+              "fz_cap1": "4.5rem",
+              "fz_cap1lg": "4.5rem",
+              "fz_cap1t": "3.6rem",
+              "fz_cap1m": "3.6rem",
+              "fz_cap1mb": "2.5rem",
+              "cap_animate_1": "flipInX",
+              "caption_2": "Leave your skin with a beautiful afterglow.",
+              "color_cap2": "#000000",
+              "fz_cap2": "2.4rem",
+              "fz_cap2lg": "2.4rem",
+              "fz_cap2t": "1.6rem",
+              "fz_cap2m": "1.6rem",
+              "fz_cap2mb": "1.6rem",
+              "cap_animate_2": "fadeInLeft",
+              "caption_3": "The perfect balance of oil to cleansing molecules, packed with skin-loving ingredients that nourish with each wash",
+              "color_cap3": "#000000",
+              "fz_cap3": "",
+              "fz_cap3lg": "",
+              "fz_cap3t": "",
+              "fz_cap3m": "",
+              "fz_cap3mb": "",
+              "cap_animate_3": "fadeInUp",
+              "caption_4": "",
+              "color_cap4": "#000000",
+              "fz_cap4": "",
+              "fz_cap4lg": "",
+              "fz_cap4t": "",
+              "fz_cap4m": "",
+              "fz_cap4mb": "",
+              "cap_animate_4": "bounce",
+              "title_link": "LEARN MORE",
+              "color_cap_link": "#fffef4",
+              "background_cap_link": "#222222",
+              "cap_link": "#",
+              "cap_link_animate": "fadeInUp",
+              "text_align": "left",
+              "width_position": "50",
+              "width_position_desktop": "50",
+              "width_position_tablet": "80",
+              "width_position_mobile": "80",
+              "left_position": "0",
+              "left_position_desktop": "0",
+              "left_position_tablet": "0",
+              "left_position_mobile": "0",
+              "top_position": "36",
+              "top_position_desktop": "25",
+              "top_position_t": "35",
+              "top_position_m": "24",
+              "top_position_xs": "30",
+              "slider_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "82caa6a2-5fd8-4985-858f-5378ded57d0c",
+          "db3efd6e-3511-4265-920d-5c0ce9c5e680",
+          "16181993638d9f1738-1"
+        ],
+        "custom_css": [
+          ".slide-image {background-position-x: 18%; background-position-y: 20%;}"
+        ],
+        "settings": {
+          "height_slideshow_larges_desktop": "850px",
+          "height_slideshow_large_desktop": "800px",
+          "height_slideshow_desktop": "650px",
+          "height_slideshow_tablet": "550px",
+          "height_slideshow_mobile": "400px",
+          "height_slideshow_mobile_small": "401px",
+          "autoplay": true,
+          "arrows": true,
+          "dots": false,
+          "has_fullwidth": true,
+          "distance_top": "",
+          "distance_bottom": "0"
+        }
+      },
       "page-faqs-delivery": {
         "type": "page-faqs-delivery",
         "blocks": {
@@ -1442,101 +1654,41 @@
           "subheading": ""
         }
       },
-      "footer-new": {
-        "type": "footer-new",
-        "blocks": {
-          "0e8e7d48-1bb7-4d8b-a53e-dcee990f704d": {
-            "type": "menu",
-            "settings": {
-              "menu_copyright": "footer-nav-new"
-            }
-          },
-          "d57b3c82-7136-4bbd-a931-37548aa18d5f": {
-            "type": "newsletter",
-            "settings": {
-              "newsletter_title": "LET'S KEEP IN TOUCH",
-              "newsletter_desc": "Get glowing with our latest products and exclusive events."
-            }
-          },
-          "e07fbd96-5e17-4f19-8728-50cfae2fd308": {
-            "type": "socials",
-            "settings": {
-            }
-          }
-        },
-        "block_order": [
-          "0e8e7d48-1bb7-4d8b-a53e-dcee990f704d",
-          "d57b3c82-7136-4bbd-a931-37548aa18d5f",
-          "e07fbd96-5e17-4f19-8728-50cfae2fd308"
-        ],
+      "5cf013d0-b4bf-4d07-923b-00fff0b6750b": {
+        "type": "image-text-block-new",
         "settings": {
-          "block_top": 40,
-          "block_bottom": 40,
-          "footer_copyright": "©2023 Alias for good skin"
+          "reverse": true,
+          "pd_top": "",
+          "pd_bottom": "",
+          "image": "shopify:\/\/shop_images\/The-Jet-Set-Trio-50-50-Block-alt_720x960_4cdb7fe3-da9e-4676-85a7-1c752533b1b2.jpg",
+          "bg_block": "#7eb0fa",
+          "title": "THE JET SET TRIO",
+          "sup_title": "",
+          "description": "<p>Our TSA-approved trio is ready for takeoff. We’ve curated a must-have set featuring three of our award-winning essentials in travel sizes to help you maintain your radiant glow on-the-go.<\/p>",
+          "btn_text": "$20  |  SHOP NOW",
+          "btn_link": ""
         }
       },
-      "a158c933-8f28-4482-837d-27a939900db3": {
-        "type": "hero",
+      "aa9dbf2f-2e68-4383-a35c-fb9daad0c232": {
+        "type": "image-text-block-new",
         "settings": {
-          "block_title": "DEEP CLEANSING CEREMONY",
-          "block_desc": "Every scoop of Living Cleansing Balm is a sensorial experience — gliding onto skin to gently melt away makeup, sunscreen and oil-based impurities while restoring vital moisture.",
-          "block_link_title": "SHOP LIVING CLEANSING BALM",
-          "block_link_url": "#",
-          "image_pc": "shopify:\/\/shop_images\/pc.jpg",
-          "image_mb": "shopify:\/\/shop_images\/mb.jpg"
-        }
-      },
-      "50be8da8-277f-444b-9086-3972587b5b18": {
-        "type": "reviews-slider",
-        "blocks": {
-          "485688dd-7a75-4a88-a8dd-d847ec127a56": {
-            "type": "item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Allure_logo_100x_2x_b00c1e51-c78f-420d-8638-01a83889e2c8.png",
-              "block_rev": "Then I Met You Living Cleansing Balm is widely worshipped for a reason. The velvety formula melts away makeup, promotes calm, and practically turns washing your face into a purification ritual.",
-              "block_rv_url": ""
-            }
-          },
-          "24a67663-869a-4cae-9c40-22fe2eb1ffab": {
-            "type": "item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Glamour_v3_100x_2x_6935292d-91a8-4120-bea4-dff30fab968a.png",
-              "block_rev": "Periwinkle blue and sunshine yellow is a color combo now synonymous with Then I Met You.",
-              "block_rv_url": "#"
-            }
-          },
-          "1526cbaa-9001-485e-a4e6-2c3e80bdfa3f": {
-            "type": "item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/PopSugar-logo_100x_2x_1.png",
-              "block_rev": "My favorite part about this moisturizer definitely has to be its gel texture — it's super cooling and lightweight, and it transforms into cloud-like water as it absorbs into the skin.",
-              "block_rv_url": ""
-            }
-          },
-          "d60a31ed-cc18-4ae4-955f-e15dc04b2d02": {
-            "type": "item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Refinery29_logo_100x_2x_64eba0e7-69a6-47a0-a75f-9136419dc171.png",
-              "block_rev": "Charlotte Cho's new double cleanser is a cult product in the making.",
-              "block_rv_url": "#"
-            }
-          }
-        },
-        "block_order": [
-          "485688dd-7a75-4a88-a8dd-d847ec127a56",
-          "24a67663-869a-4cae-9c40-22fe2eb1ffab",
-          "1526cbaa-9001-485e-a4e6-2c3e80bdfa3f",
-          "d60a31ed-cc18-4ae4-955f-e15dc04b2d02"
-        ],
-        "settings": {
-          "block_top": 60,
-          "block_bottom": 60
+          "reverse": false,
+          "pd_top": "",
+          "pd_bottom": "",
+          "image": "shopify:\/\/shop_images\/50-50-Block-Founder-V2_720x960_bde1fb39-4fab-4842-b3b0-806af1cb3d91.webp",
+          "bg_block": "#7eb0fa",
+          "title": "our story",
+          "sup_title": "",
+          "description": "<p>\"Because of the deep connection I have with Korea, I find it important for Then I Met You to honor Korea’s rich beauty culture while highlighting the country’s incredible innovations in research and development at the same time—a perfect fusion of our past and present.”<\/p><p><\/p><p><em> – Charlotte Cho, <\/em><\/p><p><em> Founder of Then I Met You<\/em><\/p>",
+          "btn_text": "Learn more",
+          "btn_link": ""
         }
       }
     },
     "content_for_index": [
-      "a158c933-8f28-4482-837d-27a939900db3",
-      "50be8da8-277f-444b-9086-3972587b5b18"
+      "16181993638d9f1738",
+      "5cf013d0-b4bf-4d07-923b-00fff0b6750b",
+      "aa9dbf2f-2e68-4383-a35c-fb9daad0c232"
     ],
     "blocks": {
       "13768625480086291342": {
