@@ -23,6 +23,9 @@
                                     {% if block.settings.block_rev != blank %}
                                         <div class="reviews-slider__item-desc">
                                             {{ block.settings.block_rev  }}
+                                            {% if block.settings.block_rv_url != blank %}
+                                                <a href="{{block.settings.block_rv_url}}"></a>
+                                            {% endif %}
                                         </div>
                                     {% endif %}
                                 </div>
@@ -88,7 +91,7 @@
                 "content": "Review text"
             },
             {
-                "type": "inline_richtext",
+                "type": "textarea",
                 "id": "block_rev",
                 "label": "Block review",
                 "default": "Block review"
