@@ -22,10 +22,11 @@
     "type_base_size": "1.6rem",
     "show_social": false,
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/",
     "social_pinterest_link": "",
     "social_instagram_link": "alias.goodskin",
-    "social_dribbble_link": "hello@aliasgoodskin.com",
+    "social_dribbble_link": "",
     "social_google_link": "",
     "social_linkedin_link": "",
     "social_tumblr_link": "",
@@ -841,6 +842,7 @@
           "announcement_bg": "#fffef4",
           "stickymenu": true,
           "main_linklist": "main-menu",
+          "drawer_left_linklist": "main-menu",
           "nav_item_name": "Shop",
           "nav_item_collections": [
             "frontpage"
@@ -1682,6 +1684,39 @@
           "description": "<p>\"Because of the deep connection I have with Korea, I find it important for Then I Met You to honor Korea’s rich beauty culture while highlighting the country’s incredible innovations in research and development at the same time—a perfect fusion of our past and present.”<\/p><p><\/p><p><em> – Charlotte Cho, <\/em><\/p><p><em> Founder of Then I Met You<\/em><\/p>",
           "btn_text": "Learn more",
           "btn_link": ""
+        }
+      },
+      "footer-new": {
+        "type": "footer-new",
+        "blocks": {
+          "4267ed13-477f-4c47-88df-0fb121f1f38c": {
+            "type": "menu",
+            "settings": {
+              "menu_copyright": "footer-nav-new"
+            }
+          },
+          "b732025c-c22c-46fe-94c0-17ac4527ca6c": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_title": "LET'S KEEP IN TOUCH",
+              "newsletter_desc": "Get glowing with our latest products and exclusive events."
+            }
+          },
+          "58cb1ecb-c4c4-4137-8bd8-003d1cf16723": {
+            "type": "socials",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "4267ed13-477f-4c47-88df-0fb121f1f38c",
+          "b732025c-c22c-46fe-94c0-17ac4527ca6c",
+          "58cb1ecb-c4c4-4137-8bd8-003d1cf16723"
+        ],
+        "settings": {
+          "block_top": 40,
+          "block_bottom": 40,
+          "footer_copyright": "©2023 Alias for good skin"
         }
       }
     },
