@@ -18,6 +18,7 @@
         align-items: center
 
 .reviews-slider__item-desc
+    position: relative
     width: 100%
     max-width: 675px
     margin: 0 auto
@@ -27,6 +28,12 @@
     font-weight: bold
     text-align: center
     line-height: 1.1
+    a
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
     &::before,&::after
         display: inline-block
         font-family: Lato, sans-serif
