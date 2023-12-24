@@ -1,0 +1,185 @@
+{{ 'footer-new.css' | asset_url | stylesheet_tag }}
+
+<style>
+    .block-{{ section.id }} {
+        padding-top: {{ section.settings.block_top | times: 0.7  }}px;
+        padding-bottom: {{ section.settings.block_bottom | times: 0.7 }}px;
+    }
+    @media screen and (min-width: 1024px) {
+        .block-{{ section.id }} {
+            padding-top: {{ section.settings.block_top }}px;
+            padding-bottom: {{ section.settings.block_bottom }}px;
+        }
+    }
+</style>
+
+{% assign items = false %}
+{% for block in section.blocks %}
+    {% if block.type == 'menu' or block.type == 'newsletter' or block.type == 'socials' %}
+        {% assign items = true %}
+    {% endif %}
+{% endfor %}
+
+<section class="footer-new block-{{ section.id }}">
+    <div class="wrapper">
+        {% if items == true %}
+            <div class="footer-new__items">
+                {% for block in section.blocks %}
+                    {%- case block.type -%}
+                        {%- when 'menu' -%}
+                            <div class="footer-new__item menu">
+                                {% if block.settings.menu_copyright != blank %}
+                                      {%- assign footer_linklist = block.settings.menu_copyright -%}
+                                      {% if linklists[footer_linklist].links.size > 0 %}
+                                        <ul class="footer__linklist">
+                                          {% for link in linklists[footer_linklist].links %}
+                                            <li class="footer__linklist-item">
+                                              <a href="{{ link.url }}">{{ link.title }}</a>
+                                            </li>
+                                          {% endfor %}
+                                        </ul>
+                                      {% endif %}
+                                  {% endif %}
+                            </div>
+                        {%- when 'newsletter' -%}
+                            <div class="footer-new__item newsletter">
+                                {% if block.settings.newsletter_title != blank %}
+                                    <h4>
+                                        {{ block.settings.newsletter_title }}
+                                    </h4>
+                                {% endif %}
+
+                                {% if block.settings.newsletter_desc != blank %}
+                                    <div class="newsletter__desc">
+                                        {{ block.settings.newsletter_desc }}
+                                    </div>
+                                {% endif %}
+
+                                {% form 'customer' %}
+                                    {{ form.errors | default_errors }}
+
+                                    {% if form.posted_successfully? %}
+                                      <p class="form--success">{{ 'general.newsletter_form.confirmation' | t }}</p>
+                                    {% else %}
+                                        
+                                      <div class="input-group">
+                                        <input type="hidden" name="contact[tags]" value="newsletter">
+                                        <input type="email"
+                                          name="contact[email]"
+                                          id="Email_Footer"
+                                          class="input-group__field newsletter__input form-control"
+                                          value="{% if customer %}{{ customer.email }}{% endif %}"
+                                          placeholder="email address">
+                                        <button type="submit" class="btn newsletter__submit" name="commit" id="Subscribe_footer">
+                                            sign up
+                                        </button>
+                                      </div>
+                                    {% endif %}
+                                  {% endform %}
+                            </div>
+                        {%- when 'socials' -%}
+                            <div class="footer-new__item socials">
+                                {% include 'nov-social' %}
+                            </div>
+                    {%- endcase -%}
+                {% endfor %}
+            </div>
+      {% endif %}
+
+      {% if section.settings.footer_copyright != blank %}
+        <div class="footer__copyright">
+            {{ section.settings.footer_copyright }}
+        </div>
+      {% endif %}
+
+    </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Footer",
+  "max_blocks": 5,
+  "settings": [
+    {
+        "type": "header",
+        "content": "Block offset"
+    },
+    {
+        "type": "range",
+        "id": "block_top",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset top",
+        "default": 40
+    },
+    {
+        "type": "range",
+        "id": "block_bottom",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset bottom",
+        "default": 40
+    },
+    {
+        "type": "header",
+        "content": "Copyright"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "footer_copyright",
+        "default": "©2023 Alias for good skin",
+        "label": "Copyright text"
+    }
+  ],
+  "blocks": [
+      {
+        "type": "menu",
+        "limit": 1,
+        "name": "Menu",
+        "settings": [
+            {
+                "type": "link_list",
+                "id": "menu_copyright",
+                "label": "Choose Menu",
+                "info": "Choose menu. Add new menu: Admin -> Navigation"
+            }
+        ]
+      },
+      {
+        "type": "newsletter",
+        "limit": 1,
+        "name": "Newsletter",
+        "settings": [
+            {
+                "type": "text",
+                "id": "newsletter_title",
+                "label": "Newsletter title",
+                "default": "LET'S KEEP IN TOUCH"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "newsletter_desc",
+                "default": "Get glowing with our latest products and exclusive events.",
+                "label": "Newsletter description"
+            }
+        ]
+      },
+      {
+        "type": "socials",
+        "limit": 1,
+        "name": "Socials",
+        "settings": [
+            {
+                "type": "paragraph",
+                "content": "To display the links, you need to fill them out in the Theme Settings."
+            }
+        ]
+      }      
+    ]
+}
+{% endschema %}

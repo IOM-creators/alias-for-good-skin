@@ -67,6 +67,7 @@
 
 
   </script>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   {% include 'nov-head-css' %}
   {% include 'nov-head-js' %}
@@ -85,6 +86,14 @@
   {% endif %}
   <script src="{{ 'shopify_global.js' | asset_url }}" defer></script>
   <script src="{{ 'dwytfixes.js' | asset_url }}"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  {% comment %}
+    font-family: 'Arvo', serif;
+    font-family: 'Lato', sans-serif; 
+  {% endcomment %}
 </head>
 
 </html>
@@ -224,7 +233,8 @@
         </section>
       </main>
 
-      {% section 'nov-footer' %}
+      {% comment %} {% section 'nov-footer' %} {% endcomment %}
+      {% section 'footer-new' %}
     </div>
     <div class="canvas-menu drawer-left">
       <div class=" canvas-header-box d-flex justify-content-center align-items-center">

@@ -186,6 +186,13 @@
       },
       {
         "type": "text",
+        "id": "social_tiktok_link",
+        "label": "Tiktok",
+        "info": "https:\/\/www.tiktok.com\/"
+        
+      },
+      {
+        "type": "text",
         "id": "social_pinterest_link",
         "label": "Pinterest",
         "info": "https:\/\/pinterest.com\/shopify"
