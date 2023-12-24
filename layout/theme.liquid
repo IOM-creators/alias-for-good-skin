@@ -105,6 +105,16 @@
     {{ 'hero-block.js' | asset_url | script_tag }}
   {% endif %} 
 
+  {% if body_template contains 'swiper' %}
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.css">
+  {% endif %}
+  
+  {% if body_template contains 'reviews-slider' %}
+    {{ 'reviews-slider.css' | asset_url | stylesheet_tag }}
+    {{ 'reviews-slider.js' | asset_url | script_tag }}
+  {% endif %}
+
 
 </head>
 
