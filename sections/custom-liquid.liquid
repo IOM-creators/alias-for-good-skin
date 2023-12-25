@@ -1,52 +1,69 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+    {{ section.settings.custom_liquid }}
+  </div>
+</div>
+
 {% schema %}
 {
-  "name": "Custom Code",
+  "name": "t:sections.custom-liquid.name",
+  "tag": "section",
+  "class": "section",
   "settings": [
     {
       "type": "liquid",
-      "id": "code",
-      "label": "Liquid Code"
+      "id": "custom_liquid",
+      "label": "t:sections.custom-liquid.settings.custom_liquid.label",
+      "info": "t:sections.custom-liquid.settings.custom_liquid.info"
     },
     {
-      "type": "color",
-      "id": "background_color",
-      "label": "Background Color",
-      "default": "#ffffff"
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
     },
     {
       "type": "range",
       "id": "padding_top",
-      "label": "Padding Top (px)",
       "min": 0,
       "max": 100,
-      "step": 1,
-      "default": 0
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
     },
     {
       "type": "range",
       "id": "padding_bottom",
-      "label": "Padding Bottom (px)",
       "min": 0,
       "max": 100,
-      "step": 1,
-      "default": 0
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
     }
   ],
   "presets": [
     {
-      "name": "Custom Code",
-      "category": "Custom"
+      "name": "t:sections.custom-liquid.presets.name"
     }
   ]
 }
 {% endschema %}
-
-
-{% assign code = section.settings.code %}
-{% assign bg_color = section.settings.background_color %}
-{% assign padding_top = section.settings.padding_top %}
-{% assign padding_bottom = section.settings.padding_bottom %}
-
-<div style="background-color:{{ bg_color }}; padding-top:{{ padding_top }}px; padding-bottom:{{ padding_bottom }}px;">
-  {{ code | strip_newlines }}
-</div>
