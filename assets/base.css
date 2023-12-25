@@ -2383,8 +2383,14 @@ product-info .loading__spinner:not(.hidden) ~ *,
   top: 38px;
   width: 100%;
 }
-.section-header:not(.shopify-section-header-sticky) .header-wrapper {
+.template-index
+  .section-header:not(.shopify-section-header-sticky):not(.menu-open)
+  .header-wrapper:not(.active) {
   background: transparent;
+}
+.template-index .section-header.shopify-section-header-sticky .header-wrapper {
+  position: absolute;
+  width: 100%;
 }
 
 .shopify-section-header-hidden {
