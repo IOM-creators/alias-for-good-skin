@@ -2373,7 +2373,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .section-header:not(.shopify-section-header-sticky) .header-wrapper.active {
   background-color: rgb(var(--color-background));
 }
-.section-header:not(.shopify-section-header-sticky) {
+.template-index .section-header:not(.shopify-section-header-sticky) {
   position: absolute;
   top: 38px;
   width: 100%;
