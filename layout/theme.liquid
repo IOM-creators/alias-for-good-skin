@@ -102,7 +102,6 @@
 
   {% if body_template contains 'hero-block' %}
     {{ 'hero-block.css' | asset_url | stylesheet_tag }}
-    {{ 'hero-block.js' | asset_url | script_tag }}
   {% endif %} 
 
   {% if body_template contains 'swiper' %}

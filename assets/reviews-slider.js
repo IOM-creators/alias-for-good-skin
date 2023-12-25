@@ -1,5 +1,4 @@
-window.onload = (event) => {
-
+window.addEventListener("load", (event) => {
     const swiper = new Swiper(".reviews-slider__items-nav", {
         spaceBetween: 20,
         slidesPerView: 2.5,
@@ -30,4 +29,4 @@ window.onload = (event) => {
         }
     });
 
-};
+});
