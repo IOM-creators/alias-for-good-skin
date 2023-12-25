@@ -127,34 +127,22 @@
                 background: rgba(0, 0, 0, 0)
 
 
-.block_sc
-    font-size: 0
-    line-height: 0
-    ul
-        display: flex
-        justify-content: center
-        +min(1024)
-            justify-content: flex-end
-    li
-        margin-right: 7px !important
-        margin-left: 7px
-        +min(1024)
-            margin-left: 15px
-            margin-right: 0 !important
-    a
-        display: block
-        padding: 5px
+    &.socials
+        .list-social
+            justify-content: center
+            margin-left: -7px
+            margin-right: -7px
+            +min(1040)
+                justify-content: flex-end
 
-    span
-        display: none
-    .fa,svg
-        display: inline-block
-        color: inherit
-    .fa
-        line-height: 1
-        font-size: 16px
-    svg
-        // width: 14px
+        .list-social__link
+            padding: 5px
+        .list-social__item
+            margin-left: 7px
+            margin-right: 7px
+            .icon
+                width: 15px
+                height: 15px
 
 .footer__copyright
     margin-top: 15px

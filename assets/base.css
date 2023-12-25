@@ -19,6 +19,11 @@
   --text-alignment: var(--product-card-text-alignment);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .collection-card-wrapper .card,
 .contains-card--collection {
   --border-radius: var(--collection-card-corner-radius);
