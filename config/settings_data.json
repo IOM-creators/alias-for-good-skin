@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/alogo1-1.png",
+    "logo": "shopify://shop_images/alogo1-1.png",
     "logo_width": 90,
     "type_header_font": "arvo_n7",
     "heading_scale": 100,
@@ -98,7 +98,7 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "https:\/\/www.google.com\/",
     "social_instagram_link": "https:\/\/www.google.com\/",
@@ -112,8 +112,8 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
-    "cart_type": "notification",
+    "currency_code_enabled": false,
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
@@ -132,9 +132,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -349,7 +347,7 @@
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
@@ -363,8 +361,8 @@
       "predictive_search_enabled": true,
       "predictive_search_show_vendor": false,
       "predictive_search_show_price": false,
-      "currency_code_enabled": true,
-      "cart_type": "notification",
+      "currency_code_enabled": false,
+      "cart_type": "drawer",
       "show_vendor": false,
       "show_cart_note": false,
       "cart_drawer_collection": "",
