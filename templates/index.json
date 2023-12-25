@@ -14,7 +14,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -22,7 +22,11 @@
           }
         }
       },
-      "block_order": ["heading", "button"],
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -36,34 +40,40 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "ac562b07-4c49-4540-8258-698825cc504d": {
+      "type": "image-text-block",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "reverse": true,
+        "pd_top": "",
+        "pd_bottom": "",
+        "image": "shopify:\/\/shop_images\/The-Jet-Set-Trio-50-50-Block-alt_720x960_0e57c44d-c07d-4ba4-bacd-14342e212add.jpg",
+        "bg_block": "#a4c9ff",
+        "title": "THE JET SET TRIO",
+        "sup_title": "",
+        "description": "<p>Our TSA-approved trio is ready for takeoff. We’ve curated a must-have set featuring three of our award-winning essentials in travel sizes to help you maintain your radiant glow on-the-go.<\/p>",
+        "btn_text": "$20  |  SHOP NOW",
+        "btn_link": "\/"
+      }
+    },
+    "b6543531-823f-4385-aee0-fada4f1d3fa2": {
+      "type": "image-text-block",
+      "settings": {
+        "reverse": false,
+        "pd_top": "",
+        "pd_bottom": "",
+        "image": "shopify:\/\/shop_images\/50-50-Block-Founder-V2_720x960_75c0f83f-072e-45cf-bf4a-6bf6be40154b.webp",
+        "bg_block": "#a4c9ff",
+        "title": "OUR STORY",
+        "sup_title": "",
+        "description": "<p>\"Because of the deep connection I have with Korea, I find it important for Then I Met You to honor Korea’s rich beauty culture while highlighting the country’s incredible innovations in research and development at the same time—a perfect fusion of our past and present.”<br\/><em><br\/>– Charlotte Cho,Founder of Then I Met You<\/em><\/p>",
+        "btn_text": "learn more",
+        "btn_link": "\/"
       }
     }
   },
-  "order": ["image_banner", "featured_collection"]
+  "order": [
+    "image_banner",
+    "ac562b07-4c49-4540-8258-698825cc504d",
+    "b6543531-823f-4385-aee0-fada4f1d3fa2"
+  ]
 }
