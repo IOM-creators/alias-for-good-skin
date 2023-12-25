@@ -1565,11 +1565,22 @@
         ],
         "settings": {
         }
+      },
+      "9cb50692-8927-4ce6-8464-a111484715a4": {
+        "type": "video-block",
+        "settings": {
+          "block_top": 0,
+          "block_bottom": 0,
+          "block_title": "\"I actually look forward to the time that I spend taking off my makeup and city grime every evening.\"",
+          "block_description": "——Charlotte Cho, Founder of Then I Met You",
+          "video_bg": "shopify:\/\/files\/videos\/bg.mp4"
+        }
       }
     },
     "content_for_index": [
       "6e83bbd2-29d4-41c4-9656-1b0bdfaa4272",
       "5cf013d0-b4bf-4d07-923b-00fff0b6750b",
+      "9cb50692-8927-4ce6-8464-a111484715a4",
       "cca57259-0fa0-4fa4-964a-ccdac811d9c4",
       "aa9dbf2f-2e68-4383-a35c-fb9daad0c232"
     ],

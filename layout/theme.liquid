@@ -115,6 +115,11 @@
     {{ 'reviews-slider.js' | asset_url | script_tag }}
   {% endif %}
 
+  {% if body_template contains 'video-block' %}
+    {{ 'video-block.css' | asset_url | stylesheet_tag }}
+    {{ 'video-block.js' | asset_url | script_tag }}
+  {% endif %}
+
 
 </head>
 
