@@ -1,4 +1,4 @@
-window.onload = (event) => {
+window.addEventListener("load", (event) => {
     const htmlTag = document.querySelector('html');
     const videoBlock = document.querySelectorAll('.video-block');
 
@@ -33,4 +33,4 @@ window.onload = (event) => {
         });
 
     });
-};
+});
