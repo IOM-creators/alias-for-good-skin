@@ -4,19 +4,35 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "a45c00a9-9ece-4288-9509-1458dc54faa2": {
+          "type": "menu",
+          "settings": {
+            "menu_copyright": "footer-nav-new"
+          }
+        },
+        "8e12c7a2-654c-4eac-8618-a536ae343377": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_title": "LET'S KEEP IN TOUCH",
+            "newsletter_desc": "Get glowing with our latest products and exclusive events."
+          }
+        },
+        "f7809b4b-121a-4187-83c2-02aa1e935bcf": {
+          "type": "socials",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a45c00a9-9ece-4288-9509-1458dc54faa2",
+        "8e12c7a2-654c-4eac-8618-a536ae343377",
+        "f7809b4b-121a-4187-83c2-02aa1e935bcf"
+      ],
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
-        "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "block_top": 40,
+        "block_bottom": 40,
+        "footer_copyright": "©2023 Alias for good skin"
       }
     }
   },

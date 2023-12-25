@@ -4,6 +4,9 @@
   line-height: 0;
   color: #fff;
 }
+.video-block * {
+  color: inherit;
+}
 .video-block::before {
   content: "";
   position: absolute;

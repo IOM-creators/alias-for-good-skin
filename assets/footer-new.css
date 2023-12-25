@@ -57,8 +57,12 @@
   color: #000;
   font-size: 12px;
   letter-spacing: 0.75px;
+  text-decoration: none;
   line-height: 2.1;
   font-weight: 700;
+}
+.footer-new__item.menu a:hover {
+  text-decoration: underline;
 }
 .footer-new__item.newsletter {
   margin-bottom: 60px;
@@ -70,6 +74,7 @@
   }
 }
 .footer-new__item.newsletter h4 {
+  margin: 0;
   font-weight: bold;
   font-size: 18px;
   line-height: 1.56;

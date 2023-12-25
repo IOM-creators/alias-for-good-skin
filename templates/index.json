@@ -1,43 +1,14 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "disabled": true,
+    "d77e4d17-827f-46fc-b696-f9a488429ce4": {
+      "type": "hero",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "block_title": "DEEP CLEANSING CEREMONY",
+        "block_desc": "Every scoop of Living Cleansing Balm is a sensorial experience — gliding onto skin to gently melt away makeup, sunscreen and oil-based impurities while restoring vital moisture.",
+        "block_link_title": "SHOP LIVING CLEANSING BALM",
+        "block_link_url": "shopify:\/\/pages\/about-us",
+        "image_pc": "shopify:\/\/shop_images\/pc.jpg",
+        "image_mb": "shopify:\/\/shop_images\/mb.jpg"
       }
     },
     "ac562b07-4c49-4540-8258-698825cc504d": {
@@ -53,6 +24,61 @@
         "description": "<p>Our TSA-approved trio is ready for takeoff. We’ve curated a must-have set featuring three of our award-winning essentials in travel sizes to help you maintain your radiant glow on-the-go.<\/p>",
         "btn_text": "$20  |  SHOP NOW",
         "btn_link": "\/"
+      }
+    },
+    "39c8458d-e7b5-4053-8be7-afb687b43289": {
+      "type": "video-block",
+      "settings": {
+        "block_top": 0,
+        "block_bottom": 0,
+        "block_title": "\"I actually look forward to the time that I spend taking off my makeup and city grime every evening.\"",
+        "block_description": "——Charlotte Cho, Founder of Then I Met You",
+        "video_bg": "shopify:\/\/files\/videos\/bg.mp4"
+      }
+    },
+    "496e99c4-a29c-4492-8221-c155907e55a6": {
+      "type": "reviews-slider",
+      "blocks": {
+        "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Allure_logo_100x_2x_b00c1e51-c78f-420d-8638-01a83889e2c8.png",
+            "block_rev": "Then I Met You Living Cleansing Balm is widely worshipped for a reason. The velvety formula melts away makeup, promotes calm, and practically turns washing your face into a purification ritual.",
+            "block_rv_url": "shopify:\/\/pages\/about-us"
+          }
+        },
+        "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glamour_v3_100x_2x_6935292d-91a8-4120-bea4-dff30fab968a.png",
+            "block_rev": "Periwinkle blue and sunshine yellow is a color combo now synonymous with Then I Met You.",
+            "block_rv_url": ""
+          }
+        },
+        "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PopSugar-logo_100x_2x_1.png",
+            "block_rev": "My favorite part about this moisturizer definitely has to be its gel texture — it's super cooling and lightweight, and it transforms into cloud-like water as it absorbs into the skin.",
+            "block_rv_url": ""
+          }
+        },
+        "6d10f4da-19f7-4251-b491-e2b788bec253": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Refinery29_logo_100x_2x_64eba0e7-69a6-47a0-a75f-9136419dc171.png",
+            "block_rev": "Charlotte Cho's new double cleanser is a cult product in the making.",
+            "block_rv_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-1",
+        "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-2",
+        "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-3",
+        "6d10f4da-19f7-4251-b491-e2b788bec253"
+      ],
+      "settings": {
       }
     },
     "b6543531-823f-4385-aee0-fada4f1d3fa2": {
@@ -72,8 +98,10 @@
     }
   },
   "order": [
-    "image_banner",
+    "d77e4d17-827f-46fc-b696-f9a488429ce4",
     "ac562b07-4c49-4540-8258-698825cc504d",
+    "39c8458d-e7b5-4053-8be7-afb687b43289",
+    "496e99c4-a29c-4492-8221-c155907e55a6",
     "b6543531-823f-4385-aee0-fada4f1d3fa2"
   ]
 }
