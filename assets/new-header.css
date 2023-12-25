@@ -18,6 +18,7 @@ body.template-index .site-header.active {
 .custom-acccount {
   margin-right: 20px;
 }
+#header-sticky button,
 .site-header button {
   border: 0;
   outline: none;
@@ -182,4 +183,16 @@ body.template-index .site-header.active {
 }
 .header-mobile .d-flex.mobile-megamenu-icon {
   padding-right: 0;
+}
+
+#canvas-main-menu .site-nav,
+#canvas-main-menu .site-nav > li {
+  margin-bottom: 0 !important;
+}
+#canvas-main-menu .site-nav__link {
+  padding: 7.5px 35px !important;
+  font-weight: bold !important;
+}
+#show-megamenu.item-mobile-top {
+  width: 20px;
 }

@@ -119,6 +119,7 @@ ul li {
 }
 
 .announcement-slide h5 {
+  text-align: center;
   padding: 5px 0;
   margin: 0;
 }
