@@ -2395,7 +2395,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .shopify-section-group-header-group {
-  z-index: 4;
+  z-index: 1;
 }
 
 .section-header ~ .shopify-section-group-header-group {

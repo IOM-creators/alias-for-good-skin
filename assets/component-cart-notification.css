@@ -1,5 +1,6 @@
 .cart-notification-wrapper {
   position: relative;
+  z-index: 9999;
 }
 
 .cart-notification-wrapper .cart-notification {
@@ -13,58 +14,60 @@
   border-style: solid;
   border-width: 0 0 var(--popup-border-width);
   padding: 2.5rem 3.5rem;
-  position: absolute;
+  position: fixed;
+  top: 0;
   right: 0;
-  transform: translateY(-100%);
+  height: 100%;
+  transform: translateX(100%);
   visibility: hidden;
   width: 100%;
-  box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius)
+  box-shadow: var(--popup-shadow-horizontal-offset)
+    var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius)
     rgba(var(--color-shadow), var(--popup-shadow-opacity));
   z-index: -1;
 }
 
 .cart-notification.focused {
   box-shadow: 0 0 0.2rem 0 rgba(var(--color-foreground), 0.3),
-    var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius)
+    var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset)
+      var(--popup-shadow-blur-radius)
       rgba(var(--color-shadow), var(--popup-shadow-opacity));
 }
 
 .cart-notification:focus-visible {
   box-shadow: 0 0 0.2rem 0 rgba(var(--color-foreground), 0.3),
-    var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius)
+    var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset)
+      var(--popup-shadow-blur-radius)
       rgba(var(--color-shadow), var(--popup-shadow-opacity));
 }
 
 @media screen and (min-width: 750px) {
-  .header-wrapper:not(.header-wrapper--border-bottom) + cart-notification .cart-notification {
+  .header-wrapper:not(.header-wrapper--border-bottom)
+    + cart-notification
+    .cart-notification {
     border-top-width: var(--popup-border-width);
   }
 
   .cart-notification {
     border-width: 0 var(--popup-border-width) var(--popup-border-width);
-    max-width: 36.8rem;
-    right: 2.2rem;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .cart-notification-wrapper:is(.page-width) > .cart-notification {
-    right: 4rem;
+    max-width: 70rem;
   }
 }
 
 .cart-notification.animate {
-  transition: transform var(--duration-short) ease, visibility 0s var(--duration-short) ease;
+  transition: transform var(--duration-short) ease,
+    visibility 0s var(--duration-short) ease;
 }
 
 .cart-notification.active {
-  transform: translateY(0);
+  transform: translateX(0);
   transition: transform var(--duration-default) ease, visibility 0s;
   visibility: visible;
 }
 
 .cart-notification__header {
   align-items: flex-start;
+  justify-content: flex-end;
   display: flex;
 }
 
