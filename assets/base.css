@@ -2370,6 +2370,17 @@ product-info .loading__spinner:not(.hidden) ~ *,
   position: sticky;
   top: 0;
 }
+.section-header:not(.shopify-section-header-sticky) .header-wrapper.active {
+  background-color: rgb(var(--color-background));
+}
+.section-header:not(.shopify-section-header-sticky) {
+  position: absolute;
+  top: 38px;
+  width: 100%;
+}
+.section-header:not(.shopify-section-header-sticky) .header-wrapper {
+  background: transparent;
+}
 
 .shopify-section-header-hidden {
   top: calc(-1 * var(--header-height));
