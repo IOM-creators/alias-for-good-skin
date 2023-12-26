@@ -1,1 +1,26 @@
-{%- render 'cart-drawer' -%}
+{%- render 'cart-drawer', content: section.settings -%}
+
+{% schema %}
+{
+    "name": "Mini Cart Settings",
+    "settings": [
+            {
+                "type": "text",
+                "id": "shipping_text",
+                "label": "Shipping text",
+                "default": "Complimentary Shipping on All US Orders $30+"
+            },
+            {
+                "type": "url",
+                "id": "shopping_url",
+                "label": "Shopping url",
+                "default": "/"
+            },
+            {
+                "type": "image_picker",
+                "id": "empty_cart_img",
+                "label": "Image for empty cart"
+            }
+        ]
+}
+{% endschema %}
