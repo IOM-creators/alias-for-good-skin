@@ -111,7 +111,7 @@
       {%- endif -%}
 
       <div
-        class="product-grid-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        class="product-grid-container {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         id="ProductGridContainer"
         {% if settings.animations_reveal_on_scroll %}
           data-cascade
@@ -138,8 +138,7 @@
               id="product-grid"
               data-id="{{ section.id }}"
               class="
-                grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
-                grid--{{ section.settings.columns_desktop }}-col-desktop
+                grid product-grid 
               "
             >
               {%- for product in collection.products -%}
@@ -195,22 +194,6 @@
       "step": 4,
       "default": 16,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
-    },
-    {
-      "type": "range",
-      "id": "columns_desktop",
-      "min": 1,
-      "max": 5,
-      "step": 1,
-      "default": 4,
-      "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "info": "t:sections.all.colors.has_cards_info",
-      "default": "background-1"
     },
     {
       "type": "header",
@@ -339,26 +322,6 @@
       "id": "enable_sorting",
       "default": true,
       "label": "t:sections.main-collection-product-grid.settings.enable_sorting.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.main-collection-product-grid.settings.header_mobile.content"
-    },
-    {
-      "type": "select",
-      "id": "columns_mobile",
-      "default": "2",
-      "label": "t:sections.main-collection-product-grid.settings.columns_mobile.label",
-      "options": [
-        {
-          "value": "1",
-          "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__1.label"
-        },
-        {
-          "value": "2",
-          "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
-        }
-      ]
     },
     {
       "type": "header",
