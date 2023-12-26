@@ -390,3 +390,78 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+.carousel {
+  display: none;
+}
+
+.carousel-cell {
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel.flickity-enabled{
+  display: block;
+  margin-bottom: 30px;
+}
+
+.flickity-button {
+  display: none;
+}
+
+.flickity-page-dots {
+  bottom: -22px;
+  justify-content: center;
+}
+
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.carousel .flickity-page-dots .dot.is-selected {
+    background-color: #000;
+}
+
+.carousel .flickity-page-dots .dot {
+    background-color: #b2b2b2;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 1px;
+    margin: 0 3px 0 0;
+    opacity: 1;
+    transition: background-color .3s ease-out;
+    width: 40px;
+}
+.carousel,
+.carousel .flickity-viewport{
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (min-width: 750px) {
+  .product .carousel{
+    display: none;
+  }
+  
+  .flickity-page-dots{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .carousel-cell {
+    width: 66%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .slider-mobile-gutter{
+    display: none;
+  }
+}

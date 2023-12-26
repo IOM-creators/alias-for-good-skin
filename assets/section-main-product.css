@@ -1038,7 +1038,7 @@ a.product__text {
 
   .thumbnail-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
@@ -1052,7 +1052,7 @@ a.product__text {
   }
 
   .product--medium .thumbnail-list {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
 
   .product--large .thumbnail-list {
@@ -1109,7 +1109,7 @@ a.product__text {
   }
 
   .product--thumbnail_slider .slider-mobile-gutter .slider-button {
-    display: flex;
+    display: none;
   }
 }
 
@@ -1598,3 +1598,8 @@ a.product__text {
     border: none;
   }
 }
+
+
+/* .product__media-wrapper .slider-mobile-gutter {
+  display: none;
+} */
