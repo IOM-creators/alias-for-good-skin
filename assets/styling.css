@@ -1,0 +1,107 @@
+.collection-hero h1 {
+  margin: 0;
+}
+@media only screen and (min-width: 750px) {
+  .collection-hero h1 {
+    font-size: 50px;
+    line-height: 52px;
+    text-transform: uppercase;
+  }
+}
+
+.product-grid-container {
+  margin-top: -30px;
+}
+@media only screen and (min-width: 460px) {
+  .product-grid-container {
+    margin-top: -40px;
+  }
+}
+.product-grid-container .product-grid {
+  display: block;
+}
+@media only screen and (min-width: 460px) {
+  .product-grid-container .product-grid {
+    display: flex;
+    gap: initial;
+    justify-content: center;
+    margin: 0 -15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .product-grid-container .product-grid {
+    margin: 0 -23px;
+  }
+}
+.product-grid-container .product-grid .grid__item {
+  width: 100%;
+  max-width: initial;
+  margin-top: 30px;
+  flex-grow: initial;
+}
+@media only screen and (min-width: 460px) {
+  .product-grid-container .product-grid .grid__item {
+    width: calc(50% - 30px);
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .product-grid-container .product-grid .grid__item {
+    width: calc(33.33% - 30px);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .product-grid-container .product-grid .grid__item {
+    width: calc(33.33% - 46px);
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+}
+.product-grid-container .product-grid .card__information {
+  padding-top: 10px;
+}
+.product-grid-container .product-grid .rating {
+  line-height: 1;
+}
+.product-grid-container .product-grid .rating-star {
+  --color-rating-star: #f4633a;
+  --letter-spacing: .1;
+  --font-size: 1.7;
+}
+.product-grid-container .product-grid .rating-count.caption {
+  font-size: 13px;
+  line-height: 1;
+  color: #000;
+}
+.product-grid-container .product-grid .card__heading {
+  margin-top: 20px;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+.product-grid-container .product-grid .card-vendor {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000;
+  font-style: italic;
+}
+.product-grid-container .product-grid .quick-add {
+  margin: 0;
+}
+.product-grid-container .product-grid .quick-add .price {
+  margin-left: 6px;
+  color: currentColor;
+  font-size: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+}
+.product-grid-container .product-grid .quick-add .price * {
+  color: currentColor;
+}
+.product-grid-container .product-grid .quick-add .price__sale .price-item.price-item--regular {
+  display: none;
+}

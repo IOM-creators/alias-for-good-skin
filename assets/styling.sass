@@ -1,0 +1,105 @@
+=max($break)
+  @media only screen and (max-width: $break+px)
+    @content
+
+=min($break)
+  @media only screen and (min-width: $break+px)
+    @content
+
+.collection-hero
+    h1
+        margin: 0
+        +min(750)
+            font-size: 50px
+            line-height: 52px
+            text-transform: uppercase
+
+
+.product-grid-container
+    margin-top: -30px
+    +min(460)
+        margin-top: -40px
+    .product-grid
+        display: block
+        +min(460)
+            display: flex
+            gap: initial
+            justify-content: center
+            margin: 0 -15px
+        +min(1200)
+            margin: 0 -23px
+
+        .grid__item 
+            width: 100%
+            max-width: initial
+            margin-top: 30px
+            flex-grow: initial
+            +min(460)
+                width: calc(50% - 30px)
+                margin-top: 40px
+                margin-left: 15px
+                margin-right: 15px
+            +min(768)
+                width: calc(33.33% - 30px)
+            +min(1200)
+                width: calc(33.33% - 46px)
+                margin-left: 23px
+                margin-right: 23px
+
+        .card__information
+            padding-top: 10px
+        
+        .rating
+            line-height: 1
+
+        .rating-star
+            --color-rating-star: #f4633a
+            --letter-spacing: .1
+            --font-size: 1.7
+
+        .rating-count.caption
+            font-size: 13px
+            line-height: 1
+            color: #000
+
+        .card__heading
+            margin-top: 20px
+            letter-spacing: .1px
+            font-size: 14px
+            font-weight: bold
+            color: #000
+            text-transform: uppercase
+
+        .card-vendor
+            margin-top: 10px
+            font-size: 14px
+            color: #000
+            font-style: italic
+
+
+        .quick-add
+            margin: 0
+            .price
+                *
+                    color: currentColor
+                margin-left: 6px
+                color: currentColor
+                font-size: inherit
+                letter-spacing: inherit
+                line-height: inherit
+            .price__sale
+                .price-item.price-item--regular
+                    display: none 
+
+
+
+
+
+
+
+
+
+
+
+
+// 

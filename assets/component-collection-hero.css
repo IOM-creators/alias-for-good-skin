@@ -55,6 +55,7 @@
 
   .collection-hero__description {
     max-width: 66.67%;
+    display: inline-block;
   }
 
   .collection-hero--with-image .collection-hero__description {
