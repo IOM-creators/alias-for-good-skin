@@ -24,7 +24,7 @@
 {%- endunless -%}
 
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
-<div class="cart-template-wrapper">
+<div class="cart-template-wrapper page-width">
 <cart-items class="gradient color-{{ section.settings.color_scheme }} isolate{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="">
     <div class="title-wrapper-with-link">
