@@ -10,6 +10,13 @@
 {% endcomment %}
 
 <ul class="list-unstyled list-social{% if class %} {{ class}}{% endif %}" role="list">
+  {%- if settings.social_google_link != blank -%}
+    <li class="list-social__item">
+      <a class="link list-social__link" href="mailto:{{ settings.social_google_link }}" title="Alias for good skin on Dribbble">
+        {%- render 'icon-envelop' -%}
+      </a>
+    </li>
+  {%- endif -%}
   {%- if settings.social_facebook_link != blank -%}
     <li class="list-social__item">
       <a href="{{ settings.social_facebook_link }}" class="link list-social__link">

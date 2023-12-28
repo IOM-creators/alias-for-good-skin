@@ -79,7 +79,6 @@
                             </div>
                         {%- when 'socials' -%}
                             <div class="footer-new__item socials">
-                                {% comment %} {% include 'nov-social' %} {% endcomment %}
                                 {%- render 'social-icons', class: 'footer__list-social' -%}
                             </div>
                     {%- endcase -%}
@@ -96,7 +95,11 @@
     </div>
 </section>
 
-
+{% style %}
+    .footer-new {
+      background-color: {{ section.settings.bg_block }}
+    }
+{% endstyle %}
 {% schema %}
 {
   "name": "Footer",
@@ -105,6 +108,12 @@
     {
         "type": "header",
         "content": "Block offset"
+    },
+    {
+        "type": "color",
+        "id": "bg_block",
+        "default": "#7eb0fa",
+        "label": "Background block"
     },
     {
         "type": "range",

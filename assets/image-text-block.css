@@ -10,6 +10,7 @@
   letter-spacing: normal;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .left-block__description {
@@ -112,5 +113,14 @@
   }
   .left-block__description {
     margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .right-block__wrapper {
+    height: 100vw;
+  }
+  .right-block__image {
+    height: 100vw;
   }
 }

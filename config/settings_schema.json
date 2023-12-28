@@ -1323,6 +1323,12 @@
       },
       {
         "type": "text",
+        "id": "social_google_link",
+        "label": "Email",
+        "placeholder": "email@gmail.com"
+      },
+      {
+        "type": "text",
         "id": "social_youtube_link",
         "label": "t:settings_schema.social-media.settings.social_youtube_link.label",
         "placeholder": "t:settings_schema.social-media.settings.social_youtube_link.info"
