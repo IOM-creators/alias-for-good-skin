@@ -2,6 +2,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1{padding-top: 4rem;}"
+      ],
       "settings": {
         "show_collection_description": false,
         "text_align": "center"

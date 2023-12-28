@@ -3,12 +3,12 @@
     "d77e4d17-827f-46fc-b696-f9a488429ce4": {
       "type": "hero",
       "settings": {
-        "block_title": "DEEP CLEANSING CEREMONY",
-        "block_desc": "Every scoop of Living Cleansing Balm is a sensorial experience — gliding onto skin to gently melt away makeup, sunscreen and oil-based impurities while restoring vital moisture.",
-        "block_link_title": "SHOP LIVING CLEANSING BALM",
+        "block_title": "Fresh, Soft, Hydrated Skin",
+        "block_desc": "Every drop of our Glow Honey cleanser is a sensorial experience — gliding onto skin to gently melt away makeup, sunscreen and other impurities while restoring vital moisture.",
+        "block_link_title": "SHOP GLOW HONEY CLEANSER",
         "block_link_url": "shopify:\/\/pages\/about-us",
-        "image_pc": "shopify:\/\/shop_images\/pc.jpg",
-        "image_mb": "shopify:\/\/shop_images\/mb.jpg"
+        "image_pc": "shopify:\/\/shop_images\/Main_Banner_template.png",
+        "image_mb": "shopify:\/\/shop_images\/HomePage_mobile.png"
       }
     },
     "ac562b07-4c49-4540-8258-698825cc504d": {
@@ -17,9 +17,9 @@
         "reverse": true,
         "pd_top": "",
         "pd_bottom": "",
-        "image": "shopify:\/\/shop_images\/The-Jet-Set-Trio-50-50-Block-alt_720x960_0e57c44d-c07d-4ba4-bacd-14342e212add.jpg",
-        "bg_block": "#a4c9ff",
-        "title": "THE JET SET TRIO",
+        "image": "shopify:\/\/shop_images\/HomePage_Duo.png",
+        "bg_block": "#fffed2",
+        "title": "OUR BESTSELLER BUNDLE",
         "sup_title": "",
         "description": "<p>Our TSA-approved trio is ready for takeoff. We’ve curated a must-have set featuring three of our award-winning essentials in travel sizes to help you maintain your radiant glow on-the-go.<\/p>",
         "btn_text": "$20  |  SHOP NOW",

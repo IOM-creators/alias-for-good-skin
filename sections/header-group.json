@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Free shipping - limited time only!",
             "link": ""
           }
         },
@@ -27,10 +27,11 @@
       "settings": {
         "color_scheme": "background-1",
         "bg_color": "#ff5220",
-        "text_color": "#fff",
+        "text_color": "#ffffff",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
+        "enable_arrows": false,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
@@ -41,7 +42,10 @@
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "nav_item_collections": ["frontpage"],
+        "nav_item_name": "Shop",
+        "nav_item_collections": [
+          "frontpage"
+        ],
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
@@ -56,5 +60,8 @@
       }
     }
   },
-  "order": ["announcement-bar", "header"]
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
 }
