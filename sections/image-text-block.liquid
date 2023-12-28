@@ -3,7 +3,7 @@
 {% assign content = section.settings %}
 <section class="lp-img-text  map-section__wrapper">
   <div class="lp-img-text__wrapper  {% if content.reverse %}lp-img-text__wrapper--reverse{% endif %}">
-    <div class="lp-img-text__left-block">
+    <div class="lp-img-text__left-block lp-img-text__left-block-{{ section.id }}">
       <div class="inner">
         {% if content.sup_title != blank %}
         <span class="left-block__sup-title">
@@ -45,7 +45,7 @@
     padding-top: {{ content.pd_top }};
     padding-bottom: {{ content.pd_bottom }}
   }
-  .lp-img-text__left-block {
+  .lp-img-text__left-block-{{ section.id }} {
     background-color: {{ content.bg_block }}
   }
   .right-block__image-{{ section.id }}{
