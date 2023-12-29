@@ -15,8 +15,6 @@
       "type": "image-text-block",
       "settings": {
         "reverse": true,
-        "pd_top": "",
-        "pd_bottom": "",
         "image": "shopify:\/\/shop_images\/HomePage_Duo.png",
         "bg_block": "#fffed2",
         "title": "OUR BESTSELLER BUNDLE",
@@ -89,8 +87,6 @@
       "type": "image-text-block",
       "settings": {
         "reverse": false,
-        "pd_top": "",
-        "pd_bottom": "",
         "image": "shopify:\/\/shop_images\/50-50-Block-Founder-V2_720x960_75c0f83f-072e-45cf-bf4a-6bf6be40154b.webp",
         "bg_block": "#a4c9ff",
         "title": "OUR STORY",
