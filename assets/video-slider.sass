@@ -23,9 +23,15 @@
 
 .video-slider__wrapper
     position: relative
+
     padding-left: 20px
     padding-right: 20px
-
+    +min(440)
+        max-width: 570px
+        width: 100%
+        margin: auto
+    +min(768)
+        max-width: 100%
     +min(1024)
         padding-left: 50px
         padding-right: 50px
@@ -95,7 +101,7 @@
     &::before
         content: ''
         display: block
-        padding-top: 176%
+        padding-top: 150%
     video
         position: absolute
         top: 0

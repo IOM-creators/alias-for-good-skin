@@ -11,9 +11,8 @@ window.addEventListener("load", (event) => {
             440: {
                 slidesPerView: 2
             },
-            780: {
-                slidesPerView: 2,
-                spaceBetween: 50
+            768: {
+                slidesPerView: 3
             },
             1280: {
                 slidesPerView: 3,

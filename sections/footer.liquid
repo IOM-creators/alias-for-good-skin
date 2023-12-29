@@ -97,7 +97,8 @@
 
 {% style %}
     .footer-new {
-      background-color: {{ section.settings.bg_block }}
+        color: {{ section.settings.font_color }};
+        background-color: {{ section.settings.bg_block }};
     }
 {% endstyle %}
 {% schema %}
@@ -105,6 +106,20 @@
   "name": "Footer",
   "max_blocks": 5,
   "settings": [
+    {
+        "type": "header",
+        "content": "Fonts block color"
+    },
+    {
+        "type": "color",
+        "id": "font_color",
+        "default": "#fff",
+        "label": "Fonts block color"
+    },
+    {
+        "type": "header",
+        "content": "Background block color"
+    },
     {
         "type": "color",
         "id": "bg_block",

@@ -88,6 +88,7 @@
   width: 100%;
   box-shadow: 0 17px 30px 0 transparent;
   transition: box-shadow .5s ease;
+  font-family: var(--font-body-family);
 }
 
 
