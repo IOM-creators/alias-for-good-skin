@@ -335,8 +335,16 @@ body {
 
     {% if body_template contains 'hero-block' %}
     {{ 'hero-block.css' | asset_url | stylesheet_tag }}
-    {{ 'hero-block.js' | asset_url | script_tag }}
     {% endif %} 
+
+    {% if body_template contains 'map-section__wrapper' %}
+    {{ 'image-text-block.css' | asset_url | stylesheet_tag }}
+    {% endif %} 
+
+    {% if body_template contains 'popup' %}
+      {{ 'popup.css' | asset_url | stylesheet_tag }}
+      {{ 'popup.js' | asset_url | script_tag }}
+    {% endif %}
 
     {% if body_template contains 'swiper' %}
     <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.js"></script>
@@ -345,12 +353,16 @@ body {
 
     {% if body_template contains 'reviews-slider' %}
     {{ 'reviews-slider.css' | asset_url | stylesheet_tag }}
-    {{ 'reviews-slider.js' | asset_url | script_tag }}
+    {{ 'reviews-slider.js' | asset_url | script_tag }} 
     {% endif %}
 
     {% if body_template contains 'video-block' %}
       {{ 'video-block.css' | asset_url | stylesheet_tag }}
-      {{ 'video-block.js' | asset_url | script_tag }}
+    {% endif %}
+
+    {% if body_template contains 'video-slider' %}
+      {{ 'video-slider.css' | asset_url | stylesheet_tag }}
+      {{ 'video-slider.js' | asset_url | script_tag }}
     {% endif %}
     
     {{ 'styling.css' | asset_url | stylesheet_tag }}

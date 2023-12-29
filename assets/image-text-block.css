@@ -1,6 +1,5 @@
 
 .left-block__sup-title {
-  font-family: "Yesteryear";
   font-size: 70px;
   color: #ffbf51;
 }
@@ -8,7 +7,6 @@
   font-size: 30px;
   line-height: 1.07;
   letter-spacing: normal;
-  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
 }

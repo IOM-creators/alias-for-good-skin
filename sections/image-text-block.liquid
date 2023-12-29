@@ -1,7 +1,25 @@
 
-{{ 'image-text-block.css' | asset_url | stylesheet_tag }}
 {% assign content = section.settings %}
-<section class="lp-img-text  map-section__wrapper">
+{% style %}
+    .block-{{ section.id }} {
+        margin-top: {{ section.settings.block_top | times: 0.7  }}px;
+        margin-bottom: {{ section.settings.block_bottom | times: 0.7 }}px;
+    }
+    @media screen and (min-width: 1024px) {
+        .block-{{ section.id }} {
+            margin-top: {{ section.settings.block_top }}px;
+            margin-bottom: {{ section.settings.block_bottom }}px;
+        }
+    }
+  .lp-img-text__left-block-{{ section.id }} {
+    background-color: {{ content.bg_block }}
+  }
+  .right-block__image-{{ section.id }}{
+    background-image: url({{ content.image | img_url: "master" }});
+  }
+
+{% endstyle %}
+<section class="lp-img-text  map-section__wrapper block-{{ section.id }}">
   <div class="lp-img-text__wrapper  {% if content.reverse %}lp-img-text__wrapper--reverse{% endif %}">
     <div class="lp-img-text__left-block lp-img-text__left-block-{{ section.id }}">
       <div class="inner">
@@ -40,20 +58,6 @@
   </div>
 </section>
 
-{% style %}
-  .lp-img-text {
-    padding-top: {{ content.pd_top }};
-    padding-bottom: {{ content.pd_bottom }}
-  }
-  .lp-img-text__left-block-{{ section.id }} {
-    background-color: {{ content.bg_block }}
-  }
-  .right-block__image-{{ section.id }}{
-    background-image: url({{ content.image | img_url: "master" }});
-  }
-
-{% endstyle %}
-
 {% schema %}
   {
     "name": "Image & Text Block",
@@ -65,17 +69,29 @@
         "default": false
       },
       {
-        "type": "text",
-        "id": "pd_top",
-        "label": "Top spacing section",
-        "default": "70px"
-      },
-      {
-        "type": "text",
-        "id": "pd_bottom",
-        "label": "Bottom spacing section",
-        "default": "70px"
-      },
+        "type": "header",
+        "content": "Block offset"
+    },
+    {
+        "type": "range",
+        "id": "block_top",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset top",
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "block_bottom",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset bottom",
+        "default": 0
+    },
       {
         "type": "image_picker",
         "id": "image",

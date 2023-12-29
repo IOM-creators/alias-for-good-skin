@@ -11,7 +11,7 @@
     }
 </style>
 
-<section class="video-block block-{{ section.id }}">
+<section class="video-block popup-in block-{{ section.id }}">
 
     {% if section.settings.video_bg != blank %}
         <video class="video-block__bg" muted loop autoplay playsinline controlsList="nodownload">
@@ -25,7 +25,7 @@
         <div class="video-block__inner">
 
             {% if section.settings.video_bg != blank %}
-                <div class="video-block__open">
+                <div class="video-block__open popup-open" id="vid_first">
                     <span>
                         <svg viewBox="0 0 280.5 357"><path d="M0 0v357l280.5-178.5Z"/></svg>
                     </span>
@@ -47,7 +47,7 @@
     </div>
 
     {% if section.settings.video_bg != blank %}
-        <div class="popup">
+        <div class="popup" data-popup="vid_first">
             <div class="popup__holder">
                 <div class="popup__inner">
                 <div class="popup__content">
@@ -63,7 +63,7 @@
                             </g>
                         </svg>
                     </div>
-                    <video class="video-block__popup-video"controls controlsList="nodownload" playsinline>
+                    <video class="video-block__popup-video" controls controlsList="nodownload" playsinline>
                         <source src="{{ section.settings.video_bg.sources[1].url}}" type="video/mp4">
                     </video>
                 </div>

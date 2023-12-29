@@ -1323,7 +1323,7 @@
       },
       {
         "type": "text",
-        "id": "social_google_link",
+        "id": "social_email",
         "label": "Email",
         "placeholder": "email@gmail.com"
       },

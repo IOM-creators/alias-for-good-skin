@@ -72,7 +72,6 @@
 }
 .footer-new__item.newsletter h4 {
   margin: 0;
-  font-weight: bold;
   font-size: 18px;
   line-height: 1.56;
 }
@@ -154,8 +153,8 @@
 }
 .footer-new__item.socials .list-social {
   justify-content: center;
-  margin-left: -7px;
-  margin-right: -7px;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 @media only screen and (min-width: 1040px) {
   .footer-new__item.socials .list-social {
@@ -163,15 +162,15 @@
   }
 }
 .footer-new__item.socials .list-social__link {
-  padding: 5px;
+  padding: 3px;
 }
 .footer-new__item.socials .list-social__item {
-  margin-left: 7px;
-  margin-right: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .footer-new__item.socials .list-social__item .icon {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
 }
 
 .footer__copyright {

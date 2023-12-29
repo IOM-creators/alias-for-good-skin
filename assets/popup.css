@@ -1,0 +1,89 @@
+html.overflow {
+  height: 100vh;
+  overflow: hidden;
+}
+
+html.overflow body {
+  overflow-y: scroll;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  opacity: 0;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.4);
+  transition: opacity 0.4s;
+}
+.popup.active {
+  opacity: 1;
+  visibility: visible;
+}
+.popup.vertical .popup__inner {
+  min-height: initial;
+  height: 100%;
+}
+.popup.vertical .popup__content {
+  width: initial;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup.vertical .popup__content video {
+  width: initial;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.popup__holder {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.popup__inner {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.popup__content {
+  max-width: 960px;
+  width: 100%;
+}
+.popup__content video {
+  display: block;
+  width: 100%;
+}
+
+.popup__close {
+  position: absolute;
+  z-index: 6;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  font-size: 0;
+  line-height: 0;
+}
+@media only screen and (min-width: 750px) {
+  .popup__close {
+    right: 40px;
+    top: 40px;
+  }
+}
+.popup__close svg {
+  width: 30px;
+  height: auto;
+  display: block;
+}
+@media only screen and (min-width: 750px) {
+  .popup__close svg {
+    width: 45px;
+  }
+}

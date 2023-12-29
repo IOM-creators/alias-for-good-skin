@@ -1,0 +1,176 @@
+<style>
+    .block-{{ section.id }} {
+        padding-top: {{ section.settings.block_top | times: 0.7  }}px;
+        padding-bottom: {{ section.settings.block_bottom | times: 0.7 }}px;
+    }
+    @media screen and (min-width: 1024px) {
+        .block-{{ section.id }} {
+            padding-top: {{ section.settings.block_top }}px;
+            padding-bottom: {{ section.settings.block_bottom }}px;
+        }
+    }
+</style>
+
+{% assign items = false %}
+{% for block in section.blocks %}
+    {% if block.type == 'item' %}
+        {% assign items = true %}
+    {% endif %}
+{% endfor %}
+
+<section class="video-slider popup-in block-{{ section.id }}">
+    <div class="wrapper">
+        {% if section.settings.block_title != blank %}
+            <h2>
+                {{ section.settings.block_title }}
+            </h2>
+        {% endif %}
+
+
+        {% if items == true %}
+            <div class="video-slider__wrapper">
+                <div class="video-slider__items swiper">
+                    <div class="swiper-wrapper">
+                        {% for block in section.blocks %}
+                            {%- case block.type -%}
+                                {%- when 'item' -%}
+                                    <div class="video-slider__item swiper-slide">
+                                        <div class="video-slider__item-media">
+                                            <video id="video-{{ forloop.index }}" class="popup-open" preload="metadata" playsinline muted loop >
+                                                <source src="{{ block.settings.video_link }}" type="video/mp4">
+                                            </video>
+                                        </div>
+
+                                        {% if block.settings.caption != blank %}
+                                            <div class="video-slider__item-desc">
+                                                {{ block.settings.caption }}
+                                            </div>
+                                        {% endif %}
+
+                                    </div>
+                            {%- endcase -%}
+                        {% endfor %}
+                    </div>           
+                </div>
+                <div class="sl-buton sl-button-prev"><svg viewBox="0 0 240.823 240.823"><path d="M57.633 111.816 165.93 3.555c4.752-4.74 12.451-4.74 17.215 0 4.752 4.74 4.752 12.439 0 17.179l-99.707 99.671 99.695 99.671c4.752 4.74 4.752 12.439 0 17.191-4.752 4.74-12.463 4.74-17.215 0L57.621 129.006c-4.68-4.691-4.68-12.511.012-17.19z"/></svg></div>
+                <div class="sl-buton sl-button-next"><svg viewBox="0 0 240.823 240.823"><path d="M183.189 111.816 74.892 3.555c-4.752-4.74-12.451-4.74-17.215 0-4.752 4.74-4.752 12.439 0 17.179l99.707 99.671-99.695 99.671c-4.752 4.74-4.752 12.439 0 17.191 4.752 4.74 12.463 4.74 17.215 0l108.297-108.261c4.68-4.691 4.68-12.511-.012-17.19z"/></svg></div>
+            </div>
+      {% endif %}
+
+    </div>
+
+
+
+    {% if items == true %}
+        {% for block in section.blocks %}
+            {%- case block.type -%}
+                {%- when 'item' -%}
+                    <div class="popup vertical" data-popup="video-{{ forloop.index }}">
+                        <div class="popup__holder">
+                            <div class="popup__inner">
+                            <div class="popup__content">
+                                <div class="popup__close">
+                                    <svg width="15px" height="13px" viewBox="0 0 15 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+                                            <g transform="translate(-332.000000, -21.000000)" stroke="#FFFFFF">
+                                                <g transform="translate(333.000000, 21.000000)">
+                                                    <path d="M0,0 L13,13"></path>
+                                                    <path d="M13,0 L0,13"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <video class="video-block__popup-video" controls loop controlsList="nodownload" playsinline>
+                                    <source src="{{ block.settings.video_link }}" type="video/mp4">
+                                </video>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            {%- endcase -%}
+        {% endfor %}
+  {% endif %}
+
+
+</section>
+
+
+{% schema %}
+{
+  "name": "Video slider",
+  "max_blocks": 3,
+  "settings": [
+    {
+        "type": "header",
+        "content": "Block offset"
+    },
+    {
+        "type": "range",
+        "id": "block_top",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset top",
+        "default": 60
+    },
+    {
+        "type": "range",
+        "id": "block_bottom",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset bottom",
+        "default": 60
+    },
+    {
+        "type": "header",
+        "content": "Block title"
+    },
+    {
+        "type": "text",
+        "id": "block_title",
+        "label": "Block title"
+    }
+  ],
+  "blocks": [
+      {
+        "type": "item",
+        "limit": 10,
+        "name": "Video",
+        "settings": [
+          {
+            "type": "url",
+            "id": "video_link",
+            "label": "Video Link"
+          }, 
+          {
+            "type": "text",
+            "id": "caption",
+            "label": "Caption",
+            "info": "Optional"
+          }
+        ]
+      }
+    ],
+
+   "presets": [
+    {
+        "name": "Video slider",
+        "blocks": [
+          {
+            "type": "item"
+          },
+          {
+            "type": "item" 
+          },
+          {
+            "type": "item"
+          }
+        ]
+    }
+  ]
+}
+{% endschema %}
