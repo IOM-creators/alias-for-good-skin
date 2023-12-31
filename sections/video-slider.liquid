@@ -36,7 +36,7 @@
                                 {%- when 'item' -%}
                                     <div class="video-slider__item swiper-slide">
                                         <div class="video-slider__item-media">
-                                            <video id="video-{{ forloop.index }}" class="popup-open" preload="metadata" playsinline muted loop >
+                                            <video id="video-{{ forloop.index }}" class="popup-open" poster="{{ block.settings.video_poster | image_url: width: 400 }}" playsinline muted loop >
                                                 <source src="{{ block.settings.video_link }}" type="video/mp4">
                                             </video>
                                         </div>
@@ -81,7 +81,7 @@
                                         </g>
                                     </svg>
                                 </div>
-                                <video class="video-block__popup-video" controls loop controlsList="nodownload" playsinline>
+                                <video class="video-block__popup-video" controls loop controlsList="nodownload" poster="{{ block.settings.video_poster | image_url: width: 400 }}" playsinline>
                                     <source src="{{ block.settings.video_link }}" type="video/mp4">
                                 </video>
                             </div>
@@ -144,6 +144,11 @@
             "type": "url",
             "id": "video_link",
             "label": "Video Link"
+          }, 
+          {
+            "type": "image_picker",
+            "id": "video_poster",
+            "label": "Video preview image"
           }, 
           {
             "type": "text",
