@@ -4,7 +4,7 @@
       "type": "hero",
       "settings": {
         "block_title": "Fresh, Soft, Hydrated Skin",
-        "block_desc": "Every drop of our Glow Honey cleanser is a sensorial experience — light honey scented gel that glides  onto skin to gently melt away makeup, sunscreen and other impurities while restoring vital moisture.",
+        "block_desc": "Every drop of our Glow Honey cleanser is a sensorial experience — light honey gel that glides effortlessly onto skin to gently melt away makeup, sunscreen and other impurities while restoring vital moisture.",
         "block_link_title": "SHOP GLOW HONEY CLEANSER",
         "block_link_url": "shopify:\/\/pages\/about-us",
         "image_pc": "shopify:\/\/shop_images\/Main_Banner_template.png",
@@ -15,23 +15,38 @@
       "type": "image-text-block",
       "settings": {
         "reverse": true,
+        "block_top": 0,
+        "block_bottom": 0,
         "image": "shopify:\/\/shop_images\/HomePage_Duo.png",
         "bg_block": "#fffed2",
         "title": "OUR BESTSELLER BUNDLE",
         "sup_title": "",
-        "description": "<p>Our TSA-approved trio is ready for takeoff. We’ve curated a must-have set featuring three of our award-winning essentials in travel sizes to help you maintain your radiant glow on-the-go.<\/p>",
+        "description": "<p>Minimise premature aging.<br\/>Pair our Glow Honey cleanser with our ultra-soft Cloud No. 9 cleansing puff to gently remove stubborn makeup, especially around the delicate eye area.<\/p>",
         "btn_text": "$48  |  SHOP NOW",
         "btn_link": "\/"
       }
     },
-    "39c8458d-e7b5-4053-8be7-afb687b43289": {
-      "type": "video-block",
+    "1ca7886b-fac1-4a26-94f8-b66ebb4bbdac": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21762805793062__1ca7886b-fac1-4a26-94f8-b66ebb4bbdac-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "See what our satisfied customers say",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21762805793062__1ca7886b-fac1-4a26-94f8-b66ebb4bbdac-heading-1"
+      ],
       "settings": {
-        "block_top": 0,
-        "block_bottom": 0,
-        "block_title": "\"I actually look forward to the time that I spend taking off my makeup and city grime every evening.\"",
-        "block_description": "——Charlotte Cho, Founder of Then I Met You",
-        "video_bg": "shopify:\/\/files\/videos\/bg.mp4"
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "496e99c4-a29c-4492-8221-c155907e55a6": {
@@ -83,19 +98,6 @@
       "settings": {
       }
     },
-    "b6543531-823f-4385-aee0-fada4f1d3fa2": {
-      "type": "image-text-block",
-      "settings": {
-        "reverse": false,
-        "image": "shopify:\/\/shop_images\/50-50-Block-Founder-V2_720x960_75c0f83f-072e-45cf-bf4a-6bf6be40154b.webp",
-        "bg_block": "#a4c9ff",
-        "title": "OUR STORY",
-        "sup_title": "",
-        "description": "<p>\"Because of the deep connection I have with Korea, I find it important for Then I Met You to honor Korea’s rich beauty culture while highlighting the country’s incredible innovations in research and development at the same time—a perfect fusion of our past and present.”<br\/><em><br\/>– Charlotte Cho,Founder of Then I Met You<\/em><\/p>",
-        "btn_text": "learn more",
-        "btn_link": "\/"
-      }
-    },
     "7cf31367-49d6-4fd1-97ff-11314b924641": {
       "type": "video-slider",
       "blocks": {
@@ -131,14 +133,41 @@
         "block_bottom": 60,
         "block_title": ""
       }
+    },
+    "39c8458d-e7b5-4053-8be7-afb687b43289": {
+      "type": "video-block",
+      "disabled": true,
+      "settings": {
+        "block_top": 0,
+        "block_bottom": 0,
+        "block_title": "\"I actually look forward to the time that I spend taking off my makeup and city grime every evening.\"",
+        "block_description": "——Charlotte Cho, Founder of Then I Met You",
+        "video_bg": "shopify:\/\/files\/videos\/bg.mp4"
+      }
+    },
+    "b6543531-823f-4385-aee0-fada4f1d3fa2": {
+      "type": "image-text-block",
+      "settings": {
+        "reverse": false,
+        "block_top": 0,
+        "block_bottom": 0,
+        "image": "shopify:\/\/shop_images\/3_55a0bd0d-be8a-4665-9db5-ba8a7d6778a4.png",
+        "bg_block": "#fffed2",
+        "title": "OUR STORY",
+        "sup_title": "",
+        "description": "<p>At Alias for good skin, we believe that<br\/>skincare should be uncomplicated.<br\/><br\/>We develop multi-functional products and use quality ingredients to deliver noticeable results; allowing you to achieve healthy and glowing skin.<\/p>",
+        "btn_text": "learn more",
+        "btn_link": "\/"
+      }
     }
   },
   "order": [
     "d77e4d17-827f-46fc-b696-f9a488429ce4",
     "ac562b07-4c49-4540-8258-698825cc504d",
-    "39c8458d-e7b5-4053-8be7-afb687b43289",
+    "1ca7886b-fac1-4a26-94f8-b66ebb4bbdac",
     "496e99c4-a29c-4492-8221-c155907e55a6",
-    "b6543531-823f-4385-aee0-fada4f1d3fa2",
-    "7cf31367-49d6-4fd1-97ff-11314b924641"
+    "7cf31367-49d6-4fd1-97ff-11314b924641",
+    "39c8458d-e7b5-4053-8be7-afb687b43289",
+    "b6543531-823f-4385-aee0-fada4f1d3fa2"
   ]
 }
