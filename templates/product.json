@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -28,14 +21,8 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
           }
         },
         "description": {
@@ -43,37 +30,154 @@
           "settings": {
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "description",
+        "buy_buttons",
         "share"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "background-1",
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 0
+      }
+    },
+    "952dba13-bd1f-406d-8143-c7734a36b85d": {
+      "type": "product-image-text",
+      "blocks": {
+        "8103e376-820a-4c2f-b952-e9fd8fb94ef2": {
+          "type": "feature",
+          "settings": {
+            "feature": "- Designed for everyday wear — not just outdoor use"
+          }
+        },
+        "17451414-de68-48d8-881a-8147c57aa68a": {
+          "type": "feature",
+          "settings": {
+            "feature": "- Typically higher SPF values"
+          }
+        },
+        "ca87ba9e-61ef-48e2-936f-28624399a7f6": {
+          "type": "feature",
+          "settings": {
+            "feature": "- Uses both SPF (Sun Protection Factor) and PA (Protection Grade of UVA Rays)"
+          }
+        }
+      },
+      "block_order": [
+        "8103e376-820a-4c2f-b952-e9fd8fb94ef2",
+        "17451414-de68-48d8-881a-8147c57aa68a",
+        "ca87ba9e-61ef-48e2-936f-28624399a7f6"
+      ],
+      "settings": {
+        "background": "#a4c9ff",
+        "image_with_text_image": "shopify:\/\/shop_images\/PDP-Image_Then-I-Met-You_Essence-Light-Sunscreen_Cindy-Before-_-After.jpg",
+        "subtitle": "Sun Essence",
+        "title": "ILLUMINATING PROTECTION",
+        "large_body_text": "Our essence inspired formula applies invisibly on all skin tones without white cast or stickiness to protect and hydrate skin for a vibrant and luminous complexion.",
+        "info_text": "Shedding Light on Korean Sunscreen Formulation Benefits"
+      }
+    },
+    "55d318ad-cda3-454b-ad52-2de954f76425": {
+      "type": "product-ingredients",
+      "blocks": {
+        "cf8deeb0-9705-446b-abbe-5467da035140": {
+          "type": "ingredient",
+          "settings": {
+            "title": "CERAMIDES",
+            "text": "Ceramides are lipids that make up your skin’s natural barrier, helping it to retain moisture and protecting it from any potential irritants. Applying ceramides topically fortifies the skin’s barrier so that your skin remains supple and healthy."
+          }
+        },
+        "00689429-0836-4098-8ba9-87f9023a2113": {
+          "type": "ingredient",
+          "settings": {
+            "title": "HYALURONIC ACID",
+            "text": "Hyaluronic Acid is known to deeply quench skin with vital hydration by attracting and binding water within the skin surface. It draws moisture into the skin for a plumper, more youthful appearance."
+          }
+        },
+        "6563e16c-bf5e-41d8-9089-92fbb6a14963": {
+          "type": "ingredient",
+          "settings": {
+            "title": "PROVITAMIN B5",
+            "text": "Pantothenic acid (B5) is a humectant (moisturizing agent) that retains moisture in the skin, which improves skin elasticity and contributes to a fuller, more hydrated looking face."
+          }
+        },
+        "9047375d-dc71-4599-b0d6-9654b19ed9b1": {
+          "type": "ingredient",
+          "settings": {
+            "title": "ACTIVE INGREDIENTS",
+            "text": "Avobenzone 3.0%, Homosalate 9.0%, Octisalate 4.5%, Octocrylene 5.0%"
+          }
+        },
+        "9e70fede-12b4-4165-b3ac-b50531e446bb": {
+          "type": "ingredient-accordion",
+          "settings": {
+            "title": "SEE FULL INGREDIENTS",
+            "text": "<p>Water (Aqua), Dipropylene Glycol, Methyl Methacrylate Crosspolymer, Glyceryl Polymethacrylate, Propylene Glycol, Butyloctyl Salicylate, Ceteareth-20, Ethylhexyl Methoxycrylene, Acrylates Copolymer, Galactomyces Ferment Filtrate, Saccharomyces Ferment Filtrate, Ceramide NP, Hydrolyzed Hyaluronic Acid, Sodium Acetylated Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Panax Ginseng Root Extract, Sorbitan Oleate, Polysorbate 60, Sorbitan Stearate, Caprylyl Glycol, Cetearyl Olivate, Panthenol, Sodium Hyaluronate, Glycerin, Sorbitan Olivate, Acrylates\/C10- 30 Alkyl Acrylate Crosspolymer, Tromethamine, Sodium Acrylate\/ Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Ammonium Acryloyldimethyltaurate\/VP Copolymer, 1,2-Hexanediol, BHT, Ethylhexylglycerin, Polysorbate 80, Trisodium Ethylenediamine Disuccinate, Xanthan Gum, Butylene Glycol, Caprylic\/ Capric Triglyceride, Hydroxypropyltrimonium Hyaluronate, Potassium Sorbate, Hydrogenated Lecithin, Sodium Benzoate,<\/p>"
+          }
+        },
+        "4bd3d1c6-12a1-451f-a8d2-b7317f48c26a": {
+          "type": "ingredient-accordion",
+          "settings": {
+            "title": "HOW TO USE",
+            "text": "<p>HOW TO USE:<br\/>SPF should be applied daily (no matter the weather!) as the last step in your routine before applying makeup and at least 15 minutes before sun exposure. Apply an even layer to skin including face, neck and décolletage (about a nickel sized amount). If wearing makeup, allow 2-3 minutes for the sunscreen to sink in before applying primer or other cosmetics. Reapply every 2 hours. See Drug Facts for complete usage.<br\/><br\/>TIPS FOR USE:<br\/>- Essence Light Sunscreen was designed as a moisturizing makeup base. It can be worn alone or as the perfect canvas for makeup application<br\/>- For the best experience, keep this product out of the sun and extreme heat<br\/><br\/>FAQ’s:<br\/>Q: Can I use Essence Light Sunscreen on my body?<br\/>A: Essence Light Sunscreen has been expertly formulated to provide skincare and beauty benefits optimized for your face, but can be used on your body as well. Don’t forget to apply and reapply sunscreen to the backs of your hands — especially with frequent hand washing, as they are prone to sun exposure and can show early signs of aging.<br\/><br\/>Q: Does Essence Light Sunscreen work on all skin types?<br\/>A: Yes! Essence Light Sunscreen works on all skin types and is formulated with ingredients that help soothe skin and maintain moisture while leaving a natural, radiant finish. If you have super sensitive skin, we always recommend patch-testing before regular use.<br\/><br\/>Q: Do I need to use additional moisturizer together with this sunscreen?<br\/>A: For dry-combination skin, it is recommended to apply sunscreen after your serum or moisturizer. For skin with excessive sebum or oily skin, you do not need to use additional moisturizer.<br\/><br\/>Q: Is there a fragrance?<br\/>A: There is no fragrance added.<br\/><br\/>Q: How is the SPF level determined?<br\/>A: Our SPF was tested by an independent 3rd party clinical laboratory in the United States. Using the Static SPF testing method set forth by the FDA our 11 subject panel yielded a mean static SPF value of 57.78 with an X-A value of 54.33 resulting in a label value of SPF 54. The results of our Broad Spectrum test yielded a mean critical wavelength of 380.11nm in<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "cf8deeb0-9705-446b-abbe-5467da035140",
+        "00689429-0836-4098-8ba9-87f9023a2113",
+        "6563e16c-bf5e-41d8-9089-92fbb6a14963",
+        "9047375d-dc71-4599-b0d6-9654b19ed9b1",
+        "9e70fede-12b4-4165-b3ac-b50531e446bb",
+        "4bd3d1c6-12a1-451f-a8d2-b7317f48c26a"
+      ],
+      "settings": {
+        "subtitle": "Key & Active Ingredients :"
+      }
+    },
+    "17037698525ebca6be": {
+      "type": "apps",
+      "blocks": {
+        "cd63e687-f72b-48db-b44e-bd7e0fffc73c": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "cd63e687-f72b-48db-b44e-bd7e0fffc73c"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "related-products": {
@@ -97,6 +201,9 @@
   },
   "order": [
     "main",
+    "952dba13-bd1f-406d-8143-c7734a36b85d",
+    "55d318ad-cda3-454b-ad52-2de954f76425",
+    "17037698525ebca6be",
     "related-products"
   ]
 }

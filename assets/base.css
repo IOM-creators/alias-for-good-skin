@@ -1264,6 +1264,7 @@ button.shopify-payment-button__button--unbranded {
   background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
 
+
 .button:before,
 .shopify-challenge__button:before,
 .customer button:before,

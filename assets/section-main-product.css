@@ -160,7 +160,6 @@
 
 /* Form Elements */
 .product-form__input {
-  flex: 0 0 100%;
   padding: 0;
   margin: 0 0 1.2rem 0;
   max-width: 44rem;
@@ -1038,7 +1037,7 @@ a.product__text {
 
   .thumbnail-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
@@ -1052,7 +1051,7 @@ a.product__text {
   }
 
   .product--medium .thumbnail-list {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
 
   .product--large .thumbnail-list {
@@ -1109,7 +1108,7 @@ a.product__text {
   }
 
   .product--thumbnail_slider .slider-mobile-gutter .slider-button {
-    display: flex;
+    display: none;
   }
 }
 
@@ -1597,4 +1596,67 @@ a.product__text {
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
   }
+}
+.product__title h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1;
+  padding-bottom: 5px;
+  font-weight: 900;
+}
+
+
+@media screen and (min-width: 750px) {
+  .product__title h1 {
+    font-size: 40px;
+    line-height: 38px;
+    padding-bottom: 10px;
+  }
+}
+
+.product-form-styles{
+  width: 100%;
+  margin-right: 10px;
+}
+
+.product .product-form__submit span{
+  text-transform: uppercase;
+}
+
+.product-form-styles .quantity__input{
+  display: block;
+  padding: 0;
+}
+.product-form-styles .quantity__input{
+  display: block;
+  padding: 0;
+}
+
+.product-button-custom{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.product-button-custom .product-form{
+  margin: 0;
+}
+
+.product-section{
+  position: relative;
+  background-color: transparent;
+}
+
+
+.product-section .product__colorbg {
+  background-color: #a4c9ff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  transform: translateZ(0);
+  will-change: opacity;
 }
