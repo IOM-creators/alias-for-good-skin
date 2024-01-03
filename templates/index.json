@@ -6,9 +6,9 @@
         "block_title": "Fresh, Soft, Hydrated Skin",
         "block_desc": "Every drop of our Glow Honey cleanser is a sensorial experience — light honey gel that glides effortlessly onto skin to gently melt away makeup, sunscreen and other impurities while restoring vital moisture.",
         "block_link_title": "SHOP GLOW HONEY CLEANSER",
-        "block_link_url": "shopify://pages/about-us",
-        "image_pc": "shopify://shop_images/Main_Banner_template.png",
-        "image_mb": "shopify://shop_images/HomePage_mobile.png"
+        "block_link_url": "shopify:\/\/pages\/about-us",
+        "image_pc": "shopify:\/\/shop_images\/Main_Banner_template.png",
+        "image_mb": "shopify:\/\/shop_images\/HomePage_mobile.png"
       }
     },
     "ac562b07-4c49-4540-8258-698825cc504d": {
@@ -17,13 +17,13 @@
         "reverse": true,
         "block_top": 0,
         "block_bottom": 0,
-        "image": "shopify://shop_images/HomePage_Duo.png",
+        "image": "shopify:\/\/shop_images\/Duo_Homepage.png",
         "bg_block": "#fffed2",
         "title": "OUR BESTSELLER BUNDLE",
         "sup_title": "",
-        "description": "<p>Minimise premature aging.<br/>Pair our Glow Honey cleanser with our ultra-soft Cloud No. 9 cleansing puff to gently remove stubborn makeup, especially around the delicate eye area.</p>",
+        "description": "<p>Slow down skin aging by minimising tugging. Pair our Glow Honey cleanser with our ultra-soft Cloud No. 9 cleansing puff to gently remove stubborn makeup, especially around the delicate eye area.<\/p>",
         "btn_text": "$48  |  SHOP NOW",
-        "btn_link": "/"
+        "btn_link": "\/"
       }
     },
     "1ca7886b-fac1-4a26-94f8-b66ebb4bbdac": {
@@ -32,7 +32,7 @@
         "template--21762805793062__1ca7886b-fac1-4a26-94f8-b66ebb4bbdac-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "See what our satisfied customers say",
+            "heading": "SEE WHAT OTHERS SAY",
             "heading_size": "h1"
           }
         }
@@ -56,7 +56,7 @@
           "type": "item",
           "settings": {
             "block_rev": "Adding this into my routine, my skin feels refreshed each time.",
-            "block_rv_url": "shopify://pages/about-us"
+            "block_rv_url": "shopify:\/\/pages\/about-us"
           }
         },
         "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-2": {
@@ -95,7 +95,8 @@
         "6d10f4da-19f7-4251-b491-e2b788bec253",
         "b91228be-5778-40b9-ba8a-7d67c5506244"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "7cf31367-49d6-4fd1-97ff-11314b924641": {
       "type": "video-slider",
@@ -103,24 +104,24 @@
         "a5f9b832-16de-4c10-a32f-311a1bafc093": {
           "type": "item",
           "settings": {
-            "video_link": "https://cdn.shopify.com/videos/c/o/v/496c9b345e6043e7b725e91cf500b13b.mp4",
-            "video_poster": "shopify://shop_images/Screenshot_2023-12-31_at_13.59.06.png",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/496c9b345e6043e7b725e91cf500b13b.mp4",
+            "video_poster": "shopify:\/\/shop_images\/Screenshot_2023-12-31_at_13.59.06.png",
             "caption": ""
           }
         },
         "b8154648-fcbf-48ff-8838-9cd547baf023": {
           "type": "item",
           "settings": {
-            "video_link": "https://cdn.shopify.com/videos/c/o/v/dd208d57ca2e493aab466d0ec413f48b.mp4",
-            "video_poster": "shopify://shop_images/Screenshot_2023-12-31_at_13.59.19.png",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dd208d57ca2e493aab466d0ec413f48b.mp4",
+            "video_poster": "shopify:\/\/shop_images\/Screenshot_2023-12-31_at_13.59.19.png",
             "caption": ""
           }
         },
         "13370f45-9e29-4c90-a6af-fa711da79653": {
           "type": "item",
           "settings": {
-            "video_link": "https://cdn.shopify.com/videos/c/o/v/a63234512d6d40e19864ea6173e6dcec.mp4",
-            "video_poster": "shopify://shop_images/Screenshot_2023-12-31_at_13.59.31.png",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a63234512d6d40e19864ea6173e6dcec.mp4",
+            "video_poster": "shopify:\/\/shop_images\/Screenshot_2023-12-31_at_13.59.31.png",
             "caption": ""
           }
         }
@@ -144,7 +145,7 @@
         "block_bottom": 0,
         "block_title": "\"I actually look forward to the time that I spend taking off my makeup and city grime every evening.\"",
         "block_description": "——Charlotte Cho, Founder of Then I Met You",
-        "video_bg": "shopify://files/videos/bg.mp4"
+        "video_bg": "shopify:\/\/files\/videos\/bg.mp4"
       }
     },
     "b6543531-823f-4385-aee0-fada4f1d3fa2": {
@@ -153,13 +154,13 @@
         "reverse": false,
         "block_top": 0,
         "block_bottom": 0,
-        "image": "shopify://shop_images/3_55a0bd0d-be8a-4665-9db5-ba8a7d6778a4.png",
+        "image": "shopify:\/\/shop_images\/3_55a0bd0d-be8a-4665-9db5-ba8a7d6778a4.png",
         "bg_block": "#fffed2",
         "title": "OUR STORY",
         "sup_title": "",
-        "description": "<p>At Alias for good skin, we believe that<br/>skincare should be uncomplicated.<br/><br/>We develop multi-functional products and use quality ingredients to deliver noticeable results; allowing you to achieve healthy and glowing skin.</p>",
+        "description": "<p>At Alias for good skin, we believe that<br\/>skincare should not be complicated.<br\/><br\/>We develop multi-functional products and use quality ingredients to deliver noticeable results; allowing you to achieve healthy and glowing skin.<\/p>",
         "btn_text": "learn more",
-        "btn_link": "/"
+        "btn_link": "\/"
       }
     }
   },
