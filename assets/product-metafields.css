@@ -1,10 +1,10 @@
 
 .product__step {
-    padding-top: 60px;
+    padding-top: 40px;
 }
 @media only screen and (min-width: 750px) {
     .product__step {
-        padding-top: 140px;
+        padding-top: 100px;
     }
     .product__step:nth-child(2n) .product__image {
         -ms-flex-order: 2;
@@ -31,7 +31,6 @@
     flex-wrap: nowrap;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding-bottom: 60px;
 }
 @media only screen and (min-width: 845px) {
     .product__step .product {
@@ -42,7 +41,7 @@
 .product__step .product__image {
     text-align: center;
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -142,7 +141,7 @@
 }
 .product__step .product .text .Step {
     color: #fff;
-    padding-bottom: 55px;
+    padding-bottom: 5px;
     transform: rotate(-10deg);
 }
 @media only screen and (min-width: 750px) {
@@ -160,7 +159,7 @@
     }
 }
 .product__step .product .text .info {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 @media only screen and (min-width: 750px) {
     .product__step .product .text .info {

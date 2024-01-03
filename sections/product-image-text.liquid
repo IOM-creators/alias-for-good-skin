@@ -1,0 +1,125 @@
+<div class="product__step product__step-{{ section.id }}">
+    <div class="product__step__wrapper">
+        <div class="product">
+            {% if section.settings.image_with_text_image %}
+                <div class="product__image">
+                    <img src="{{ section.settings.image_with_text_image | img_url: 'master'}}" alt="">
+                </div>
+            {% endif %}
+            <div class="text">
+             {% if  section.settings.subtitle %}
+                <p class="Step">   {{ section.settings.subtitle }}</p>
+             {% endif %}
+             {% if  section.settings.title %}
+                <h2 class="h3"> {{ section.settings.title }} </h2>
+            {% endif %}    
+            {% if  section.settings.large_body_text %}
+                <p class="Large-Body">{{ section.settings.large_body_text }} </p>
+            {% endif %}
+                <div class="info timy-animate" data-sr-id="0" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+                    {% if  section.settings.info_text %}
+                        <p class="info__header">
+                            {{ section.settings.info_text }}
+                        </p>
+                    {% endif %}
+                    {% for block in section.blocks %}
+                        {% if block.settings.feature %}
+                            <p class="feature">{{ block.settings.feature }}</p>
+                        {% endif %}
+                    {% endfor %} 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% style %}
+    .product__step-{{ section.id }} {
+      background-color: {{ section.settings.background }};
+      margin-top:70px;
+      padding-top: {{  section.settings.pd_top }};
+      padding-bottom: {{  section.settings.pd_bottom }};
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  {% endstyle %}
+
+{% schema %}
+    {
+      "name": "Product Image Text",
+      "enabled_on": {
+        "templates": ["product"]
+      },
+      "settings": [
+        {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#a4c9ff"
+        },
+        {
+            "type": "text",
+            "id": "pd_top",
+            "label": "Top spacing section",
+            "default": "70px"
+        },
+        {
+            "type": "text",
+            "id": "pd_bottom",
+            "label": "Bottom spacing section",
+            "default": "0px"
+        },
+        {
+            "type": "image_picker",
+            "id": "image_with_text_image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle",
+            "default": "Sun Essence"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "ILLUMINATING PROTECTION"
+        },
+        {
+            "type": "text",
+            "id": "large_body_text",
+            "label": "Large body text",
+            "default": "Our essence inspired formula applies invisibly on all skin tones without white cast or stickiness to protect and hydrate skin for a vibrant and luminous complexion."
+        },
+        {
+            "type": "text",
+            "id": "info_text",
+            "label": "Info text",
+            "default": " Shedding Light on Korean Sunscreen Formulation Benefits"
+        }
+      ],
+      "blocks": [
+        {
+            "type": "feature",
+            "name": "Feature",
+            "limit": 3,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "feature",
+                    "label": "Feature",
+                    "default": "- Designed for everyday wear — not just outdoor use"
+                } 
+            ]
+        }
+      ],
+      "presets": [
+        {
+            "name": "Product Image Text"
+        }
+      ]
+    }
+{% endschema %}
+    
+

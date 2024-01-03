@@ -1,0 +1,115 @@
+<div class="product__step product__step-{{ section.id }}">
+    <div class="product__step__wrapper">
+        {% if section.settings.subtitle %}
+            <h2 class="Small-Body">
+                {{ section.settings.subtitle }}
+            </h2>
+        {% endif %}
+        <div class="ingredients">
+            {% for block in section.blocks %}
+                {% if block.type == "ingredient" %}
+                    <div>
+                        <h3 class="h4">{{ block.settings.title }}</h3>
+                        <p>{{ block.settings.text }}</p>
+                    </div>
+                {% endif %}
+            {% endfor %} 
+        </div>
+        {% for block in section.blocks %}
+            {% if block.type == "ingredient-accordion" %}
+                <div class="ingredients-expand js-ingredients-expand" data-js-trigger=".upperlink" data-js-content-body=".ingredients-expand__body">
+                    <a class="upperlink">{{ block.settings.title }}</a>
+                    <div class="ingredients-expand__body">
+                        {{ block.settings.text }}
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %} 
+    </div>
+</div>
+
+{% style %}
+    .product__step.product__step-{{ section.id }} {
+      background-color: {{ section.settings.background }};
+      padding-top: {{  section.settings.pd_top }};
+      padding-bottom: {{  section.settings.pd_bottom }};
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+{% endstyle %}  
+
+{% schema %}
+    {
+      "name": "Product Ingredients",
+      "enabled_on": {
+        "templates": ["product"]
+      },
+      "settings": [
+        {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#a4c9ff"
+        },
+        {
+            "type": "text",
+            "id": "pd_top",
+            "label": "Top spacing section",
+            "default": "70px"
+        },
+        {
+            "type": "text",
+            "id": "pd_bottom",
+            "label": "Bottom spacing section",
+            "default": "0px"
+        },
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle",
+            "default": "Key & Active Ingredients :"
+        }
+      ],
+      "blocks": [
+        {
+            "type": "ingredient-accordion",
+            "name": "Ingredient accordion",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Body text"
+                } 
+            ]
+        },
+        {
+            "type": "ingredient",
+            "name": "Ingredient",
+            "limit": 4,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Body text"
+                } 
+            ]
+        }
+      ],
+      "presets": [
+        {
+            "name": "Product Ingredients"
+        }
+      ]
+    }
+{% endschema %}
+    
