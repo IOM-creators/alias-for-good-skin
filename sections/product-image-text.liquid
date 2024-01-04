@@ -19,6 +19,9 @@
                 <div class="info timy-animate" data-sr-id="0" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
                     {% if  section.settings.info_text %}
                         <p class="info__header">
+                            {% if section.settings.info_text_image %}
+                                <img src="{{ section.settings.info_text_image | img_url: 'master'}}" alt="">
+                            {% endif %}
                             {{ section.settings.info_text }}
                         </p>
                     {% endif %}
@@ -91,6 +94,11 @@
             "id": "large_body_text",
             "label": "Large body text",
             "default": "Our essence inspired formula applies invisibly on all skin tones without white cast or stickiness to protect and hydrate skin for a vibrant and luminous complexion."
+        },
+        {
+            "type": "image_picker",
+            "id": "info_text_image",
+            "label": "Info Icon"
         },
         {
             "type": "text",
