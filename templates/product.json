@@ -98,12 +98,14 @@
         "ca87ba9e-61ef-48e2-936f-28624399a7f6"
       ],
       "settings": {
-        "background": "#a4c9ff",
+        "background": "#334fb4",
+        "pd_top": "70px",
+        "pd_bottom": "0px",
         "image_with_text_image": "shopify:\/\/shop_images\/PDP-Image_Then-I-Met-You_Essence-Light-Sunscreen_Cindy-Before-_-After.jpg",
         "subtitle": "Sun Essence",
-        "title": "ILLUMINATING PROTECTION",
-        "large_body_text": "Our essence inspired formula applies invisibly on all skin tones without white cast or stickiness to protect and hydrate skin for a vibrant and luminous complexion.",
-        "info_text": "Shedding Light on Korean Sunscreen Formulation Benefits"
+        "title": "CLEANSE, PROTECT, NOURISH",
+        "large_body_text": "Massage the gel onto your face and feel it transform into a velvety-smooth oil that effortlessly melts away makeup, sebum and other impurities, while nourishing the skin with skin-loving ingredients. The oil rinses completely clean, leading your skin feeling fresh, soft and hydrated every single time.",
+        "info_text": "Removes oil-based & water-based impurities"
       }
     },
     "55d318ad-cda3-454b-ad52-2de954f76425": {
@@ -112,36 +114,36 @@
         "cf8deeb0-9705-446b-abbe-5467da035140": {
           "type": "ingredient",
           "settings": {
-            "title": "CERAMIDES",
-            "text": "Ceramides are lipids that make up your skin’s natural barrier, helping it to retain moisture and protecting it from any potential irritants. Applying ceramides topically fortifies the skin’s barrier so that your skin remains supple and healthy."
+            "title": "HONEY",
+            "text": "Honey is a humectant (moisturizing agent) that retains moisture in the skin. It soothes inflammation and is especially beneficial for sensitive skin."
           }
         },
         "00689429-0836-4098-8ba9-87f9023a2113": {
           "type": "ingredient",
           "settings": {
-            "title": "HYALURONIC ACID",
-            "text": "Hyaluronic Acid is known to deeply quench skin with vital hydration by attracting and binding water within the skin surface. It draws moisture into the skin for a plumper, more youthful appearance."
+            "title": "PEONY ROOT EXTRACT",
+            "text": "Peony root extract is an antioxidant that protects the skin against free radical damage. It also helps to boost skin clarity and brighten complexion."
           }
         },
         "6563e16c-bf5e-41d8-9089-92fbb6a14963": {
           "type": "ingredient",
           "settings": {
-            "title": "PROVITAMIN B5",
-            "text": "Pantothenic acid (B5) is a humectant (moisturizing agent) that retains moisture in the skin, which improves skin elasticity and contributes to a fuller, more hydrated looking face."
+            "title": "MEADOWFOAM SEED OIL",
+            "text": "Meadowfoam seed oil acts like the sebum on our skin, thereby helping to balance the skin's oil production. It is also an emollient, sealing in moisture and keeping the skin soft and supple."
           }
         },
         "9047375d-dc71-4599-b0d6-9654b19ed9b1": {
           "type": "ingredient",
           "settings": {
-            "title": "ACTIVE INGREDIENTS",
-            "text": "Avobenzone 3.0%, Homosalate 9.0%, Octisalate 4.5%, Octocrylene 5.0%"
+            "title": "SODIUM PCA",
+            "text": "Sodium pyrrolidone carboxylic acid is a naturally occurring NMF in our skin that helps form lipids to hold our cells together. Therefore it is easily absorbed and penetrates deep into skin to support our skin barrier and prevent moisture loss."
           }
         },
         "9e70fede-12b4-4165-b3ac-b50531e446bb": {
           "type": "ingredient-accordion",
           "settings": {
             "title": "SEE FULL INGREDIENTS",
-            "text": "<p>Water (Aqua), Dipropylene Glycol, Methyl Methacrylate Crosspolymer, Glyceryl Polymethacrylate, Propylene Glycol, Butyloctyl Salicylate, Ceteareth-20, Ethylhexyl Methoxycrylene, Acrylates Copolymer, Galactomyces Ferment Filtrate, Saccharomyces Ferment Filtrate, Ceramide NP, Hydrolyzed Hyaluronic Acid, Sodium Acetylated Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Panax Ginseng Root Extract, Sorbitan Oleate, Polysorbate 60, Sorbitan Stearate, Caprylyl Glycol, Cetearyl Olivate, Panthenol, Sodium Hyaluronate, Glycerin, Sorbitan Olivate, Acrylates\/C10- 30 Alkyl Acrylate Crosspolymer, Tromethamine, Sodium Acrylate\/ Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Ammonium Acryloyldimethyltaurate\/VP Copolymer, 1,2-Hexanediol, BHT, Ethylhexylglycerin, Polysorbate 80, Trisodium Ethylenediamine Disuccinate, Xanthan Gum, Butylene Glycol, Caprylic\/ Capric Triglyceride, Hydroxypropyltrimonium Hyaluronate, Potassium Sorbate, Hydrogenated Lecithin, Sodium Benzoate,<\/p>"
+            "text": "<p>Water, Butylene Glycol, Dipropylene Glycol, PPG-9 Diglyceryl Ether, PEG-8 Glyceryl Isostearate, PEG-7 Glyceryl Cocoate, C14-15 Dialkyl Carbonate, Diglycerin, Tocopherol, Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Honey, Paeonia Albiflora Root Extract, Limnanthes Alba (Meadowfoam) Seed Oil, Sodium PCA, Salvia Officinalis (Sage) Leaf Extract, Phellodendron Amurense Bark Extract, Glycerin, Betaine, Dipotassium Glycyrrhizate, Ascorbyl Tetraisopalmitate, Carbomer, Decyl Glucoside, PEG-20 Glyceryl Triisostearate, Polyquaternium-51, Hydroxylated Lecithin, Xanthan Gum, Caramel, Fragrance, Sodium Hydroxide<\/p>"
           }
         },
         "4bd3d1c6-12a1-451f-a8d2-b7317f48c26a": {
@@ -149,6 +151,13 @@
           "settings": {
             "title": "HOW TO USE",
             "text": "<p>HOW TO USE:<br\/>SPF should be applied daily (no matter the weather!) as the last step in your routine before applying makeup and at least 15 minutes before sun exposure. Apply an even layer to skin including face, neck and décolletage (about a nickel sized amount). If wearing makeup, allow 2-3 minutes for the sunscreen to sink in before applying primer or other cosmetics. Reapply every 2 hours. See Drug Facts for complete usage.<br\/><br\/>TIPS FOR USE:<br\/>- Essence Light Sunscreen was designed as a moisturizing makeup base. It can be worn alone or as the perfect canvas for makeup application<br\/>- For the best experience, keep this product out of the sun and extreme heat<br\/><br\/>FAQ’s:<br\/>Q: Can I use Essence Light Sunscreen on my body?<br\/>A: Essence Light Sunscreen has been expertly formulated to provide skincare and beauty benefits optimized for your face, but can be used on your body as well. Don’t forget to apply and reapply sunscreen to the backs of your hands — especially with frequent hand washing, as they are prone to sun exposure and can show early signs of aging.<br\/><br\/>Q: Does Essence Light Sunscreen work on all skin types?<br\/>A: Yes! Essence Light Sunscreen works on all skin types and is formulated with ingredients that help soothe skin and maintain moisture while leaving a natural, radiant finish. If you have super sensitive skin, we always recommend patch-testing before regular use.<br\/><br\/>Q: Do I need to use additional moisturizer together with this sunscreen?<br\/>A: For dry-combination skin, it is recommended to apply sunscreen after your serum or moisturizer. For skin with excessive sebum or oily skin, you do not need to use additional moisturizer.<br\/><br\/>Q: Is there a fragrance?<br\/>A: There is no fragrance added.<br\/><br\/>Q: How is the SPF level determined?<br\/>A: Our SPF was tested by an independent 3rd party clinical laboratory in the United States. Using the Static SPF testing method set forth by the FDA our 11 subject panel yielded a mean static SPF value of 57.78 with an X-A value of 54.33 resulting in a label value of SPF 54. The results of our Broad Spectrum test yielded a mean critical wavelength of 380.11nm in<\/p>"
+          }
+        },
+        "caafa2ac-61a2-48b4-ba76-55a5402ce5fd": {
+          "type": "ingredient-accordion",
+          "settings": {
+            "title": "FAQs",
+            "text": "<p>FAQs:<br\/>Q: Can I use Essence Light Sunscreen on my body?<br\/>A: Essence Light Sunscreen has been expertly formulated to provide skincare and beauty benefits optimized for your face, but can be used on your body as well. Don’t forget to apply and reapply sunscreen to the backs of your hands — especially with frequent hand washing, as they are prone to sun exposure and can show early signs of aging.<br\/><br\/>Q: Does Essence Light Sunscreen work on all skin types?<br\/>A: Yes! Essence Light Sunscreen works on all skin types and is formulated with ingredients that help soothe skin and maintain moisture while leaving a natural, radiant finish. If you have super sensitive skin, we always recommend patch-testing before regular use.<br\/><br\/>Q: Do I need to use additional moisturizer together with this sunscreen?<br\/>A: For dry-combination skin, it is recommended to apply sunscreen after your serum or moisturizer. For skin with excessive sebum or oily skin, you do not need to use additional moisturizer.<br\/><br\/>Q: Is there a fragrance?<br\/>A: There is no fragrance added.<br\/><br\/>Q: How is the SPF level determined?<br\/>A: Our SPF was tested by an independent 3rd party clinical laboratory in the United States. Using the Static SPF testing method set forth by the FDA our 11 subject panel yielded a mean static SPF value of 57.78 with an X-A value of 54.33 resulting in a label value of SPF 54. The results of our Broad Spectrum test yielded a mean critical wavelength of 380.11nm in<\/p>"
           }
         }
       },
@@ -158,10 +167,14 @@
         "6563e16c-bf5e-41d8-9089-92fbb6a14963",
         "9047375d-dc71-4599-b0d6-9654b19ed9b1",
         "9e70fede-12b4-4165-b3ac-b50531e446bb",
-        "4bd3d1c6-12a1-451f-a8d2-b7317f48c26a"
+        "4bd3d1c6-12a1-451f-a8d2-b7317f48c26a",
+        "caafa2ac-61a2-48b4-ba76-55a5402ce5fd"
       ],
       "settings": {
-        "subtitle": "Key & Active Ingredients :"
+        "background": "#fffed2",
+        "pd_top": "70px",
+        "pd_bottom": "0px",
+        "subtitle": "Ingredients :"
       }
     },
     "17037698525ebca6be": {
