@@ -60,8 +60,11 @@
                 data-label="{{ 'customer.order.product' | t }}"
               >
                 <div>
+                   
                   {%- if line_item.url != blank -%}
-                    <a href="{{ line_item.url }}">{{ line_item.title }}</a>
+                    <a href="{{ line_item.url }}" class='order-image'>
+                      <img src="{{line_item.image.src |  image_url: width: 50, height: 50 }}" alt=""> <span>{{ line_item.title }}</span>
+                    </a>
                   {%- else -%}
                     <p>{{ line_item.title }}</p>
                   {%- endif -%}
