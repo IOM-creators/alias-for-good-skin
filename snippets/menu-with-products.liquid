@@ -3,7 +3,7 @@
   <ul class="megamenu__products-nav">
     {% for collection in nav_item_collections %}
       <li>
-        <button class="megamenu__products-nav-btn active" data-trigger-submenu>
+        <button class="megamenu__products-nav-btn active hidden" data-trigger-submenu>
           {{ collection.title }}
         </button>
         <ul class="megamenu__products-items">
@@ -19,9 +19,11 @@
               </a>
             </li>
           {% endfor %}
+          {% comment %}
           <li class="megamenu__products-item-show">
             <a href="{{collection.url}}">SHOP All</a>
           </li>
+          {% endcomment %}
         </ul>
       </li>
     {% endfor %}
