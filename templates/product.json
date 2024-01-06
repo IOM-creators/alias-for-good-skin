@@ -95,9 +95,11 @@
         "pd_top": "70px",
         "pd_bottom": "0px",
         "image_with_text_image": "shopify:\/\/shop_images\/Product_Image_-_Website.png",
-        "subtitle": "<p><\/p><p><\/p>",
+        "subtitle": "",
+        "subtitle_font": "helvetica_n4",
+        "subtitle_text": "#000000",
         "title": "<p>CLEANSE, PROTECT, NOURISH<\/p>",
-        "large_body_text": "<p>Massage the gel onto your face and feel it transform into a velvety-smooth oil that effortlessly melts away makeup, sebum and other impurities, while nourishing the skin with skin-loving ingredients. The oil rinses completely clean, leading your skin feeling fresh, soft and hydrated every single time.<\/p>",
+        "large_body_text": "<p>Glow Honey starts as a gel and emulsifies into a silky smooth oil to effortlessly melt away makeup and SPF without disrupting your skin barrier. This foam-free cleanser rinses away completely, eliminating the need for a second cleanse, which protects your skin from overwashing. It is enriched with natural ingredients like honey and peony root extract that nourish your skin; locking in moisture and restoring your skin’s natural barrier. <\/p>",
         "info_text_image": "shopify:\/\/shop_images\/oil-droplet.png",
         "info_text": "Removes oil-based & water-based impurities"
       }
@@ -168,7 +170,7 @@
         "background": "#fffed2",
         "pd_top": "70px",
         "pd_bottom": "0px",
-        "subtitle": "<p>Ingredients :<\/p>"
+        "subtitle": "<p><strong>Key Ingredients :<\/strong><\/p>"
       }
     },
     "17037698525ebca6be": {
