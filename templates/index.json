@@ -7,7 +7,7 @@
         "block_desc": "Every drop of our Glow Honey cleanser is a sensorial experience — light honey gel that glides effortlessly onto skin to gently melt away makeup, sunscreen and other impurities while restoring vital moisture.",
         "block_link_title": "SHOP GLOW HONEY CLEANSER",
         "block_link_url": "shopify:\/\/pages\/about-us",
-        "image_pc": "shopify:\/\/shop_images\/Main_Banner_template.png",
+        "image_pc": "shopify:\/\/shop_images\/Main_banner_desktop_193a28c8-762f-4155-9415-71598b2d6788.png",
         "image_mb": "shopify:\/\/shop_images\/HomePage_mobile.png"
       }
     },
@@ -55,35 +55,35 @@
         "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-1": {
           "type": "item",
           "settings": {
-            "block_rev": "Adding this into my routine, my skin feels refreshed each time.",
+            "block_rev": "<p>Adding this into my routine, my skin feels refreshed each time.<\/p>",
             "block_rv_url": "shopify:\/\/pages\/about-us"
           }
         },
         "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-2": {
           "type": "item",
           "settings": {
-            "block_rev": "Really like how easy it is to use after a long day, it even removed my waterproof mascara without much tugging.",
+            "block_rev": "<p>Really like how easy it is to use after a long day, it even removed my waterproof mascara without much tugging.<\/p>",
             "block_rv_url": ""
           }
         },
         "template--21763829924134__496e99c4-a29c-4492-8221-c155907e55a6-item-3": {
           "type": "item",
           "settings": {
-            "block_rev": "The jelly texture is really soft & fresh on the skin. I use it twice a day!",
+            "block_rev": "<p>The jelly texture is really soft & fresh on the skin. I use it twice a day!<\/p>",
             "block_rv_url": ""
           }
         },
         "6d10f4da-19f7-4251-b491-e2b788bec253": {
           "type": "item",
           "settings": {
-            "block_rev": "Removed my makeup, sunscreen effortlessly, love it!",
+            "block_rev": "<p>Removed my makeup, sunscreen effortlessly, love it!<\/p>",
             "block_rv_url": ""
           }
         },
         "b91228be-5778-40b9-ba8a-7d67c5506244": {
           "type": "item",
           "settings": {
-            "block_rev": "Gentle yet effective. Suitable for people with sensitive skin like me.",
+            "block_rev": "<p>Gentle yet effective. Suitable for people with sensitive skin like me.<\/p>",
             "block_rv_url": ""
           }
         }

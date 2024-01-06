@@ -76,33 +76,26 @@
         "8103e376-820a-4c2f-b952-e9fd8fb94ef2": {
           "type": "feature",
           "settings": {
-            "feature": "<p>- Designed for everyday wear — not just outdoor use<\/p>"
+            "feature": "<p>Sebum<br\/>Sunscreen<br\/>Makeup<\/p>"
           }
         },
-        "17451414-de68-48d8-881a-8147c57aa68a": {
+        "555e38ed-a85a-4008-b5c0-6ab217f53be9": {
           "type": "feature",
           "settings": {
-            "feature": "<p>- Typically higher SPF values<\/p>"
-          }
-        },
-        "ca87ba9e-61ef-48e2-936f-28624399a7f6": {
-          "type": "feature",
-          "settings": {
-            "feature": "<p>- Uses both SPF (Sun Protection Factor) and PA (Protection Grade of UVA Rays)<\/p>"
+            "feature": "<p>Sweat<br\/>City Grime<br\/>Impurities<\/p>"
           }
         }
       },
       "block_order": [
         "8103e376-820a-4c2f-b952-e9fd8fb94ef2",
-        "17451414-de68-48d8-881a-8147c57aa68a",
-        "ca87ba9e-61ef-48e2-936f-28624399a7f6"
+        "555e38ed-a85a-4008-b5c0-6ab217f53be9"
       ],
       "settings": {
         "background": "#fffed2",
         "pd_top": "70px",
         "pd_bottom": "0px",
         "image_with_text_image": "shopify:\/\/shop_images\/Product_Image_-_Website.png",
-        "subtitle": "",
+        "subtitle": "<p><\/p><p><\/p>",
         "title": "<p>CLEANSE, PROTECT, NOURISH<\/p>",
         "large_body_text": "<p>Massage the gel onto your face and feel it transform into a velvety-smooth oil that effortlessly melts away makeup, sebum and other impurities, while nourishing the skin with skin-loving ingredients. The oil rinses completely clean, leading your skin feeling fresh, soft and hydrated every single time.<\/p>",
         "info_text_image": "shopify:\/\/shop_images\/oil-droplet.png",
@@ -143,21 +136,21 @@
         "9e70fede-12b4-4165-b3ac-b50531e446bb": {
           "type": "ingredient-accordion",
           "settings": {
-            "title": "<p>SEE FULL INGREDIENTS<\/p>",
+            "title": "SEE FULL INGREDIENTS",
             "text": "<p>Water, Butylene Glycol, Dipropylene Glycol, PPG-9 Diglyceryl Ether, PEG-8 Glyceryl Isostearate, PEG-7 Glyceryl Cocoate, C14-15 Dialkyl Carbonate, Diglycerin, Tocopherol, Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Honey, Paeonia Albiflora Root Extract, Limnanthes Alba (Meadowfoam) Seed Oil, Sodium PCA, Salvia Officinalis (Sage) Leaf Extract, Phellodendron Amurense Bark Extract, Glycerin, Betaine, Dipotassium Glycyrrhizate, Ascorbyl Tetraisopalmitate, Carbomer, Decyl Glucoside, PEG-20 Glyceryl Triisostearate, Polyquaternium-51, Hydroxylated Lecithin, Xanthan Gum, Caramel, Fragrance, Sodium Hydroxide<\/p>"
           }
         },
         "4bd3d1c6-12a1-451f-a8d2-b7317f48c26a": {
           "type": "ingredient-accordion",
           "settings": {
-            "title": "<p>HOW TO USE<\/p>",
+            "title": "HOW TO USE",
             "text": "<p>HOW TO USE:<br\/>SPF should be applied daily (no matter the weather!) as the last step in your routine before applying makeup and at least 15 minutes before sun exposure. Apply an even layer to skin including face, neck and décolletage (about a nickel sized amount). If wearing makeup, allow 2-3 minutes for the sunscreen to sink in before applying primer or other cosmetics. Reapply every 2 hours. See Drug Facts for complete usage.<br\/><br\/>TIPS FOR USE:<br\/>- Essence Light Sunscreen was designed as a moisturizing makeup base. It can be worn alone or as the perfect canvas for makeup application<br\/>- For the best experience, keep this product out of the sun and extreme heat<br\/><br\/>FAQ’s:<br\/>Q: Can I use Essence Light Sunscreen on my body?<br\/>A: Essence Light Sunscreen has been expertly formulated to provide skincare and beauty benefits optimized for your face, but can be used on your body as well. Don’t forget to apply and reapply sunscreen to the backs of your hands — especially with frequent hand washing, as they are prone to sun exposure and can show early signs of aging.<br\/><br\/>Q: Does Essence Light Sunscreen work on all skin types?<br\/>A: Yes! Essence Light Sunscreen works on all skin types and is formulated with ingredients that help soothe skin and maintain moisture while leaving a natural, radiant finish. If you have super sensitive skin, we always recommend patch-testing before regular use.<br\/><br\/>Q: Do I need to use additional moisturizer together with this sunscreen?<br\/>A: For dry-combination skin, it is recommended to apply sunscreen after your serum or moisturizer. For skin with excessive sebum or oily skin, you do not need to use additional moisturizer.<br\/><br\/>Q: Is there a fragrance?<br\/>A: There is no fragrance added.<br\/><br\/>Q: How is the SPF level determined?<br\/>A: Our SPF was tested by an independent 3rd party clinical laboratory in the United States. Using the Static SPF testing method set forth by the FDA our 11 subject panel yielded a mean static SPF value of 57.78 with an X-A value of 54.33 resulting in a label value of SPF 54. The results of our Broad Spectrum test yielded a mean critical wavelength of 380.11nm in<\/p>"
           }
         },
         "caafa2ac-61a2-48b4-ba76-55a5402ce5fd": {
           "type": "ingredient-accordion",
           "settings": {
-            "title": "<p>FAQs<\/p>",
+            "title": "FAQs",
             "text": "<p>FAQs:<br\/>Q: Can I use Essence Light Sunscreen on my body?<br\/>A: Essence Light Sunscreen has been expertly formulated to provide skincare and beauty benefits optimized for your face, but can be used on your body as well. Don’t forget to apply and reapply sunscreen to the backs of your hands — especially with frequent hand washing, as they are prone to sun exposure and can show early signs of aging.<br\/><br\/>Q: Does Essence Light Sunscreen work on all skin types?<br\/>A: Yes! Essence Light Sunscreen works on all skin types and is formulated with ingredients that help soothe skin and maintain moisture while leaving a natural, radiant finish. If you have super sensitive skin, we always recommend patch-testing before regular use.<br\/><br\/>Q: Do I need to use additional moisturizer together with this sunscreen?<br\/>A: For dry-combination skin, it is recommended to apply sunscreen after your serum or moisturizer. For skin with excessive sebum or oily skin, you do not need to use additional moisturizer.<br\/><br\/>Q: Is there a fragrance?<br\/>A: There is no fragrance added.<br\/><br\/>Q: How is the SPF level determined?<br\/>A: Our SPF was tested by an independent 3rd party clinical laboratory in the United States. Using the Static SPF testing method set forth by the FDA our 11 subject panel yielded a mean static SPF value of 57.78 with an X-A value of 54.33 resulting in a label value of SPF 54. The results of our Broad Spectrum test yielded a mean critical wavelength of 380.11nm in<\/p>"
           }
         }
