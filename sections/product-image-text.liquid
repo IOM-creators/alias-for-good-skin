@@ -7,7 +7,13 @@
                 </div>
             {% endif %}
             <div class="text">
-             {% if  section.settings.subtitle %}
+             {% if  section.settings.subtitle != blank %}
+                {% style %}
+                    .product__step__wrapper .product .Step{ 
+                        font-family: "{{ section.settings.subtitle_font.family }}", sans-serif;
+                        color:{{ section.settings.subtitle_text }};
+                    }
+                {% endstyle %}
                 <p class="Step">   {{ section.settings.subtitle }}</p>
              {% endif %}
              {% if  section.settings.title %}
@@ -78,9 +84,21 @@
             "label": "Image"
         },
         {
-            "type": "richtext",
+            "type": "text",
             "id": "subtitle",
             "label": "Subtitle"
+        },
+        {
+            "type": "font_picker",
+            "id": "subtitle_font",
+            "label": "Subtitle font",
+            "default": "helvetica_n4"
+        },
+        {
+            "type": "color",
+            "id": "subtitle_text",
+            "label": "Subtitle text color",
+            "default": "#000000"
         },
         {
             "type": "richtext",

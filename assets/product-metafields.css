@@ -47,8 +47,6 @@
     margin-right: auto;
 }
 .product__step .product__image img {
-
-    max-width: 200px;
     height: auto;
     position: relative;
     z-index: 1;
@@ -141,7 +139,6 @@
     }
 }
 .product__step .product .text .Step {
-    color: #fff;
     padding-bottom: 5px;
     transform: rotate(-10deg);
 }
@@ -151,7 +148,6 @@
     }
 }
 .product__step .product .text h2 {
-    padding-bottom: 36px;
     text-transform: uppercase;
 }
 @media only screen and (min-width: 750px) {
@@ -251,6 +247,10 @@
     padding-bottom: 20px;
     text-align: center;
 }
+.product__step .ingredients-expand .upperlink p {
+   display: inline;
+}
+
 .product__step .ingredients-expand:last-of-type {
     padding-bottom: 50px;
 }
@@ -272,10 +272,14 @@
 .product__step .ingredients-expand .upperlink.is-open:after {
     content: "\d7";
 }
+.ingredients-expand__body p{
+    font-size: 12px;
+}
 .product__step .ingredients-expand__body {
     border-top: 1px solid #000;
     overflow: hidden;
     height: 0;
+
     transition: height 0.25s ease-out;
     padding-top: 10px;
     margin-top: 8px;
@@ -298,6 +302,7 @@
     font-size: 22px;
     line-height: 1.36;
     letter-spacing: 0.3px;
+    font-family: "Arial", sans-serif;
 }
 .Small-Quote,
 .Step {
