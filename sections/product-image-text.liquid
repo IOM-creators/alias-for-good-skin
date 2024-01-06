@@ -7,8 +7,9 @@
                 </div>
             {% endif %}
             <div class="text">
-             {% if  section.settings.subtitle != blank %}
+             {% if section.settings.subtitle != blank %}
                 {% style %}
+                    {{ section.settings.subtitle_font | font_face }}
                     .product__step__wrapper .product .Step{ 
                         font-family: "{{ section.settings.subtitle_font.family }}", sans-serif;
                         color:{{ section.settings.subtitle_text }};
