@@ -1,0 +1,137 @@
+<style>
+    .block-{{ section.id }} {
+        padding-top: {{ section.settings.block_top_mob }}px;
+        padding-bottom: {{ section.settings.block_bottom_mob }}px;
+    }
+    @media screen and (min-width: 1024px) {
+        .block-{{ section.id }} {
+            padding-top: {{ section.settings.block_top }}px;
+            padding-bottom: {{ section.settings.block_bottom }}px;
+        }
+    }
+</style>
+
+{% assign items = false %}
+{% for block in section.blocks %}
+    {% if block.type == 'item' %}
+        {% assign items = true %}
+    {% endif %}
+{% endfor %}
+
+<section class="info-blocks block-{{ section.id }}">
+    <div class="page-width">
+        {% if items == true %}
+            <div class="info-blocks__items">
+                {% for block in section.blocks %}
+                    {%- case block.type -%}
+                        {%- when 'item' -%}
+                            <div class="info-blocks__item">
+                                {% if block.settings.block_title != blank %}
+                                    <h2>
+                                        {{ block.settings.block_title }}
+                                    </h2>
+                                {% endif %}
+
+                                {% if block.settings.block_desc != blank %}
+                                    <div class="info-blocks__item-desc">
+                                        {{ block.settings.block_desc }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                    {%- endcase -%}
+                {% endfor %}
+            </div>
+      {% endif %}
+
+    </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Info blocks",
+  "settings": [
+    {
+        "type": "header",
+        "content": "Block offset"
+    },
+    {
+        "type": "range",
+        "id": "block_top",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset top",
+        "default": 60
+    },
+    {
+        "type": "range",
+        "id": "block_bottom",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset bottom",
+        "default": 60
+    },
+    {
+        "type": "range",
+        "id": "block_top_mob",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset top for mobile",
+        "default": 60
+    },
+    {
+        "type": "range",
+        "id": "block_bottom_mob",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset bottom for mobile",
+        "default": 60
+    }
+  ],
+  "blocks": [
+      {
+        "type": "item",
+        "limit": 6,
+        "name": "Block",
+        "settings": [
+            {
+                "type": "text",
+                "id": "block_title",
+                "label": "Heading",
+                "default": "Block title"
+            },
+            {
+                "type": "richtext",
+                "id": "block_desc",
+                "label": "Block description",
+                "default": "<p>Block description</p>"
+            }
+        ]
+      }
+    ],
+   "presets": [
+    {
+        "name": "Info blocks",
+        "blocks": [
+          {
+            "type": "item"
+          },
+          {
+            "type": "item" 
+          },
+          {
+            "type": "item"
+          }
+        ]
+    }
+  ]
+}
+{% endschema %}

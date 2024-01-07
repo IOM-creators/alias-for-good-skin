@@ -608,7 +608,7 @@
                     {% endif %}
                     <tr class="cart__buttons">
                       <td>
-                        <div {{ block.shopify_attributes }}>
+                        <div class="drawer-buttons" {{ block.shopify_attributes }}>
                           <noscript>
                             <button type="submit" class="cart__update-button button button--secondary" form="CartDrawer-Form">
                               {{ 'sections.cart.update' | t }}
@@ -620,6 +620,13 @@
                             class="cart__checkout-button button button--full-width button--secondary"
                           >
                             {{ 'general.continue_shopping' | t }}
+                          </a> 
+                
+                          <a
+                            href="/cart"
+                            class=" button button--full-width "
+                          >
+                          CONTINUE TO CART
                           </a> 
                           <button
                             type="submit"
