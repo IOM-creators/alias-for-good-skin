@@ -63,7 +63,7 @@
                     </a>
                   </td>
                   <td headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
-                    {{ order.created_at | time_tag: format: 'date' }}
+                    {{ order.created_at | date: "%b %d, %Y" }}
                   </td>
                   <td
                     headers="RowOrder ColumnPayment"

@@ -167,3 +167,41 @@ body .shopify-policy__container p {
 body .shopify-policy__container p + p {
   margin-top: 16px;
 }
+body .drawer__inner {
+  padding-bottom: 20px;
+}
+body cart-drawer-items {
+  display: block;
+}
+body .cart-drawer .cart-item {
+  grid-template: repeat(1, auto)/1fr 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media only screen and (min-width: 480px) {
+  body .cart-drawer .cart-item {
+    grid-template: repeat(1, auto)/1fr 100px;
+  }
+}
+body .cart-drawer .cart-item__details {
+  padding-top: 0 !important;
+}
+body .cart-drawer .cart-item__name {
+  font-size: 17px;
+}
+body .cart-drawer .drawer-buttons .button {
+  margin: 0;
+}
+body .cart-drawer .drawer-buttons .button + .button {
+  margin-top: 10px;
+}
+
+.cart-template-wrapper .cart-item__name {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: var(--font-body-family);
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: calc(1 + 0.2 / var(--font-body-scale));
+}

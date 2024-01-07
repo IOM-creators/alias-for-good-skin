@@ -23,7 +23,7 @@
     font-weight: bold
     text-align: center
     line-height: 1.1
-    &::before,&::after
+    // &::before,&::after
         display: inline-block
         font-size: 19px
         line-height: 1
@@ -31,13 +31,12 @@
             font-size: 27px
         +min(1040)
             font-size: 35px
-    &::before
+    // &::before
         content: "\201c"
-    &::after
+    // &::after
         content: "\201d"
 
     p
-        display: inline
         margin: 0
 
     +min(750)

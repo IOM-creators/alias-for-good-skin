@@ -160,4 +160,56 @@ body
             &+p
                 margin-top: 16px
 
+
+
+    .drawer__inner
+        padding-bottom: 20px
+
+    cart-drawer-items
+        display: block
+
+    .cart-drawer 
+        .cart-item
+            grid-template: repeat(1, auto) /1fr 80px
+            padding-left: 10px
+            padding-right: 10px
+            +min(480)
+                grid-template: repeat(1, auto) /1fr 100px
+
+        .cart-item__details
+            padding-top: 0 !important
+
+
+        .cart-item__name
+            font-size: 17px
+
+
+
+        .drawer-buttons
+            .button
+                margin: 0
+                &+.button
+                    margin-top: 10px
+
+
+
+.cart-template-wrapper
+    .cart-item__name
+        margin: 0
+        font-size: 1.5rem
+        letter-spacing: .1rem
+        font-family: var(--font-body-family)
+        text-transform: uppercase
+        font-weight: 400
+        line-height: calc(1 + .2 / var(--font-body-scale))
+
+
+
+
+
+
+
+
+
+
 // 
