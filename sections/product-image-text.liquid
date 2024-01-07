@@ -46,7 +46,7 @@
 {% style %}
     .product__step-{{ section.id }} {
       background-color: {{ section.settings.background }};
-      margin-top:70px;
+      margin-top:{{  section.settings.margin_top }};
       padding-top: {{  section.settings.pd_top }};
       padding-bottom: {{  section.settings.pd_bottom }};
       padding-left: 20px;
@@ -66,6 +66,12 @@
             "id": "background",
             "label": "Background",
             "default": "#a4c9ff"
+        },
+        {
+            "type": "text",
+            "id": "margin_top",
+            "label": "Top margin section",
+            "default": "0px"
         },
         {
             "type": "text",
