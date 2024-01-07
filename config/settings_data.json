@@ -133,6 +133,13 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "shipping_text": "Complimentary Shipping on All US Orders $30+",
+          "shopping_url": "\/"
+        }
       }
     },
     "content_for_index": [
@@ -146,11 +153,10 @@
         }
       }
     },
-    
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#fff",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
