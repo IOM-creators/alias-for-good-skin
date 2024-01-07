@@ -173,6 +173,114 @@
         "subtitle": "<p><strong>Key Ingredients :<\/strong><\/p>"
       }
     },
+    "baf7714e-f1cf-4bee-9edc-d91b94a33990": {
+      "type": "product-image-text",
+      "blocks": {
+        "6898497b-b4be-40eb-af9d-66c85101c1b5": {
+          "type": "feature",
+          "settings": {
+            "feature": "<p>Sebum<br\/>Sunscreen<br\/>Makeup<\/p>"
+          }
+        },
+        "d0224b91-4dea-43d0-a628-b26bf41b535c": {
+          "type": "feature",
+          "settings": {
+            "feature": "<p>Sweat<br\/>City Grime<br\/>Impurities<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6898497b-b4be-40eb-af9d-66c85101c1b5",
+        "d0224b91-4dea-43d0-a628-b26bf41b535c"
+      ],
+      "settings": {
+        "background": "#ccebf9",
+        "pd_top": "70px",
+        "pd_bottom": "0px",
+        "image_with_text_image": "shopify:\/\/shop_images\/Cloud_Puff_f279ea27-b0b2-4576-94b1-74081b715e37.png",
+        "subtitle": "",
+        "subtitle_font": "helvetica_n4",
+        "subtitle_text": "#000000",
+        "title": "<p>gentle deep cleanse<\/p>",
+        "large_body_text": "<p>The delicate area around your eyes requires special care. Cloud Puff No. 9 effectively removes mascara and other stubborn eye makeup while minimising tugging, thereby reducing early signs of aging like crow’s feet and wrinkles.<br\/><br\/>Washable, reusable and non-toxic – each cleansing puff can be used up to 150 times. They are the perfect alternative to single-use makeup removal wipes, which take years to decompose. Oftentimes, makeup wipes also contain chemicals that can be irritating and harmful to your skin.<\/p>",
+        "info_text_image": "shopify:\/\/shop_images\/oil-droplet.png",
+        "info_text": ""
+      }
+    },
+    "51194f15-c71a-49ca-866e-6ac2802b636d": {
+      "type": "product-ingredients",
+      "blocks": {
+        "bdb709eb-b3ba-4703-8c04-1358aead0017": {
+          "type": "ingredient-accordion",
+          "settings": {
+            "title": "MATERIAL",
+            "text": "<p>Microtech fibres<\/p>"
+          }
+        },
+        "9b53f9a2-83e9-49ee-8523-0ee69eba72be": {
+          "type": "ingredient-accordion",
+          "settings": {
+            "title": "HOW TO USE",
+            "text": "<p>Step 1: Dampen Cloud No. 9 Cleansing Puff with lukewarm water and squeeze out excess liquid lightly.<\/p><p>Step 2: Gently press over your eye, let it soak for 3-5 seconds and slowly swipe outwards to<br\/>remove your eye makeup. Repeat as necessary. <\/p><p>For best cleansing results, we recommend pairing the Cloud No. Cleansing Puff with the Glow Honey Gel to Oil Cleanser. <\/p>"
+          }
+        },
+        "9897b471-e007-4907-9221-001c4c7a5e9e": {
+          "type": "ingredient-accordion",
+          "settings": {
+            "title": "FAQs",
+            "text": "<p>FAQs:<br\/>Q: Can I use Essence Light Sunscreen on my body?<br\/>A: Essence Light Sunscreen has been expertly formulated to provide skincare and beauty benefits optimized for your face, but can be used on your body as well. Don’t forget to apply and reapply sunscreen to the backs of your hands — especially with frequent hand washing, as they are prone to sun exposure and can show early signs of aging.<br\/><br\/>Q: Does Essence Light Sunscreen work on all skin types?<br\/>A: Yes! Essence Light Sunscreen works on all skin types and is formulated with ingredients that help soothe skin and maintain moisture while leaving a natural, radiant finish. If you have super sensitive skin, we always recommend patch-testing before regular use.<br\/><br\/>Q: Do I need to use additional moisturizer together with this sunscreen?<br\/>A: For dry-combination skin, it is recommended to apply sunscreen after your serum or moisturizer. For skin with excessive sebum or oily skin, you do not need to use additional moisturizer.<br\/><br\/>Q: Is there a fragrance?<br\/>A: There is no fragrance added.<br\/><br\/>Q: How is the SPF level determined?<br\/>A: Our SPF was tested by an independent 3rd party clinical laboratory in the United States. Using the Static SPF testing method set forth by the FDA our 11 subject panel yielded a mean static SPF value of 57.78 with an X-A value of 54.33 resulting in a label value of SPF 54. The results of our Broad Spectrum test yielded a mean critical wavelength of 380.11nm in<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "bdb709eb-b3ba-4703-8c04-1358aead0017",
+        "9b53f9a2-83e9-49ee-8523-0ee69eba72be",
+        "9897b471-e007-4907-9221-001c4c7a5e9e"
+      ],
+      "settings": {
+        "background": "#ccebf9",
+        "pd_top": "70px",
+        "pd_bottom": "0px",
+        "subtitle": ""
+      }
+    },
+    "905ce1d5-8796-4fa3-9508-2a5e1a17e992": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21762805956902__905ce1d5-8796-4fa3-9508-2a5e1a17e992-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIFT WITH PURCHASE",
+            "heading_size": "h1"
+          }
+        },
+        "template--21762805956902__905ce1d5-8796-4fa3-9508-2a5e1a17e992-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For a limited time, get our exclusively designed Glow & Grow Beauty Pouch with every purchase of our Bestseller Cleansing Duo.<\/p><p><br\/>The Duo fits perfectly into the pouch, that is lightweight and portable, allowing you to take your cleansing routine with you everywhere.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21762805956902__905ce1d5-8796-4fa3-9508-2a5e1a17e992-heading-1",
+        "template--21762805956902__905ce1d5-8796-4fa3-9508-2a5e1a17e992-text-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "17037698525ebca6be": {
       "type": "apps",
       "blocks": {
@@ -213,6 +321,9 @@
     "main",
     "952dba13-bd1f-406d-8143-c7734a36b85d",
     "55d318ad-cda3-454b-ad52-2de954f76425",
+    "baf7714e-f1cf-4bee-9edc-d91b94a33990",
+    "51194f15-c71a-49ca-866e-6ac2802b636d",
+    "905ce1d5-8796-4fa3-9508-2a5e1a17e992",
     "17037698525ebca6be",
     "related-products"
   ]
