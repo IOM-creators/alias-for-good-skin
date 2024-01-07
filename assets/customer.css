@@ -506,9 +506,10 @@
 
 .order tfoot tr:last-of-type td,
 .order tfoot tr:last-of-type th {
-  font-size: 2.2rem;
+  /* font-size: 2.2rem; */
   padding-top: 1.5rem;
   padding-bottom: 4rem;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 750px) {
@@ -519,7 +520,7 @@
 }
 
 .order tfoot tr:last-of-type td:before {
-  font-size: 2.2rem;
+  /* font-size: 2.2rem; */
 }
 
 .order table p,
@@ -594,9 +595,9 @@
   }
 }
 
-.order table a {
+/* .order table a {
   line-height: calc(1 + 0.3 / var(--font-body-scale));
-}
+} */
 
 .order tbody tr:first-of-type td:first-of-type > div {
   display: flex;

@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 44,
+        "padding_bottom": 0,
+        "padding_top_mob": 36,
+        "padding_bottom_mob": 36,
+        "text_color": "#121212",
+        "heading_size": "h0",
+        "text_align": "center"
+      }
+    },
+    "7add88e7-9323-4d59-8773-7130cc1239da": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21844338409766__7add88e7-9323-4d59-8773-7130cc1239da-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Minimalist Approach to Skincare",
+            "heading_size": "h2"
+          }
+        },
+        "6ac7bb30-8a41-4704-8c9d-60afd91555b7": {
+          "type": "caption",
+          "settings": {
+            "caption": "What is minimalist skincare?",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "template--21844338409766__7add88e7-9323-4d59-8773-7130cc1239da-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At the heart of ‘minimalist skincare’, it is about doing what is important. Contrary to the popular 10-step beauty routine, it is about choosing the right skincare routine, products and ingredients that work best for You.<br\/><\/p><p>If you look at your beauty counter, is it stacked with countless jars\/tubes of cleansers, moisturizers, serums etc.? But instead of feeling confident about your routine, you still feel guilty for not doing enough? <br\/><br\/>Do you also feel there’s too many skincare products, too many steps and an overload of ‘skincare tips’ about how to take care of your skin? <br\/><\/p><p>We believe skincare should be easy and uncomplicated. <br\/><\/p><p>A good skincare routine should be one which you can follow with confidence every day, knowing you have chosen the right products and ingredients that work best for your skin.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21844338409766__7add88e7-9323-4d59-8773-7130cc1239da-heading-1",
+        "6ac7bb30-8a41-4704-8c9d-60afd91555b7",
+        "template--21844338409766__7add88e7-9323-4d59-8773-7130cc1239da-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4_003e763f-28f8-4bf9-8815-a6ab416b8677.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 72,
+        "padding_bottom": 76
+      }
+    },
+    "d8d12661-0f3b-4f42-a958-a96c75cf99d5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21844338409766__d8d12661-0f3b-4f42-a958-a96c75cf99d5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "How can you benefit from a minimalist skincare approach?",
+            "heading_size": "h2"
+          }
+        },
+        "25aa52be-c223-4f29-8838-5e61645e8106": {
+          "type": "caption",
+          "settings": {
+            "caption": "A minimalist skincare approach can bring many benefits for you and your skin:",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "template--21844338409766__d8d12661-0f3b-4f42-a958-a96c75cf99d5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><ul><li><strong>More freedom and energy<\/strong><br\/>Spending an hour in the evening to do your full, extensive skincare routine can be exhausting, and it's time that can be used in much better ways. A minimalist skincare routine will take just a few minutes. The time saved can be spent doing things you love and with people you love. <br\/><\/li><li><strong>Less mental stress.<\/strong><br\/>Failing to keep up with an extensive and lengthy skincare routine can be very discouraging, and you might feel like a failure when you \"miss a day.\" If you’re feeling overwhelmed, simplifying your skincare routine might just be the small mental break you need.<br\/><\/li><li><strong>Makes your skin healthier.<\/strong><br\/>An extensive and complicated skincare routine can be very burdening on your skin. You might even notice your skin looking red and irritated, not the kind of glow you want! Give your skin time to breathe. A healthy skin barrier also<br\/>means your skin can fully absorb the benefits from your skincare routine. <br\/><\/li><li><strong>Budget-friendly. <\/strong><br\/>Trying every new skincare product and keeping up with an extensive skincare routine is often a huge hit on your monthly budget and might sometimes over-burden your skin. Make the right investment with a minimal skincare routine. <\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21844338409766__d8d12661-0f3b-4f42-a958-a96c75cf99d5-heading-1",
+        "25aa52be-c223-4f29-8838-5e61645e8106",
+        "template--21844338409766__d8d12661-0f3b-4f42-a958-a96c75cf99d5-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-e0aa594b-18fb-44ef-a3f7-35c464767936",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "2e14a46c-23ec-408e-af6b-4d464bca5da9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21844338409766__2e14a46c-23ec-408e-af6b-4d464bca5da9-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanse.png",
+            "title": "Cleanse",
+            "text": "<p>First step to healthy skin<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21844338409766__2e14a46c-23ec-408e-af6b-4d464bca5da9-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tone.png",
+            "title": "Tone",
+            "text": "<p>Skin prep & extra hydration<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21844338409766__2e14a46c-23ec-408e-af6b-4d464bca5da9-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturise.png",
+            "title": "Moisturise",
+            "text": "<p>Nourish your skin with nutrients<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "98a94040-5028-494c-99d5-b92d935dfc16": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunscreen.png",
+            "title": "Sunscreen",
+            "text": "<p>Always protect your skin<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21844338409766__2e14a46c-23ec-408e-af6b-4d464bca5da9-column-1",
+        "template--21844338409766__2e14a46c-23ec-408e-af6b-4d464bca5da9-column-2",
+        "template--21844338409766__2e14a46c-23ec-408e-af6b-4d464bca5da9-column-3",
+        "98a94040-5028-494c-99d5-b92d935dfc16"
+      ],
+      "settings": {
+        "title": "You can start your minimalist routine, using basic building blocks: ",
+        "heading_size": "h2",
+        "signa": "<p>It is simple and straightforward. Be mindful that each of us will have different skincare needs. Make sure to always choose products and ingredients that are aligned with your skin’s needs.<\/p>",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c71eda96-8d8b-4c49-9361-87f6172d0ef0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21844338409766__c71eda96-8d8b-4c49-9361-87f6172d0ef0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our promise  - results you can see and feel",
+            "heading_size": "h2"
+          }
+        },
+        "template--21844338409766__c71eda96-8d8b-4c49-9361-87f6172d0ef0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have already done the work for you, by developing multi-functional formulations and using quality ingredients to deliver results you can see and feel. <br\/><\/p><p>So, let us share with you our first single cleanse Glow Honey Gel to Oil cleanser, the perfect balance of water-based cleansing molecules and cleansing oils for a fresh, well-cleansed complexion that glows.<\/p>"
+          }
+        },
+        "template--21844338409766__c71eda96-8d8b-4c49-9361-87f6172d0ef0-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More Here",
+            "button_link": "shopify:\/\/products\/glow-honey-gel-to-oil-cleanser",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21844338409766__c71eda96-8d8b-4c49-9361-87f6172d0ef0-heading-1",
+        "template--21844338409766__c71eda96-8d8b-4c49-9361-87f6172d0ef0-text-1",
+        "template--21844338409766__c71eda96-8d8b-4c49-9361-87f6172d0ef0-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-e0aa594b-18fb-44ef-a3f7-35c464767936",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7add88e7-9323-4d59-8773-7130cc1239da",
+    "d8d12661-0f3b-4f42-a958-a96c75cf99d5",
+    "2e14a46c-23ec-408e-af6b-4d464bca5da9",
+    "c71eda96-8d8b-4c49-9361-87f6172d0ef0"
+  ]
+}
