@@ -92,6 +92,7 @@
       ],
       "settings": {
         "background": "#fffed2",
+        "margin_top": "70px",
         "pd_top": "70px",
         "pd_bottom": "0px",
         "image_with_text_image": "shopify:\/\/shop_images\/Product_Image_-_Website.png",
