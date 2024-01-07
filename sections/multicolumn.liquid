@@ -144,6 +144,14 @@
         {%- endfor -%}
       </ul>
 
+
+      {% if section.settings.signa != blank %}
+        <div class="multi-signature">
+          {{ section.settings.signa }}
+        </div>
+      {% endif %}
+
+
       {%- if show_mobile_slider -%}
         <div class="slider-buttons no-js-hidden medium-hide">
           <button
@@ -223,6 +231,14 @@
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
     },
+
+    {
+      "type": "richtext",
+      "id": "signa",
+      "label": "Multicolumn signature",
+      "default": "<p>Multicolumn signature</p>"
+    },
+
     {
       "type": "select",
       "id": "image_width",

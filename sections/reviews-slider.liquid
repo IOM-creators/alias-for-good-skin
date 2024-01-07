@@ -1,6 +1,15 @@
-{% capture body_template %}
-    {{content_for_layout}}
-{% endcapture %}
+<style>
+    .block-{{ section.id }} {
+        padding-top: {{ section.settings.block_top_mob }}px;
+        padding-bottom: {{ section.settings.block_bottom_mob }}px;
+    }
+    @media screen and (min-width: 1024px) {
+        .block-{{ section.id }} {
+            padding-top: {{ section.settings.block_top }}px;
+            padding-bottom: {{ section.settings.block_bottom }}px;
+        }
+    }
+</style>
 
 {% assign items = false %}
 {% assign itemsImg = false %}
@@ -78,8 +87,51 @@
 {% schema %}
 {
   "name": "Reviews slider",
-  "max_blocks": 5,
   "settings": [
+    {
+        "type": "header",
+        "content": "Block offset"
+    },
+    {
+        "type": "range",
+        "id": "block_top_mob",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset top for mobile",
+        "default": 60
+    },
+    {
+        "type": "range",
+        "id": "block_bottom_mob",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset bottom for mobile",
+        "default": 60
+    },
+    {
+        "type": "range",
+        "id": "block_top",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset top",
+        "default": 60
+    },
+    {
+        "type": "range",
+        "id": "block_bottom",
+        "min": 0,
+        "max": 160,
+        "step": 2,
+        "unit": "px",
+        "label": "Block offset bottom",
+        "default": 60
+    }
   ],
   "blocks": [
       {
@@ -100,10 +152,9 @@
                 "content": "Review text"
             },
             {
-                "type": "richtext",
+                "type": "inline_richtext",
                 "id": "block_rev",
-                "label": "Block review",
-                "default": "<p>Block review</p>"
+                "label": "Block review"
             },
             {
                 "type": "header",

@@ -429,6 +429,10 @@ blockquote {
   color: rgb(var(--color-foreground));
 }
 
+table {
+  width: 100%;
+}
+
 table:not([class]) {
   table-layout: fixed;
   border-collapse: collapse;

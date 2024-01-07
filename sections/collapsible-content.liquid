@@ -82,9 +82,9 @@
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                     {% render 'icon-accordion', icon: block.settings.icon %}
-                    <h3 class="accordion__title inline-richtext h4">
+                    <div class="accordion__title inline-richtext">
                       {{ block.settings.heading | default: block.settings.page.title }}
-                    </h3>
+                    </div>
                     {% render 'icon-caret' %}
                   </summary>
                   <div
@@ -94,6 +94,7 @@
                     aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                   >
                     {{ block.settings.row_content }}
+                    {{ block.settings.row_html }}
                     {{ block.settings.page.content }}
                   </div>
                 </details>
@@ -476,6 +477,11 @@
           "type": "richtext",
           "id": "row_content",
           "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.row_content.label"
+        },
+        {
+          "type": "html",
+          "id": "row_html",
+          "label": "Field for html code"
         },
         {
           "type": "page",
