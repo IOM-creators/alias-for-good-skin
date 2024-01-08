@@ -55,7 +55,7 @@
         "4853d2af-4b55-4742-898f-1b8904a51aaf": {
           "type": "item",
           "settings": {
-            "block_rev": "<p> Adding this into my routine, my skin feels refreshed each time.<\/p>",
+            "block_rev": "<p> Adding this into my routine, my skin feels refreshed each time. <\/p>",
             "block_rv_url": ""
           }
         },
@@ -96,9 +96,9 @@
         "8fd5a07a-1da9-4610-943a-4a3d27634669"
       ],
       "settings": {
-        "block_top_mob": 22,
+        "block_top_mob": 60,
         "block_bottom_mob": 60,
-        "block_top": 24,
+        "block_top": 60,
         "block_bottom": 60
       }
     },
